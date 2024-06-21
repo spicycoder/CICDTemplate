@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{EB27F774-B863-4CA1-B587-105D5E2A07F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.Application", "src\CICDTemplate.Application\CICDTemplate.Application.csproj", "{FBF59B1F-657F-40F8-851D-D288E94AC815}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.Domain", "src\CICDTemplate.Domain\CICDTemplate.Domain.csproj", "{4295FF33-CFB5-4305-9955-DF27F123A394}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.Infrastructure", "src\CICDTemplate.Infrastructure\CICDTemplate.Infrastructure.csproj", "{C971D93C-3978-42D8-936F-CDCB3929BD99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.Api", "src\CICDTemplate.Api\CICDTemplate.Api.csproj", "{2A0665CB-DE58-442D-B798-7C15944FC5AB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{796063B8-27B0-49DD-81BD-2FCA571D79AF}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C13B29D8-0A90-43BE-AF85-2383A009A895}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FBF59B1F-657F-40F8-851D-D288E94AC815}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF59B1F-657F-40F8-851D-D288E94AC815}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF59B1F-657F-40F8-851D-D288E94AC815}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF59B1F-657F-40F8-851D-D288E94AC815}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4295FF33-CFB5-4305-9955-DF27F123A394}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4295FF33-CFB5-4305-9955-DF27F123A394}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4295FF33-CFB5-4305-9955-DF27F123A394}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4295FF33-CFB5-4305-9955-DF27F123A394}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C971D93C-3978-42D8-936F-CDCB3929BD99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C971D93C-3978-42D8-936F-CDCB3929BD99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C971D93C-3978-42D8-936F-CDCB3929BD99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C971D93C-3978-42D8-936F-CDCB3929BD99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FBF59B1F-657F-40F8-851D-D288E94AC815} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
+		{4295FF33-CFB5-4305-9955-DF27F123A394} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
+		{C971D93C-3978-42D8-936F-CDCB3929BD99} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
+		{2A0665CB-DE58-442D-B798-7C15944FC5AB} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FC75D2E-9B65-42CD-80A4-DA638189166B}
+	EndGlobalSection
+EndGlobal

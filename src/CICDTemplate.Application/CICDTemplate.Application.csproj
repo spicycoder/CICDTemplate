@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.2" />
+    <PackageReference Include="MediatR" Version="12.3.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CICDTemplate.Domain\CICDTemplate.Domain.csproj" />
+  </ItemGroup>
+</Project>

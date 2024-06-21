@@ -2,11 +2,10 @@
 
 CI / CD Template - for ASP.NET 8 Web API
 
-## Architecture
+## Clean Architecture
 
-- [ ] Clean Architecture
-- [ ] CQRS - with EF Core - In Memory
-- [ ] MediatR
+- [x] CQRS - with EF Core - In Memory
+- [x] MediatR
 
 ## Test Automation
 
@@ -40,3 +39,12 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] State Management - Redis
 - [ ] Secrets Management - Json File Based
 - [ ] Bindings - Input: Cron, Output: PostgreSQL
+
+## Misc
+
+- [x] Git ignore
+- [x] Editor config
+- [x] Build props
+- [ ] Code Coverage
+- [ ] Code Quality
+- [x] Tool manifest

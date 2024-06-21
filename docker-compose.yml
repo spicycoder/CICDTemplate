@@ -1,0 +1,23 @@
+version: '3.4'
+
+services:
+  cicdtemplate.api:
+    image: ${DOCKER_REGISTRY-}cicdtemplateapi
+    container_name: CICDTemplate.Api
+    build:
+      context: .
+      dockerfile: src/CICDTemplate.Api/Dockerfile
+    depends_on:
+      - cicdtemplate-db
+
+  cicdtemplate-db:
+    image: postgres:latest
+    container_name: CICDTemplate.Db
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+      - POSTGRES_DB=cicdtemplatedb
+    volumes:
+      - ./.containers/database:/var/lib/postgresql/data
