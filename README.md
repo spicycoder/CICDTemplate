@@ -46,5 +46,5 @@ CI / CD Template - for ASP.NET 8 Web API
 - [x] Editor config
 - [x] Build props
 - [ ] Code Coverage
-- [ ] Code Quality
+- [x] Code Analysis
 - [x] Tool manifest

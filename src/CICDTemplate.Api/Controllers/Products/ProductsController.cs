@@ -1,4 +1,4 @@
-﻿using CICDTemplate.Application.Products.Commands;
+﻿using CICDTemplate.Application.Products.Commands.CreateProduct;
 using CICDTemplate.Application.Products.Queries;
 using CICDTemplate.Domain.Entities;
 

@@ -4,7 +4,7 @@ using CICDTemplate.Domain.Repositories;
 
 using MediatR;
 
-namespace CICDTemplate.Application.Products.Commands;
+namespace CICDTemplate.Application.Products.Commands.CreateProduct;
 
 public sealed class CreateProductCommandHandler(
     IProductsRepository repository,

@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace CICDTemplate.Application.Products.Commands;
+namespace CICDTemplate.Application.Products.Commands.CreateProduct;
 
 public class CreateProductCommandValidator : AbstractValidator<CreateProductCommand>
 {
@@ -11,7 +11,6 @@ public class CreateProductCommandValidator : AbstractValidator<CreateProductComm
             .MaximumLength(20);
 
         RuleFor(x => x.Description)
-            .NotEmpty()
             .MaximumLength(200);
     }
 }

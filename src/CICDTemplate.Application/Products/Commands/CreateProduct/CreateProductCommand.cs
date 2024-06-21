@@ -1,6 +1,6 @@
 ﻿using MediatR;
 
-namespace CICDTemplate.Application.Products.Commands;
+namespace CICDTemplate.Application.Products.Commands.CreateProduct;
 
 /// <summary>
 ///     Create product command
