@@ -19,7 +19,7 @@ public class ProductsController(ISender sender) : ControllerBase
     {
         if (request == null)
         {
-            throw new ArgumentNullException(nameof(request), "CreateProductRequest cannot be null");
+            return BadRequest();
         }
 
         Guid? productId = await sender.Send(
@@ -27,7 +27,7 @@ public class ProductsController(ISender sender) : ControllerBase
             cancellationToken)
             .ConfigureAwait(false);
 
-        return productId is null ? (ActionResult<Guid>)BadRequest() : (ActionResult<Guid>)Ok(productId);
+        return productId is null ? BadRequest() : Ok(productId);
     }
 
     [HttpGet]

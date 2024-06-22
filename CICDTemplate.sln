@@ -27,6 +27,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CC7F8277
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICDTemplate.Application.UnitTests", "tests\CICDTemplate.Application.UnitTests\CICDTemplate.Application.UnitTests.csproj", "{07CC239C-5003-486A-A13F-B6E7CA4B65C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CICDTemplate.Api.IntegrationTests", "tests\CICDTemplate.Api.IntegrationTests\CICDTemplate.Api.IntegrationTests.csproj", "{373EF4F7-C03C-4434-A1B4-59E0F6467B5B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{373EF4F7-C03C-4434-A1B4-59E0F6467B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{373EF4F7-C03C-4434-A1B4-59E0F6467B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{373EF4F7-C03C-4434-A1B4-59E0F6467B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{373EF4F7-C03C-4434-A1B4-59E0F6467B5B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{C971D93C-3978-42D8-936F-CDCB3929BD99} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
 		{2A0665CB-DE58-442D-B798-7C15944FC5AB} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1} = {CC7F8277-1D84-435D-A4D8-D37040800983}
+		{373EF4F7-C03C-4434-A1B4-59E0F6467B5B} = {CC7F8277-1D84-435D-A4D8-D37040800983}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FC75D2E-9B65-42CD-80A4-DA638189166B}

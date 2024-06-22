@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <UserSecretsId>659244cc-54b5-47ab-854c-702542705ebb</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
@@ -20,5 +20,4 @@
     <ProjectReference Include="..\CICDTemplate.Domain\CICDTemplate.Domain.csproj" />
     <ProjectReference Include="..\CICDTemplate.Infrastructure\CICDTemplate.Infrastructure.csproj" />
   </ItemGroup>
-
 </Project>

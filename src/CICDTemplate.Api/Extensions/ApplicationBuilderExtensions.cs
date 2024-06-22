@@ -3,8 +3,6 @@
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Infrastructure;
 
-using Microsoft.EntityFrameworkCore;
-
 namespace CICDTemplate.Api.Extensions;
 
 [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1062:Validate arguments of public methods", Justification = "app cannot be null")]
@@ -18,7 +16,7 @@ public static class ApplicationBuilderExtensions
     {
         using var scope = app.ApplicationServices.CreateScope();
         using var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        dbContext.Database.Migrate();
+        dbContext.Database.EnsureCreated();
     }
 
     public static async Task Seed(this IApplicationBuilder app)
