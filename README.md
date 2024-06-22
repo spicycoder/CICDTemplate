@@ -9,10 +9,10 @@ CI / CD Template - for ASP.NET 8 Web API
 
 ## Test Automation
 
-- [ ] Unit Tests
-- [ ] Integration Tests - In Memory API Testing
+- [x] Unit Tests
+- [x] Integration Tests - In Memory API Testing
 - [ ] Mutation Tests - Stryker
-- [ ] Architecture Tests
+- [x] Architecture Tests
 
 ## Observability
 
