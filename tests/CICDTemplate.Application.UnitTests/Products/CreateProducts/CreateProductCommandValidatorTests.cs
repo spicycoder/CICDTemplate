@@ -2,11 +2,11 @@
 
 using FluentAssertions;
 
-namespace CICDTemplate.Application.UnitTests.Products.CreateProduct;
+namespace CICDTemplate.Application.UnitTests.Products.CreateProducts;
 
 public class CreateProductCommandValidatorTests
 {
-    [Test]
+    [Fact]
     public void Validate_HappyPath_Valid()
     {
         // arrange
@@ -20,7 +20,7 @@ public class CreateProductCommandValidatorTests
         result.IsValid.Should().BeTrue();
     }
 
-    [Test]
+    [Fact]
     public void Validate_EmptyName_Invalid()
     {
         // arrange
@@ -34,7 +34,7 @@ public class CreateProductCommandValidatorTests
         result.IsValid.Should().BeFalse();
     }
 
-    [Test]
+    [Fact]
     public void Validate_NameTooLong_Invalid()
     {
         // arrange
@@ -50,7 +50,7 @@ public class CreateProductCommandValidatorTests
 
 
 
-    [Test]
+    [Fact]
     public void Validate_EmptyDescription_valid()
     {
         // arrange
@@ -64,7 +64,7 @@ public class CreateProductCommandValidatorTests
         result.IsValid.Should().BeTrue();
     }
 
-    [Test]
+    [Fact]
     public void Validate_DescriptionTooLong_Invalid()
     {
         // arrange

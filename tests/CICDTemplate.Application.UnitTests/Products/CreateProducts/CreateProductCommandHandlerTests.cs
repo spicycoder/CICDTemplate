@@ -5,45 +5,37 @@ using CICDTemplate.Domain.Repositories;
 
 using FluentAssertions;
 
-using Moq;
+using NSubstitute;
 
-namespace CICDTemplate.Application.UnitTests.Products.CreateProduct;
+namespace CICDTemplate.Application.UnitTests.Products.CreateProducts;
 
 public class CreateProductCommandHandlerTests
 {
-    private Mock<IProductsRepository> _mockProductsRepository;
-    private Mock<IDateTimeProvider> _mockDateTimeProvider;
+    private readonly IProductsRepository _productsRepository = Substitute.For<IProductsRepository>();
+    private readonly IDateTimeProvider _dateTimeProvider = Substitute.For<IDateTimeProvider>();
 
-    [SetUp]
-    public void Setup()
-    {
-        _mockProductsRepository = new Mock<IProductsRepository>();
-        _mockDateTimeProvider = new Mock<IDateTimeProvider>();
-    }
-
-    [Test]
+    [Fact]
     public async Task Handle_HappyPath_ReturnsId()
     {
         // arrange
         var expectedDate = DateTime.UtcNow.AddDays(-1);
-        _mockDateTimeProvider
-            .Setup(x => x.Now)
+        _dateTimeProvider
+            .Now
             .Returns(expectedDate);
 
         Guid? expectedId = Guid.NewGuid();
-        _mockProductsRepository
-            .Setup(x => x.CreateProductAsync(It.IsAny<Product>(), It.IsAny<CancellationToken>()))
+        _productsRepository
+            .CreateProductAsync(Arg.Any<Product>(), Arg.Any<CancellationToken>())
             .Returns(Task.FromResult(expectedId));
 
         CreateProductCommandHandler handler = new(
-            _mockProductsRepository.Object,
-            _mockDateTimeProvider.Object);
+            _productsRepository,
+            _dateTimeProvider);
 
         // act
         var response = await handler.Handle(
             new CreateProductCommand("Cookie", "Yummy"),
-            new CancellationToken())
-            .ConfigureAwait(false);
+            new CancellationToken());
 
         // assert
         response.Should().NotBeNull();
