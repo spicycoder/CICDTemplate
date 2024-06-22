@@ -21,7 +21,7 @@ public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TReq
 
         if (!validators.Any())
         {
-            return await next().ConfigureAwait(false);
+            return await next();
         }
 
         var context = new ValidationContext<TRequest>(request);
@@ -37,6 +37,6 @@ public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TReq
             throw new ValidationException(validationErrors);
         }
 
-        return await next().ConfigureAwait(false);
+        return await next();
     }
 }

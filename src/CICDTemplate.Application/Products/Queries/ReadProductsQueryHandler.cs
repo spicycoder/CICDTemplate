@@ -10,8 +10,7 @@ public sealed class ReadProductsQueryHandler(IProductsRepository repository) : I
     public async Task<Product[]> Handle(ReadProductsQuery request, CancellationToken cancellationToken)
     {
         var products = await repository
-            .GetProductsAsync(cancellationToken)
-            .ConfigureAwait(false);
+            .GetProductsAsync(cancellationToken);
 
         return products.ToArray();
     }

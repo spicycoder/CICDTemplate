@@ -24,8 +24,7 @@ public class ProductsController(ISender sender) : ControllerBase
 
         Guid? productId = await sender.Send(
             new CreateProductCommand(request.Name, request.Description),
-            cancellationToken)
-            .ConfigureAwait(false);
+            cancellationToken);
 
         return productId is null ? BadRequest() : Ok(productId);
     }
@@ -36,8 +35,7 @@ public class ProductsController(ISender sender) : ControllerBase
     {
         Product[] products = await sender.Send(
             new ReadProductsQuery(),
-            cancellationToken)
-            .ConfigureAwait(false);
+            cancellationToken);
 
         var productsResponse = products
             .Select(x => new ProductResponse(x.Id, x.Name, x.Description)).ToArray();

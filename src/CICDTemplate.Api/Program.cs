@@ -17,13 +17,13 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
-    app.ApplyMigrations();
-    await app.Seed().ConfigureAwait(false);
+    await app.MigrateAndSeed();
 }
+
 app.UseHttpsRedirection();
 app.UseAuthorization();
 app.MapControllers();
-await app.RunAsync().ConfigureAwait(false);
+await app.RunAsync();
 
 public partial class Program
 {

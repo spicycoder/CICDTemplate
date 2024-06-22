@@ -22,7 +22,7 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
 
     public async Task InitializeAsync()
     {
-        await _container.StartAsync().ConfigureAwait(false);
+        await _container.StartAsync();
     }
 
     protected override void ConfigureWebHost(IWebHostBuilder builder)
@@ -39,7 +39,7 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
 
     public new async Task DisposeAsync()
     {
-        await _container.StopAsync().ConfigureAwait(false);
-        await _container.DisposeAsync().ConfigureAwait(false);
+        await _container.StopAsync();
+        await _container.DisposeAsync();
     }
 }

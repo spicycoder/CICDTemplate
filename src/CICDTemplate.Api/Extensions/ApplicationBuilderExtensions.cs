@@ -3,27 +3,33 @@
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Infrastructure;
 
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Storage;
+
 namespace CICDTemplate.Api.Extensions;
 
 [System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1062:Validate arguments of public methods", Justification = "app cannot be null")]
 public static class ApplicationBuilderExtensions
 {
-    /// <summary>
-    ///     Apply database migrations
-    /// </summary>
-    /// <param name="app"></param>
-    public static void ApplyMigrations(this IApplicationBuilder app)
+    public static async Task MigrateAndSeed(this IApplicationBuilder app)
     {
         using var scope = app.ApplicationServices.CreateScope();
         using var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-        dbContext.Database.EnsureCreated();
+
+        var hasTables = await dbContext
+            .Database
+            .GetService<IRelationalDatabaseCreator>()
+            .HasTablesAsync();
+
+        if (!hasTables)
+        {
+            await dbContext.Database.EnsureCreatedAsync();
+            await Seed(dbContext);
+        }
     }
 
-    public static async Task Seed(this IApplicationBuilder app)
+    private static async Task Seed(ApplicationDbContext dbContext)
     {
-        using var scope = app.ApplicationServices.CreateScope();
-        using var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
-
         var faker = new Faker();
 
         var products = Enumerable
@@ -36,11 +42,9 @@ public static class ApplicationBuilderExtensions
             .ToArray();
 
         await dbContext
-            .AddRangeAsync(products)
-            .ConfigureAwait(false);
+            .AddRangeAsync(products);
 
         await dbContext
-            .SaveChangesAsync()
-            .ConfigureAwait(false);
+            .SaveChangesAsync();
     }
 }

@@ -18,7 +18,7 @@ public sealed class CreateProductCommandHandler(
                 request.Name,
                 request.Description,
                 dateTimeProvider.Now),
-            cancellationToken).ConfigureAwait(false);
+            cancellationToken);
 
         return productId;
     }

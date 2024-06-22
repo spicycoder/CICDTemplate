@@ -12,12 +12,10 @@ public sealed class ProductsRepository(ApplicationDbContext dbContext) : IProduc
     public async Task<Guid?> CreateProductAsync(Product product, CancellationToken cancellationToken = default)
     {
         await dbContext
-            .AddAsync(product, cancellationToken)
-            .ConfigureAwait(false);
+            .AddAsync(product, cancellationToken);
 
         await dbContext
-            .SaveChangesAsync(cancellationToken)
-            .ConfigureAwait(false);
+            .SaveChangesAsync(cancellationToken);
 
         return product?.Id;
     }
@@ -27,8 +25,7 @@ public sealed class ProductsRepository(ApplicationDbContext dbContext) : IProduc
     {
         Product[] products = await dbContext
             .Set<Product>()
-            .ToArrayAsync(cancellationToken)
-            .ConfigureAwait(false);
+            .ToArrayAsync(cancellationToken);
 
         return products;
     }
