@@ -10,8 +10,8 @@ CI / CD Template - for ASP.NET 8 Web API
 ## Test Automation
 
 - [x] Unit Tests - `xUnit` and `NSubstitute`
-- [x] ~~Integration Tests - In Memory API Testing `WebApplicationFactory`~~
-- [x] Mutation Tests - `Stryker`
+- [x] Functional Tests - In Memory API Testing `WebApplicationFactory` using `Testcontainers`
+- [x] Mutation Tests - `Stryker` *recommended for local only*
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
 
@@ -34,7 +34,7 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] Output Caching - `Redis`
 - [x] RDBMS - `PostgreSQL`
 - [ ] NoSQL - `MongoDB`
-- [x] E2E Tests
+- [ ] ~~E2E Tests* - Aspire has coverage issues~~
 
 ## DAPR
 
