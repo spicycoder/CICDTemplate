@@ -10,7 +10,7 @@ CI / CD Template - for ASP.NET 8 Web API
 ## Test Automation
 
 - [x] Unit Tests - `xUnit` and `NSubstitute`
-- [x] Integration Tests - In Memory API Testing `WebApplicationFactory`
+- [x] ~~Integration Tests - In Memory API Testing `WebApplicationFactory`~~
 - [x] Mutation Tests - `Stryker`
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
@@ -32,7 +32,9 @@ CI / CD Template - for ASP.NET 8 Web API
 
 - [ ] Distributed Cache - `Redis`
 - [ ] Output Caching - `Redis`
-- [ ] Database - `PostgreSQL` & `MongoDB`
+- [x] RDBMS - `PostgreSQL`
+- [ ] NoSQL - `MongoDB`
+- [x] E2E Tests
 
 ## DAPR
 

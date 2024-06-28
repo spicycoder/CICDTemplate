@@ -16,12 +16,13 @@ public static class ApplicationBuilderExtensions
         using var scope = app.ApplicationServices.CreateScope();
         using var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 
-        var hasTables = await dbContext
+        var exist = await dbContext.Database.CanConnectAsync()
+            && await dbContext
             .Database
             .GetService<IRelationalDatabaseCreator>()
             .HasTablesAsync();
 
-        if (!hasTables)
+        if (!exist)
         {
             await dbContext.Database.EnsureCreatedAsync();
             await Seed(dbContext);

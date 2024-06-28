@@ -3,6 +3,7 @@ using CICDTemplate.Application;
 using CICDTemplate.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
+builder.AddServiceDefaults();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

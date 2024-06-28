@@ -1,14 +1,14 @@
 ﻿using CICDTemplate.Api.Controllers.Products;
-using System.Net.Http.Json;
-
-using CICDTemplate.Api.IntegrationTests.Infrastructure;
 
 using FluentAssertions;
+
 using System.Net;
+using System.Net.Http.Json;
 
-namespace CICDTemplate.Api.IntegrationTests.Products;
+namespace CICDTemplate.E2ETests.Products;
 
-public class CreateProductTest(IntegrationTestWebAppFactory factory) : BaseIntegrationTest(factory)
+[Collection("App Host")]
+public class CreateProductsTest(AppHostFixture fixture)
 {
     [Fact]
     public async Task CreateProduct_HappyPath_ReturnsId()
@@ -18,7 +18,7 @@ public class CreateProductTest(IntegrationTestWebAppFactory factory) : BaseInteg
         CreateProductRequest request = new("Cookies", "Yummy!");
 
         // act
-        var response = await Client.PostAsJsonAsync(uri, request);
+        var response = await fixture.Client.PostAsJsonAsync(uri, request);
 
         // assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
@@ -32,7 +32,7 @@ public class CreateProductTest(IntegrationTestWebAppFactory factory) : BaseInteg
         CreateProductRequest? request = null;
 
         // act
-        var response = await Client.PostAsJsonAsync(uri, request);
+        var response = await fixture.Client.PostAsJsonAsync(uri, request);
 
         // assert
         response.StatusCode.Should().Be(HttpStatusCode.BadRequest);

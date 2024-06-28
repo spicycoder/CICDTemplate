@@ -19,5 +19,6 @@
     <ProjectReference Include="..\CICDTemplate.Application\CICDTemplate.Application.csproj" />
     <ProjectReference Include="..\CICDTemplate.Domain\CICDTemplate.Domain.csproj" />
     <ProjectReference Include="..\CICDTemplate.Infrastructure\CICDTemplate.Infrastructure.csproj" />
+    <ProjectReference Include="..\CICDTemplate.ServiceDefaults\CICDTemplate.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>
