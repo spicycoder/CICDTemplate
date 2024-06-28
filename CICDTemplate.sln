@@ -21,8 +21,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C13B29D8-0A90-43BE-AF85-2383A009A895}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CC7F8277-1D84-435D-A4D8-D37040800983}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.Application.UnitTests", "tests\CICDTemplate.Application.UnitTests\CICDTemplate.Application.UnitTests.csproj", "{07CC239C-5003-486A-A13F-B6E7CA4B65C1}"
@@ -57,10 +55,6 @@ Global
 		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A0665CB-DE58-442D-B798-7C15944FC5AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C13B29D8-0A90-43BE-AF85-2383A009A895}.Release|Any CPU.Build.0 = Release|Any CPU
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
