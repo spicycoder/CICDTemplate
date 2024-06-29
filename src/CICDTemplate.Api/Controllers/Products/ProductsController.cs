@@ -10,7 +10,7 @@ namespace CICDTemplate.Api.Controllers.Products;
 
 [Route("api/products")]
 [ApiController]
-public class ProductsController(ISender sender) : ControllerBase
+public class ProductsController(ISender sender, ILogger<ProductsController> logger) : ControllerBase
 {
     [HttpPost]
     public async Task<ActionResult<Guid>> CreateProduct(
@@ -37,10 +37,13 @@ public class ProductsController(ISender sender) : ControllerBase
             new ReadProductsQuery(),
             cancellationToken);
 
-        var productsResponse = products
-            .Select(x => new ProductResponse(x.Id, x.Name, x.Description)).ToArray();
+        ProductResponse[] productsResponse = products
+            .Select(x => new ProductResponse(x.Id, x.Name, x.Description))
+            .ToArray();
 
-        var response = new ReadProductsResponse(new(productsResponse));
+        logger.LogInformation("Found {Count} products: {@Products}", products.Length, products);
+
+        ReadProductsResponse response = new(new(productsResponse));
 
         return Ok(response);
     }
