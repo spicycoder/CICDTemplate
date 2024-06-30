@@ -21,18 +21,22 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] Helm Charts
 - [ ] Deployment Scripts - *yet to be decided*
 
+## Orchestration
+
+- [x] Docker compose
+    - [x] RDBMS - `PostgreSQL`
+    - [x] Aspire Dashboard
+
 ## Aspire
 
-- [ ] Observability
+- [x] Observability
     - [x] Logging
-    - [ ] Metrics
+    - [x] Metrics
     - [x] Distributed Tracing
-- [x] Health Checks
+- [ ] Health Checks
 - [ ] Distributed Cache - `Redis`
 - [ ] Output Caching - `Redis`
-- [x] RDBMS - `PostgreSQL`
 - [ ] NoSQL - `MongoDB`
-- [ ] ~~E2E Tests* - Aspire has coverage issues~~
 
 ## DAPR
 

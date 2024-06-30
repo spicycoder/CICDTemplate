@@ -29,7 +29,7 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
             {
                 config.AddInMemoryCollection(
                 [
-                    new("ConnectionStrings:cicdtemplatedb", _container.GetConnectionString())
+                    new("ConnectionStrings:Database", _container.GetConnectionString())
                 ]);
             });
 

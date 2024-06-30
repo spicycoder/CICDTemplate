@@ -25,9 +25,13 @@ public class CreateProductsTest
 
         // act
         var response = await _httpClient.PostAsJsonAsync(uri, request);
+        Guid? result = await response.Content.ReadFromJsonAsync<Guid?>();
 
         // assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
+        result.Should().NotBeNull();
+        result.Value.Should().NotBeEmpty();
+        result.Value.Should().NotBe(Guid.Empty);
     }
 
     [Fact]

@@ -18,7 +18,7 @@ public static class Bootstrap
         services
             .AddScoped<IDateTimeProvider, DateTimeProvider>();
 
-        string connectionString = configuration.GetConnectionString("cicdtemplatedb")
+        string connectionString = configuration.GetConnectionString("Database")
             ?? throw new ArgumentNullException(nameof(configuration));
 
         services.AddDbContext<ApplicationDbContext>(options =>

@@ -1,13 +1,6 @@
-# Code Coverage
-
-## Execute tests
-
-```ps1
+dotnet clean -c Release .\CICDTemplate.sln
+dotnet restore .\CICDTemplate.sln
+dotnet build -c Release .\CICDTemplate.sln
 dotnet test -c Release .\CICDTemplate.sln --collect:"XPlat Code Coverage;Format=json,lcov,cobertura"
-```
-
-## Generate Coverage Report
-
-```ps1
 dotnet reportgenerator "-reports:./**/TestResults/*/coverage.cobertura.xml" "-targetdir:./.coverage" -reporttypes:"Html_Dark;SonarQube"
-```
+dotnet stryker --solution .\CICDTemplate.sln -r "html" -r "progress" -r "markdown"
