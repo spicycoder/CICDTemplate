@@ -15,13 +15,6 @@ CI / CD Template - for ASP.NET 8 Web API
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
 
-## Observability
-
-- [ ] Logging - `Serilog` + `Elastic Stack`
-- [ ] Alerts and Monitoring - `Prometheus` and `Grafana`
-- [ ] Distributed Tracing - `Open Telemetry`
-- [ ] Health Checks
-
 ## DevOps
 
 - [ ] Build Script - `PowerShell` / `Cake`
@@ -30,6 +23,11 @@ CI / CD Template - for ASP.NET 8 Web API
 
 ## Aspire
 
+- [ ] Observability
+    - [x] Logging
+    - [ ] Metrics
+    - [x] Distributed Tracing
+- [x] Health Checks
 - [ ] Distributed Cache - `Redis`
 - [ ] Output Caching - `Redis`
 - [x] RDBMS - `PostgreSQL`
