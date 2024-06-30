@@ -18,6 +18,8 @@ CI / CD Template - for ASP.NET 8 Web API
 ## DevOps
 
 - [ ] Build Script - `PowerShell` / `Cake`
+    - [x] Local build [build.ps1](./build.ps1)
+    - [ ] CI / CD Pipeline Scripts
 - [ ] Helm Charts
 - [ ] Deployment Scripts - *yet to be decided*
 
