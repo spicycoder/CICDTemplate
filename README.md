@@ -35,7 +35,10 @@ CI / CD Template - for ASP.NET 8 Web API
     - [x] Logging
     - [x] Metrics
     - [x] Distributed Tracing
-- [ ] Health Checks
+- [x] Health Checks
+    - [x] Self
+    - [x] PostgreSQL Database
+    - [ ] Redis
 - [ ] Distributed Cache - `Redis`
 - [ ] Output Caching - `Redis`
 - [ ] NoSQL - `MongoDB`
