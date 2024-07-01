@@ -9,6 +9,15 @@ services:
       dockerfile: src/CICDTemplate.Api/Dockerfile
     environment:
       - OTEL_EXPORTER_OTLP_ENDPOINT=http://aspire.dashboard:18889
+      # - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
+    networks:
+      - otel
+
+  aspire.dashboard:
+    image: mcr.microsoft.com/dotnet/aspire-dashboard:latest
+    container_name: dashboard
+    ports:
+      - 18888:18888
     networks:
       - otel
 
@@ -24,13 +33,17 @@ services:
     networks:
       - otel
 
-  aspire.dashboard:
-    image: mcr.microsoft.com/dotnet/aspire-dashboard:latest
-    container_name: dashboard
-    ports:
-      - 18888:18888
-    networks:
-      - otel
+  # jaeger:
+  #   image: jaegertracing/all-in-one:latest
+  #   container_name: jaeger
+  #   environment:
+  #     - COLLECTOR_OTLP_ENABLED=true
+  #   ports:
+  #     - 16686:16686
+  #     - 4317:4317
+  #     - 4318:4318
+  #   networks:
+  #     - otel
 
 networks:
   otel:
