@@ -13,7 +13,6 @@ COPY ["src/CICDTemplate.Api/CICDTemplate.Api.csproj", "src/CICDTemplate.Api/"]
 COPY ["src/CICDTemplate.Application/CICDTemplate.Application.csproj", "src/CICDTemplate.Application/"]
 COPY ["src/CICDTemplate.Domain/CICDTemplate.Domain.csproj", "src/CICDTemplate.Domain/"]
 COPY ["src/CICDTemplate.Infrastructure/CICDTemplate.Infrastructure.csproj", "src/CICDTemplate.Infrastructure/"]
-COPY ["src/CICDTemplate.ServiceDefaults/CICDTemplate.ServiceDefaults.csproj", "src/CICDTemplate.ServiceDefaults/"]
 RUN dotnet restore "./src/CICDTemplate.Api/CICDTemplate.Api.csproj"
 COPY . .
 WORKDIR "/src/src/CICDTemplate.Api"

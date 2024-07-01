@@ -14,11 +14,7 @@ public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TReq
         RequestHandlerDelegate<TResponse> next,
         CancellationToken cancellationToken)
     {
-        if (next == null)
-        {
-            throw new ArgumentNullException(nameof(next), "The 'next' parameter cannot be null.");
-        }
-
+        ArgumentNullException.ThrowIfNull(next);
         if (!validators.Any())
         {
             return await next();

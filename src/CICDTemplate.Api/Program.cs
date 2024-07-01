@@ -3,10 +3,11 @@ using CICDTemplate.Application;
 using CICDTemplate.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.AddServiceDefaults();
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.AddDefaultHealthChecks();
+builder.AddDefaultOpenTelemetry();
 
 builder
     .Services
@@ -22,6 +23,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.MapHealthChecksEndpoints();
 app.UseAuthorization();
 app.MapControllers();
 await app.RunAsync();
