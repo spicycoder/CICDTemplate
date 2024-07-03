@@ -63,3 +63,6 @@ CI / CD Template - for ASP.NET 8 Web API
 - [x] Build props
 - [x] Code Analysis
 - [x] Tool manifest
+- [ ] Package as Template
+    - [x] Template Config
+    - [ ] Publish as Nuget package
