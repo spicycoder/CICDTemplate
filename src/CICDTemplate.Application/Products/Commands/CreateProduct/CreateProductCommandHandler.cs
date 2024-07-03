@@ -14,10 +14,12 @@ public sealed class CreateProductCommandHandler(
     {
         ArgumentNullException.ThrowIfNull(request);
         Guid? productId = await repository.CreateProductAsync(
-            Product.Create(
-                request.Name,
-                request.Description,
-                dateTimeProvider.Now),
+            new Product
+            {
+                Name = request.Name,
+                Description = request.Description,
+                CreatedAtUtc = dateTimeProvider.Now
+            },
             cancellationToken);
 
         return productId;

@@ -16,10 +16,10 @@ public abstract class Entity
     /// <summary>
     ///     Created at time in UTC
     /// </summary>
-    public DateTime CreatedAtUtc { get; protected set; }
+    public DateTime CreatedAtUtc { get; set; }
 
     /// <summary>
     ///     Updated at time in UTC
     /// </summary>
-    public DateTime? UpdatedAtUtc { get; protected set; }
+    public DateTime? UpdatedAtUtc { get; set; }
 }

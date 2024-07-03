@@ -1,5 +1,7 @@
-﻿using CICDTemplate.Application.Abstractions.Clock;
+﻿using CICDTemplate.Application.Abstractions.Caching;
+using CICDTemplate.Application.Abstractions.Clock;
 using CICDTemplate.Domain.Repositories;
+using CICDTemplate.Infrastructure.Caching;
 using CICDTemplate.Infrastructure.Clock;
 using CICDTemplate.Infrastructure.Repositories;
 
@@ -18,18 +20,24 @@ public static class Bootstrap
         services
             .AddScoped<IDateTimeProvider, DateTimeProvider>();
 
-        string connectionString = configuration.GetConnectionString("Database")
+        string dbConnectionString = configuration.GetConnectionString("Database")
             ?? throw new ArgumentNullException(nameof(configuration));
 
         services.AddDbContext<ApplicationDbContext>(options =>
         {
             options
-            .UseNpgsql(connectionString)
+            .UseNpgsql(dbConnectionString)
             .UseSnakeCaseNamingConvention();
         });
 
+        string cacheConnectionString = configuration.GetConnectionString("Cache")
+            ?? throw new ArgumentNullException(nameof(configuration));
+
+        services.AddStackExchangeRedisCache(options => options.Configuration = cacheConnectionString);
+
         services
-            .AddScoped<IProductsRepository, ProductsRepository>();
+            .AddScoped<IProductsRepository, ProductsRepository>()
+            .AddScoped<ICacheService, CacheService>();
 
         return services;
     }

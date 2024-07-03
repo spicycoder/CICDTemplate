@@ -1,4 +1,6 @@
-﻿using CICDTemplate.Application.Products.Queries;
+﻿using Bogus;
+
+using CICDTemplate.Application.Products.Queries;
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Domain.Repositories;
 
@@ -19,11 +21,11 @@ public class ReadProductsQueryHandlerTests
     public async Task Handle_HappyPath_ShouldReturnProducts()
     {
         // arrange
-        Product[] products = new[]
-        {
-            Product.Create("Cookie", "Yummy!", DateTime.UtcNow),
-            Product.Create("Cupcake", "Sweet", DateTime.UtcNow.AddDays(-1))
-        };
+        var products = new Faker<Product>()
+            .RuleFor(x => x.Name, x => string.Concat(x.Commerce.ProductName().Take(20)))
+            .RuleFor(x => x.Description, x => string.Concat(x.Commerce.ProductDescription().Take(200)))
+            .RuleFor(x => x.CreatedAtUtc, x => DateTime.UtcNow.AddDays(x.Random.Number(0, 6)))
+            .Generate(10);
 
         _productsRepository
             .GetProductsAsync(Arg.Any<CancellationToken>())
@@ -36,6 +38,6 @@ public class ReadProductsQueryHandlerTests
 
         // assert
         response.Should().NotBeNull();
-        response!.Length.Should().Be(2);
+        response!.Length.Should().Be(10);
     }
 }

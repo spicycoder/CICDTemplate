@@ -31,16 +31,11 @@ public static class ApplicationBuilderExtensions
 
     private static async Task Seed(ApplicationDbContext dbContext)
     {
-        var faker = new Faker();
-
-        var products = Enumerable
-            .Range(1, 10)
-            .Select(i =>
-                Product.Create(
-                    string.Concat(faker.Commerce.ProductName().Take(20)),
-                    string.Concat(faker.Commerce.ProductDescription().Take(200)),
-                    DateTime.UtcNow.AddDays(-1 * faker.Random.Int(0, 6))))
-            .ToArray();
+        var products = new Faker<Product>()
+            .RuleFor(x => x.Name, x => string.Concat(x.Commerce.ProductName().Take(20)))
+            .RuleFor(x => x.Description, x => string.Concat(x.Commerce.ProductDescription().Take(200)))
+            .RuleFor(x => x.CreatedAtUtc, x => DateTime.UtcNow.AddDays(x.Random.Number(0, 6)))
+            .Generate(10);
 
         await dbContext
             .AddRangeAsync(products);

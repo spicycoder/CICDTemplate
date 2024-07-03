@@ -6,6 +6,7 @@ CI / CD Template - for ASP.NET 8 Web API
 
 - [x] `CQRS` - with `EF Core` - In Memory
 - [x] `MediatR`
+- [ ] Code Tour
 
 ## Test Automation
 
@@ -14,6 +15,7 @@ CI / CD Template - for ASP.NET 8 Web API
 - [x] Mutation Tests - `Stryker` *recommended for local only*
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
+- [ ] Code Tour
 
 ## DevOps
 
@@ -22,12 +24,14 @@ CI / CD Template - for ASP.NET 8 Web API
     - [ ] CI / CD Pipeline Scripts
 - [ ] Helm Charts
 - [ ] Deployment Scripts - *yet to be decided*
+- [ ] Code Tour
 
 ## Orchestration
 
 - [x] Docker compose
     - [x] RDBMS - `PostgreSQL`
     - [x] Aspire Dashboard
+- [ ] Code Tour
 
 ## Aspire
 
@@ -40,8 +44,9 @@ CI / CD Template - for ASP.NET 8 Web API
     - [x] PostgreSQL Database
     - [ ] Redis
 - [ ] Distributed Cache - `Redis`
-- [ ] Output Caching - `Redis`
+- [ ] ~~Output Caching - `Redis`~~
 - [ ] NoSQL - `MongoDB`
+- [ ] Code Tour
 
 ## DAPR
 
@@ -50,11 +55,13 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] State Management - `Redis`
 - [ ] Secrets Management - Json File Based
 - [ ] Bindings - Input: `Cron`, Output: `PostgreSQL`
+- [ ] Code Tour
 
 ## Performance
 
 - [ ] Benchmarking - using `Benchmark.NET`
 - [ ] Load Testing - using `NBomber`
+- [ ] Code Tour
 
 ## Misc
 
@@ -66,3 +73,4 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] Package as Template
     - [x] Template Config
     - [ ] Publish as Nuget package
+- [ ] Code Tour
