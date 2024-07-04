@@ -53,7 +53,7 @@ CI / CD Template - for ASP.NET 8 Web API
 
 ## DAPR
 
-- [ ] Pub / Sub - `Redis Streams`
+- [x] Pub / Sub - `Redis Streams`
 - [ ] Service Invocation
 - [ ] State Management - `Redis`
 - [ ] Secrets Management - Json File Based

@@ -20,13 +20,13 @@ public class GetProductsTests
     [Fact]
     public async Task GetProducts_HappyPath_ReturnsAllProducts()
     {
-        // arrange
+        // Arrange
         Uri uri = new("/api/products", UriKind.Relative);
 
-        // act
+        // Act
         ReadProductsResponse? response = await _httpClient.GetFromJsonAsync<ReadProductsResponse>(uri);
 
-        // assert
+        // Assert
         response.Should().NotBeNull();
         response!.Products.Count.Should().BeGreaterThanOrEqualTo(10);
     }

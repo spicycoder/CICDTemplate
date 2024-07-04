@@ -3,7 +3,8 @@ using CICDTemplate.Application;
 using CICDTemplate.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers();
+builder.Services.AddDaprClient();
+builder.Services.AddControllers().AddDapr();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.AddDefaultHealthChecks();
@@ -22,10 +23,11 @@ if (app.Environment.IsDevelopment())
     await app.MigrateAndSeed();
 }
 
-app.UseHttpsRedirection();
 app.MapHealthChecksEndpoints();
 app.UseAuthorization();
+app.UseCloudEvents();
 app.MapControllers();
+app.MapSubscribeHandler();
 await app.RunAsync();
 
 public partial class Program

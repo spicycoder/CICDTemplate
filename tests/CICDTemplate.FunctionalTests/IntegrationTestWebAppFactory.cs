@@ -1,6 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc.Testing;
+﻿using Dapr.Client;
+
+using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+
+using Moq;
 
 using Testcontainers.PostgreSql;
 using Testcontainers.Redis;
@@ -18,8 +23,18 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
 
     private readonly RedisContainer _redisContainer = new RedisBuilder()
         .WithImage("redis")
-        .WithPortBinding(6379, 6379)
+        .WithPortBinding(6500, 6379)
         .Build();
+
+    private Mock<DaprClient>? _mockDaprClient;
+    public Mock<DaprClient> MockDaprClient
+    {
+        get
+        {
+            _mockDaprClient ??= new Mock<DaprClient>();
+            return _mockDaprClient!;
+        }
+    }
 
     public async Task InitializeAsync()
     {
@@ -40,6 +55,8 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
                     new("ConnectionStrings:Cache", _redisContainer.GetConnectionString())
                 ]);
             });
+
+        builder.ConfigureServices(services => services.AddSingleton(_ => MockDaprClient.Object));
 
         return base.CreateHost(builder);
     }

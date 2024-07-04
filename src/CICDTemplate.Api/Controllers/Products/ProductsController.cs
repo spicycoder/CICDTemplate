@@ -1,6 +1,7 @@
 ﻿using CICDTemplate.Application.Abstractions.Caching;
 using CICDTemplate.Application.Products.Commands.CreateProduct;
-using CICDTemplate.Application.Products.Queries;
+using CICDTemplate.Application.Products.Queries.ReadProducts;
+using CICDTemplate.Domain.Abstract;
 using CICDTemplate.Domain.Entities;
 
 using MediatR;
@@ -11,7 +12,10 @@ namespace CICDTemplate.Api.Controllers.Products;
 
 [Route("api/products")]
 [ApiController]
-public class ProductsController(ISender sender, ILogger<ProductsController> logger, ICacheService cacheService) : ControllerBase
+public class ProductsController(
+    ISender sender,
+    ILogger<ProductsController> logger,
+    ICacheService cacheService) : ControllerBase
 {
     [HttpPost]
     public async Task<ActionResult<Guid>> CreateProduct(
@@ -34,7 +38,7 @@ public class ProductsController(ISender sender, ILogger<ProductsController> logg
     public async Task<ActionResult<ReadProductsResponse>> GetProducts(
         CancellationToken cancellationToken = default)
     {
-        Product[]? cachedProducts = await cacheService.GetAsync<Product[]>("AllProducts", cancellationToken);
+        Product[]? cachedProducts = await cacheService.GetAsync<Product[]>(Constants.AllProductsCacheKey, cancellationToken);
 
         if (cachedProducts is null)
         {
@@ -43,7 +47,7 @@ public class ProductsController(ISender sender, ILogger<ProductsController> logg
             cancellationToken);
 
             await cacheService.SetAsync(
-                "AllProducts",
+                Constants.AllProductsCacheKey,
                 cachedProducts,
                 null,
                 cancellationToken);

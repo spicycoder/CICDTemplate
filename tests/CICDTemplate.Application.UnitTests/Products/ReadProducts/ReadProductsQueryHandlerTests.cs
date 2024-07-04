@@ -1,6 +1,6 @@
 ﻿using Bogus;
 
-using CICDTemplate.Application.Products.Queries;
+using CICDTemplate.Application.Products.Queries.ReadProducts;
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Domain.Repositories;
 

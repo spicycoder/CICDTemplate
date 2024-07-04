@@ -1,0 +1,16 @@
+﻿using FluentValidation;
+
+namespace CICDTemplate.Application.Products.Commands.PublishProduct;
+
+public class PublishProductCommandValidator : AbstractValidator<PublishProductCommand>
+{
+    public PublishProductCommandValidator()
+    {
+        RuleFor(x => x.Name)
+            .NotEmpty()
+            .MaximumLength(20);
+
+        RuleFor(x => x.Description)
+            .MaximumLength(200);
+    }
+}

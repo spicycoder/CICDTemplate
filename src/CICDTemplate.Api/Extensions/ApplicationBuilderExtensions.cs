@@ -8,11 +8,12 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace CICDTemplate.Api.Extensions;
 
-[System.Diagnostics.CodeAnalysis.SuppressMessage("Design", "CA1062:Validate arguments of public methods", Justification = "app cannot be null")]
 public static class ApplicationBuilderExtensions
 {
     public static async Task MigrateAndSeed(this IApplicationBuilder app)
     {
+        ArgumentNullException.ThrowIfNull(app);
+
         using var scope = app.ApplicationServices.CreateScope();
         using var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
 

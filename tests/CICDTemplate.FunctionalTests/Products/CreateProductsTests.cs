@@ -6,11 +6,11 @@ using FluentAssertions;
 namespace CICDTemplate.FunctionalTests.Products;
 
 [Collection("App Host")]
-public class CreateProductsTest
+public class CreateProductsTests
 {
     private readonly HttpClient _httpClient;
 
-    public CreateProductsTest(IntegrationTestWebAppFactory factory)
+    public CreateProductsTests(IntegrationTestWebAppFactory factory)
     {
         ArgumentNullException.ThrowIfNull(factory);
         _httpClient = factory.CreateClient();

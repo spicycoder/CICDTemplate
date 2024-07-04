@@ -5,7 +5,7 @@ using MediatR;
 
 using Microsoft.Extensions.Logging;
 
-namespace CICDTemplate.Application.Products.Queries;
+namespace CICDTemplate.Application.Products.Queries.ReadProducts;
 
 public sealed class ReadProductsQueryHandler(IProductsRepository repository, ILogger<ReadProductsQueryHandler> logger) : IRequestHandler<ReadProductsQuery, Product[]>
 {

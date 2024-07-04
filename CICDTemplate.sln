@@ -17,6 +17,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		.editorconfig = .editorconfig
 		.gitignore = .gitignore
+		build.ps1 = build.ps1
 		coverage.runsettings = coverage.runsettings
 		Directory.Build.props = Directory.Build.props
 		README.md = README.md
@@ -30,7 +31,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.ArchitectureTe
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.FunctionalTests", "tests\CICDTemplate.FunctionalTests\CICDTemplate.FunctionalTests.csproj", "{2A2CC063-9C75-4A34-80F4-7A78C258FC6A}"
 EndProject
-Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{61BFCACE-E615-4AC7-A2F8-49546B5B10C4}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{76C9F989-829A-4796-A254-5DFB0AF5ED57}"
+	ProjectSection(SolutionItems) = preProject
+		components\pubsub.yaml = components\pubsub.yaml
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.AppHost", "src\CICDTemplate.AppHost\CICDTemplate.AppHost.csproj", "{6900F28B-6DA3-4762-AFD9-2E0776DF8F10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -66,10 +72,10 @@ Global
 		{2A2CC063-9C75-4A34-80F4-7A78C258FC6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A2CC063-9C75-4A34-80F4-7A78C258FC6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A2CC063-9C75-4A34-80F4-7A78C258FC6A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{61BFCACE-E615-4AC7-A2F8-49546B5B10C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{61BFCACE-E615-4AC7-A2F8-49546B5B10C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{61BFCACE-E615-4AC7-A2F8-49546B5B10C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{61BFCACE-E615-4AC7-A2F8-49546B5B10C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6900F28B-6DA3-4762-AFD9-2E0776DF8F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6900F28B-6DA3-4762-AFD9-2E0776DF8F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6900F28B-6DA3-4762-AFD9-2E0776DF8F10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6900F28B-6DA3-4762-AFD9-2E0776DF8F10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,6 +88,7 @@ Global
 		{07CC239C-5003-486A-A13F-B6E7CA4B65C1} = {CC7F8277-1D84-435D-A4D8-D37040800983}
 		{C71C6424-C68D-4DED-AF2C-BCF5499ADCA8} = {CC7F8277-1D84-435D-A4D8-D37040800983}
 		{2A2CC063-9C75-4A34-80F4-7A78C258FC6A} = {CC7F8277-1D84-435D-A4D8-D37040800983}
+		{6900F28B-6DA3-4762-AFD9-2E0776DF8F10} = {EB27F774-B863-4CA1-B587-105D5E2A07F5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1FC75D2E-9B65-42CD-80A4-DA638189166B}
