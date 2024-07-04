@@ -67,7 +67,7 @@ Cloud Native - Clean Architecture template, ideal for
 ## Performance 📈
 
 - [ ] Benchmarking - using `Benchmark.NET`
-- [ ] Load Testing - using `NBomber`
+- [ ] Load Testing - using `K6`
 - [ ] Code Tour✈️
 
 ## Misc
