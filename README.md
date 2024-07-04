@@ -1,6 +1,10 @@
 # CI / CD Template
 
-CI / CD Template - for ASP.NET 8 Web API
+Cloud Native - Clean Architecture template, ideal for
+
+1. Web API 🕸️
+2. Pub / Sub 👂
+3. Schedulers ⏱️
 
 ## Clean Architecture 🧹
 
