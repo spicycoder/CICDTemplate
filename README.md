@@ -2,36 +2,45 @@
 
 CI / CD Template - for ASP.NET 8 Web API
 
-## Clean Architecture
+## Clean Architecture 🧹
 
 - [x] `CQRS` - with `EF Core` - In Memory
 - [x] `MediatR`
-- [ ] Code Tour
+- [ ] Code Tour ✈️
 
-## Test Automation
+## Test Automation 🧪
 
 - [x] Unit Tests - `xUnit` and `NSubstitute`
 - [x] Functional Tests - In Memory API Testing `WebApplicationFactory` using `Testcontainers`
 - [x] Mutation Tests - `Stryker` *recommended for local only*
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
-- [ ] Code Tour
+- [ ] Code Tour ✈️
 
-## DevOps
+## DevOps 🏗️
 
 - [ ] Build Script - `PowerShell` / `Cake`
     - [x] Local build [build.ps1](./build.ps1)
     - [ ] CI / CD Pipeline Scripts
 - [ ] Helm Charts
 - [ ] Deployment Scripts - *yet to be decided*
-- [ ] Code Tour
+- [ ] Code Tour ✈️
 
 ## Orchestration
 
 - [x] Docker compose
     - [x] RDBMS - `PostgreSQL`
-    - [x] Aspire Dashboard
-- [ ] Code Tour
+    - [ ] ~~NoSQL - `MongoDB`~~
+    - [x] Distributed Cache - `Redis`
+- [ ] Code Tour ✈️
+
+## Health Checks 🩺
+
+- [x] Self
+- [x] PostgreSQL Database
+- [x] Redis
+- [ ] ~~MongoDB~~
+- [ ] Code Tour ✈️
 
 ## Aspire
 
@@ -39,14 +48,8 @@ CI / CD Template - for ASP.NET 8 Web API
     - [x] Logging
     - [x] Metrics
     - [x] Distributed Tracing
-- [x] Health Checks
-    - [x] Self
-    - [x] PostgreSQL Database
-    - [ ] Redis
-- [ ] Distributed Cache - `Redis`
-- [ ] ~~Output Caching - `Redis`~~
-- [ ] NoSQL - `MongoDB`
-- [ ] Code Tour
+    - [x] Aspire Dashboard
+- [ ] Code Tour✈️
 
 ## DAPR
 
@@ -55,13 +58,13 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] State Management - `Redis`
 - [ ] Secrets Management - Json File Based
 - [ ] Bindings - Input: `Cron`, Output: `PostgreSQL`
-- [ ] Code Tour
+- [ ] Code Tour✈️
 
-## Performance
+## Performance 📈
 
 - [ ] Benchmarking - using `Benchmark.NET`
 - [ ] Load Testing - using `NBomber`
-- [ ] Code Tour
+- [ ] Code Tour✈️
 
 ## Misc
 
@@ -73,4 +76,4 @@ CI / CD Template - for ASP.NET 8 Web API
 - [ ] Package as Template
     - [x] Template Config
     - [ ] Publish as Nuget package
-- [ ] Code Tour
+- [ ] Code Tour✈️

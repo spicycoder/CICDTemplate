@@ -11,17 +11,23 @@ public static class HealthChecksExtensions
     {
         ArgumentNullException.ThrowIfNull(builder);
 
-        string? connectionString = builder
+        string? dbConnectionString = builder
             .Configuration
-            .GetConnectionString("Database");
+        .GetConnectionString("Database");
 
-        ArgumentNullException.ThrowIfNull(connectionString);
+        string? cacheConnectionString = builder
+            .Configuration
+            .GetConnectionString("Cache");
+
+        ArgumentNullException.ThrowIfNull(dbConnectionString);
+        ArgumentNullException.ThrowIfNull(cacheConnectionString);
 
         builder
             .Services
             .AddHealthChecks()
             .AddCheck("self", () => HealthCheckResult.Healthy(), ["live"])
-            .AddNpgSql(connectionString);
+            .AddNpgSql(dbConnectionString)
+            .AddRedis(cacheConnectionString);
 
         return builder;
     }
