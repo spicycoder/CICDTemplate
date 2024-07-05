@@ -33,6 +33,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.FunctionalTest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{76C9F989-829A-4796-A254-5DFB0AF5ED57}"
 	ProjectSection(SolutionItems) = preProject
+		components\cron.yaml = components\cron.yaml
 		components\pubsub.yaml = components\pubsub.yaml
 		components\statestore.yaml = components\statestore.yaml
 	EndProjectSection

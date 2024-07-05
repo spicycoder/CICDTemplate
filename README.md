@@ -64,7 +64,8 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Read state
     - [x] Delete state
 - [ ] Secrets Management - Json File Based
-- [ ] Bindings - Input: `Cron`, Output: `PostgreSQL`
+- [x] Bindings
+    - [x] Input: `Cron`
 - [ ] Code Tour✈️
 
 ## Performance 📈

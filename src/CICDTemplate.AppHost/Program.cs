@@ -23,11 +23,20 @@ var pubsub = builder.AddDaprPubSub(
         LocalPath = Path.Combine("../..", "components", "pubsub.yaml")
     });
 
+var scheduler = builder.AddDaprComponent(
+    "scheduler",
+    "bindings.cron",
+    new DaprComponentOptions
+    {
+        LocalPath = Path.Combine("../..", "components", "cron.yaml")
+    });
+
 builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplateapi")
     .WithDaprSidecar()
     .WithReference(postgres)
     .WithReference(stateStore)
-    .WithReference(pubsub);
+    .WithReference(pubsub)
+    .WithReference(scheduler);
 
 await builder.Build().RunAsync();

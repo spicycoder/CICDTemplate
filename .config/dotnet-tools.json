@@ -17,16 +17,16 @@
       "rollForward": false
     },
     "dotnet-reportgenerator-globaltool": {
-      "version": "5.3.6",
+      "version": "5.3.7",
       "commands": [
         "reportgenerator"
       ],
       "rollForward": false
     },
-    "dotnet-outdated-tool": {
-      "version": "4.6.4",
+    "dotnet-tools-outdated": {
+      "version": "0.7.1",
       "commands": [
-        "dotnet-outdated"
+        "dotnet-tools-outdated"
       ],
       "rollForward": false
     }
