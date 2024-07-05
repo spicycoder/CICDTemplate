@@ -13,7 +13,7 @@ public class PublisherController(ISender sender) : ControllerBase
 {
     [HttpPost("publish")]
     public async Task<IActionResult> Publish(
-        [FromBody] PubSubMessage message,
+        [FromBody] Product message,
         CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(message);

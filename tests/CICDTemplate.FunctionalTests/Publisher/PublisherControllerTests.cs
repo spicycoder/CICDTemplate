@@ -12,7 +12,7 @@ using FluentAssertions;
 
 using Moq;
 
-namespace CICDTemplate.FunctionalTests.Products;
+namespace CICDTemplate.FunctionalTests.Publisher;
 
 [Collection("App Host")]
 public class PublisherControllerTests
@@ -31,7 +31,7 @@ public class PublisherControllerTests
     {
         // Arrange
         Uri uri = new("/api/publisher/publish", UriKind.Relative);
-        PubSubMessage message = new("Cookies", "Yummy");
+        Product message = new("Cookies", "Yummy");
         StringContent content = new(
             JsonSerializer.Serialize(message),
             Encoding.UTF8,

@@ -17,7 +17,7 @@ public class CreateProductCommandHandlerTests
     [Fact]
     public async Task Handle_HappyPath_ReturnsId()
     {
-        // arrange
+        // Arrange
         var expectedDate = DateTime.UtcNow.AddDays(-1);
         _dateTimeProvider
             .Now
@@ -32,12 +32,12 @@ public class CreateProductCommandHandlerTests
             _productsRepository,
             _dateTimeProvider);
 
-        // act
+        // Act
         var response = await handler.Handle(
             new CreateProductCommand("Cookie", "Yummy"),
             new CancellationToken());
 
-        // assert
+        // Assert
         response.Should().NotBeNull();
         response!.Should().Be(expectedId);
     }

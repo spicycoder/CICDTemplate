@@ -7,7 +7,7 @@ using CICDTemplate.Api.Models.Common;
 
 using FluentAssertions;
 
-namespace CICDTemplate.FunctionalTests.Products;
+namespace CICDTemplate.FunctionalTests.Subscriber;
 
 [Collection("App Host")]
 public class SubscriberControllerTests
@@ -25,7 +25,7 @@ public class SubscriberControllerTests
     {
         // Arrange
         Uri uri = new("/api/subscriber/consume", UriKind.Relative);
-        PubSubMessage message = new("Cookies", "Yummy");
+        Product message = new("Cookies", "Yummy");
         StringContent content = new(
             JsonSerializer.Serialize(message),
             Encoding.UTF8,

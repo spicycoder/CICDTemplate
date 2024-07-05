@@ -34,6 +34,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{76C9F989-829A-4796-A254-5DFB0AF5ED57}"
 	ProjectSection(SolutionItems) = preProject
 		components\pubsub.yaml = components\pubsub.yaml
+		components\statestore.yaml = components\statestore.yaml
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CICDTemplate.AppHost", "src\CICDTemplate.AppHost\CICDTemplate.AppHost.csproj", "{6900F28B-6DA3-4762-AFD9-2E0776DF8F10}"

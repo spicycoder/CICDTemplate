@@ -59,7 +59,10 @@ Cloud Native - Clean Architecture template, ideal for
 
 - [x] Pub / Sub - `Redis Streams`
 - [ ] Service Invocation
-- [ ] State Management - `Redis`
+- [x] State Management - `Redis`
+    - [x] Save state
+    - [x] Read state
+    - [x] Delete state
 - [ ] Secrets Management - Json File Based
 - [ ] Bindings - Input: `Cron`, Output: `PostgreSQL`
 - [ ] Code Tour✈️

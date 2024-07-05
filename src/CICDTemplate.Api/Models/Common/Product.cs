@@ -1,5 +1,5 @@
 ﻿namespace CICDTemplate.Api.Models.Common;
 
-public record PubSubMessage(
+public record Product(
     string Name,
     string Description);

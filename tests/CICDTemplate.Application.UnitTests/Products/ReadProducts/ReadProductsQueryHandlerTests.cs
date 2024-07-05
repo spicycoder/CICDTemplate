@@ -20,7 +20,7 @@ public class ReadProductsQueryHandlerTests
     [Fact]
     public async Task Handle_HappyPath_ShouldReturnProducts()
     {
-        // arrange
+        // Arrange
         var products = new Faker<Product>()
             .RuleFor(x => x.Name, x => string.Concat(x.Commerce.ProductName().Take(20)))
             .RuleFor(x => x.Description, x => string.Concat(x.Commerce.ProductDescription().Take(200)))
@@ -33,10 +33,10 @@ public class ReadProductsQueryHandlerTests
 
         ReadProductsQueryHandler handler = new(_productsRepository, _logger);
 
-        // act
+        // Act
         var response = await handler.Handle(new ReadProductsQuery(), CancellationToken.None);
 
-        // assert
+        // Assert
         response.Should().NotBeNull();
         response!.Length.Should().Be(10);
     }

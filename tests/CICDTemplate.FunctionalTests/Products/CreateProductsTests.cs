@@ -19,15 +19,15 @@ public class CreateProductsTests
     [Fact]
     public async Task CreateProduct_HappyPath_ReturnsId()
     {
-        // arrange
+        // Arrange
         Uri uri = new("/api/products", UriKind.Relative);
         CreateProductRequest request = new("Cookies", "Yummy!");
 
-        // act
+        // Act
         var response = await _httpClient.PostAsJsonAsync(uri, request);
         Guid? result = await response.Content.ReadFromJsonAsync<Guid?>();
 
-        // assert
+        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.OK);
         result.Should().NotBeNull();
         result.Value.Should().NotBeEmpty();
@@ -37,14 +37,14 @@ public class CreateProductsTests
     [Fact]
     public async Task CreateProduct_NullRequest_ReturnsBadRequest()
     {
-        // arrange
+        // Arrange
         Uri uri = new("/api/products", UriKind.Relative);
         CreateProductRequest? request = null;
 
-        // act
+        // Act
         var response = await _httpClient.PostAsJsonAsync(uri, request);
 
-        // assert
+        // Assert
         response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
     }
 }

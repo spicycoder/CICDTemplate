@@ -14,7 +14,7 @@ public class SubscriberController(ILogger<SubscriberController> logger) : Contro
     [HttpPost("consume")]
     [Topic(Constants.PubSubName, Constants.PubSubTopicName)]
     public IActionResult Subscribe(
-        [FromBody] PubSubMessage message,
+        [FromBody] Product message,
         CancellationToken cancellationToken)
     {
         logger.LogInformation("Received message: {Message}", message);

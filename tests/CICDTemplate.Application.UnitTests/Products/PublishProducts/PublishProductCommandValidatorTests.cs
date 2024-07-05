@@ -9,42 +9,42 @@ public class PublishProductCommandValidatorTests
     [Fact]
     public void Validate_HappyPath_Valid()
     {
-        // arrange
+        // Arrange
         var validator = new PublishProductCommandValidator();
         var command = new PublishProductCommand("Cookies", "Yummy!");
 
-        // act
+        // Act
         var result = validator.Validate(command);
 
-        // assert
+        // Assert
         result.IsValid.Should().BeTrue();
     }
 
     [Fact]
     public void Validate_EmptyName_Invalid()
     {
-        // arrange
+        // Arrange
         var validator = new PublishProductCommandValidator();
         var command = new PublishProductCommand(string.Empty, "Yummy!");
 
-        // act
+        // Act
         var result = validator.Validate(command);
 
-        // assert
+        // Assert
         result.IsValid.Should().BeFalse();
     }
 
     [Fact]
     public void Validate_NameTooLong_Invalid()
     {
-        // arrange
+        // Arrange
         var validator = new PublishProductCommandValidator();
         var command = new PublishProductCommand(string.Join(' ', Enumerable.Range(1, 11)), "Yummy!");
 
-        // act
+        // Act
         var result = validator.Validate(command);
 
-        // assert
+        // Assert
         result.IsValid.Should().BeFalse();
     }
 
@@ -53,28 +53,28 @@ public class PublishProductCommandValidatorTests
     [Fact]
     public void Validate_EmptyDescription_valid()
     {
-        // arrange
+        // Arrange
         var validator = new PublishProductCommandValidator();
         var command = new PublishProductCommand("Cookies", string.Empty);
 
-        // act
+        // Act
         var result = validator.Validate(command);
 
-        // assert
+        // Assert
         result.IsValid.Should().BeTrue();
     }
 
     [Fact]
     public void Validate_DescriptionTooLong_Invalid()
     {
-        // arrange
+        // Arrange
         var validator = new PublishProductCommandValidator();
         var command = new PublishProductCommand("Cookie", string.Join(' ', Enumerable.Range(1, 101)));
 
-        // act
+        // Act
         var result = validator.Validate(command);
 
-        // assert
+        // Assert
         result.IsValid.Should().BeFalse();
     }
 }
