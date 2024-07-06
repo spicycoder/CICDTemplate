@@ -6,7 +6,7 @@ using MediatR;
 
 using Microsoft.Extensions.Logging;
 
-namespace CICDTemplate.Application.Products.Commands.PublishProduct;
+namespace CICDTemplate.Application.PubSub.Commands.PublishProduct;
 
 public sealed class PublishProductCommandHandler(
     DaprClient daprClient,

@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "vsls-contrib.codetour",
+        "ms-dotnettools.csdevkit",
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscodeintellicode-csharp",
+        "ms-azuretools.vscode-dapr",
+        "ms-azuretools.vscode-docker"
+    ]
+}

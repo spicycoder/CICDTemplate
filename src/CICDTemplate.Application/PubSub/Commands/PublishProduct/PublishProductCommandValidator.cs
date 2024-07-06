@@ -1,6 +1,6 @@
 ﻿using FluentValidation;
 
-namespace CICDTemplate.Application.Products.Commands.PublishProduct;
+namespace CICDTemplate.Application.PubSub.Commands.PublishProduct;
 
 public class PublishProductCommandValidator : AbstractValidator<PublishProductCommand>
 {

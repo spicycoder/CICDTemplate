@@ -1,5 +1,5 @@
 ﻿using CICDTemplate.Api.Models.Common;
-using CICDTemplate.Application.Products.Commands.PublishProduct;
+using CICDTemplate.Application.PubSub.Commands.PublishProduct;
 
 using MediatR;
 

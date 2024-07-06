@@ -1,4 +1,4 @@
-﻿using CICDTemplate.Application.Products.Commands.PublishProduct;
+﻿using CICDTemplate.Application.PubSub.Commands.PublishProduct;
 using CICDTemplate.Domain.Abstract;
 
 using Dapr.Client;

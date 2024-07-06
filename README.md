@@ -63,7 +63,7 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Save state
     - [x] Read state
     - [x] Delete state
-- [ ] Secrets Management - Json File Based
+- [x] Secrets Management - Json File Based
 - [x] Bindings
     - [x] Input: `Cron`
 - [ ] Code Tour✈️
