@@ -31,12 +31,21 @@ var scheduler = builder.AddDaprComponent(
         LocalPath = Path.Combine("../..", "components", "cron.yaml")
     });
 
+var secretStore = builder.AddDaprComponent(
+    "secretstore",
+    "secretstores.local.file",
+    new DaprComponentOptions
+    {
+        LocalPath = Path.Combine("../..", "components", "local-secret-store.yaml")
+    });
+
 builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplateapi")
     .WithDaprSidecar()
     .WithReference(postgres)
     .WithReference(stateStore)
     .WithReference(pubsub)
-    .WithReference(scheduler);
+    .WithReference(scheduler)
+    .WithReference(secretStore);
 
 await builder.Build().RunAsync();
