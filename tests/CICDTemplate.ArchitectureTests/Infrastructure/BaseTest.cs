@@ -1,7 +1,6 @@
 ﻿using System.Reflection;
 
 using CICDTemplate.Application.Abstractions.Clock;
-using CICDTemplate.Application.Behaviors;
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Infrastructure;
 

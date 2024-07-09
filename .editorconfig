@@ -362,6 +362,9 @@ dotnet_naming_style.s_camelcase.required_suffix =
 dotnet_naming_style.s_camelcase.word_separator = 
 dotnet_naming_style.s_camelcase.capitalization = camel_case
 
+# Remove unused usings
+dotnet_diagnostic.IDE0005.severity = error
+
 # Excludes
 
 dotnet_diagnostic.CA2007.severity = none

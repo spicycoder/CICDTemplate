@@ -1,5 +1,4 @@
 ﻿using System.Buffers;
-using System.Text;
 using System.Text.Json;
 
 using CICDTemplate.Application.Abstractions.Caching;
