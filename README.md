@@ -46,13 +46,12 @@ Cloud Native - Clean Architecture template, ideal for
 - [ ] ~~MongoDB~~
 - [ ] Code Tour ✈️
 
-## Aspire
+## Observability
 
-- [x] Observability
-    - [x] Logging
-    - [x] Metrics
-    - [x] Distributed Tracing
-    - [x] Aspire Dashboard
+- [x] Logging - `Aspire`
+- [x] Metrics - `Aspire`
+- [x] Distributed Tracing - `Aspire` & `Open Zipkin`
+- [x] Aspire Dashboard
 - [ ] Code Tour✈️
 
 ## DAPR
