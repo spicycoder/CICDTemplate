@@ -1,6 +1,8 @@
-﻿using CICDTemplate.Api.Controllers.Products;
-using System.Net;
+﻿using System.Net;
 using System.Net.Http.Json;
+
+using CICDTemplate.Api.Controllers.Products;
+
 using FluentAssertions;
 
 namespace CICDTemplate.FunctionalTests.Products;

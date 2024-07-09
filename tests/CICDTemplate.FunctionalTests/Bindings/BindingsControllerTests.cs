@@ -1,6 +1,6 @@
-﻿using FluentAssertions;
+﻿using System.Net;
 
-using System.Net;
+using FluentAssertions;
 
 namespace CICDTemplate.FunctionalTests.Bindings;
 
