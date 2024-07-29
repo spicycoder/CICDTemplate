@@ -11,8 +11,6 @@ public static class OpenTelemetryExtensions
     {
         ArgumentNullException.ThrowIfNull(builder);
 
-        string zipkinUri = builder.Configuration.GetSection("Telemetry:Zipkin").Value!;
-
         builder
             .Services
             .AddOpenTelemetry()
@@ -30,8 +28,7 @@ public static class OpenTelemetryExtensions
             {
                 tracing
                     .AddAspNetCoreInstrumentation()
-                    .AddHttpClientInstrumentation()
-                    .AddZipkinExporter(config => config.Endpoint = new Uri(zipkinUri, UriKind.Absolute));
+                    .AddHttpClientInstrumentation();
 
                 tracing.AddOtlpExporter();
             });

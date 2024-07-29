@@ -50,7 +50,7 @@ Cloud Native - Clean Architecture template, ideal for
 
 - [x] Logging - `Aspire`
 - [x] Metrics - `Aspire`
-- [x] Distributed Tracing - `Aspire` & `Open Zipkin`
+- [x] Distributed Tracing - `Aspire` & `Jaeger`
 - [x] Aspire Dashboard
 - [ ] Code Tour✈️
 
@@ -63,6 +63,7 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Read state
     - [x] Delete state
 - [x] Secrets Management - Json File Based
+- [ ] Configurations Management
 - [x] Bindings
     - [x] Input: `Cron`
 - [ ] Code Tour✈️

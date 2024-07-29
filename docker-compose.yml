@@ -1,0 +1,55 @@
+version: '3.4'
+
+services:
+  cicdtemplate:
+    image: spicycoder/cicdtemplateapi
+    build:
+      context: .
+      dockerfile: src/CICDTemplate.Api/Dockerfile
+    environment:
+        - OTEL_EXPORTER_OTLP_ENDPOINT=http://aspire.dashboard:18889
+        # - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
+    ports:
+      - "8080:8080"
+
+  cicdtemplate-sidecar:
+    image: daprio/daprd:latest
+    command: ["./daprd",
+     "-app-id", "cicdtemplate",
+     "-app-port", "8080",
+     "-dapr-http-port", "3500",
+     "-components-path", "/components"]
+    volumes:
+      - "./components:/components"
+      - "./SecretsStore:/SecretsStore"
+    depends_on:
+      - cicdtemplate
+    network_mode: "service:cicdtemplate"
+
+  redis:
+    image: redis:latest
+    ports:
+      - 6500:6379
+
+  cicdtemplate-db:
+    image: postgres:latest
+    container_name: CICDTemplate.Db
+    environment:
+      - POSTGRES_DB=cicdtemplatedb
+      - POSTGRES_USER=postgres
+      - POSTGRES_PASSWORD=postgres
+    ports:
+      - 5432:5432
+    
+  aspire.dashboard:
+    image: mcr.microsoft.com/dotnet/aspire-dashboard:latest
+    container_name: dashboard
+    ports:
+      - 18888:18888
+
+  # jaeger:
+  #   image: jaegertracing/all-in-one:latest
+  #   ports:
+  #     - 16686:16686
+  #     - 4317:4317
+  #     - 4318:4318
