@@ -27,7 +27,7 @@ public class StatesController(ISender sender) : ControllerBase
     [HttpGet("read")]
     public async Task<ActionResult<ProductState>> Read([FromQuery] string productName)
     {
-        ReadStateCommand command = new(productName);
+        ReadStateQuery command = new(productName);
         ProductState? state = await sender.Send(command);
 
         if (state is null)

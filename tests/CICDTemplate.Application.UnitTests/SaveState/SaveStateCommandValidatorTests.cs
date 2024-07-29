@@ -2,7 +2,7 @@
 
 using FluentAssertions;
 
-namespace CICDTemplate.Application.UnitTests.Products.SaveState;
+namespace CICDTemplate.Application.UnitTests.SaveState;
 
 public class SaveStateCommandValidatorTests
 {

@@ -8,11 +8,11 @@ using Microsoft.Extensions.Logging;
 
 namespace CICDTemplate.Application.States.Queries.ReadState;
 
-public sealed class ReadStateCommandHandler(
+public sealed class ReadStateQueryHandler(
     DaprClient daprClient,
-    ILogger<ReadStateCommandHandler> logger) : IRequestHandler<ReadStateCommand, ProductState?>
+    ILogger<ReadStateQueryHandler> logger) : IRequestHandler<ReadStateQuery, ProductState?>
 {
-    public async Task<ProductState?> Handle(ReadStateCommand request, CancellationToken cancellationToken)
+    public async Task<ProductState?> Handle(ReadStateQuery request, CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(request);
 

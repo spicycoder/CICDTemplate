@@ -7,7 +7,7 @@ using FluentAssertions;
 
 using NSubstitute;
 
-namespace CICDTemplate.Application.UnitTests.Products.CreateProducts;
+namespace CICDTemplate.Application.UnitTests.CreateProducts;
 
 public class CreateProductCommandHandlerTests
 {

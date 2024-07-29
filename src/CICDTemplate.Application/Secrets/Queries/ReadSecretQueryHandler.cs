@@ -8,12 +8,12 @@ using Microsoft.Extensions.Logging;
 
 namespace CICDTemplate.Application.Secrets.Queries;
 
-public sealed class ReadSecretHandler(
+public sealed class ReadSecretQueryHandler(
     DaprClient daprClient,
-    ILogger<ReadSecretHandler> logger) : IRequestHandler<ReadSecretCommand, string?>
+    ILogger<ReadSecretQueryHandler> logger) : IRequestHandler<ReadSecretQuery, string?>
 {
     public async Task<string?> Handle(
-        ReadSecretCommand request,
+        ReadSecretQuery request,
         CancellationToken cancellationToken)
     {
         ArgumentNullException.ThrowIfNull(request);

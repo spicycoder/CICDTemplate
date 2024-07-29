@@ -9,19 +9,19 @@ using Microsoft.Extensions.Logging;
 
 using NSubstitute;
 
-namespace CICDTemplate.Application.UnitTests.Products.Secrets;
+namespace CICDTemplate.Application.UnitTests.Secrets;
 
-public class ReadSecretHandlerTests
+public class ReadSecretQueryHandlerTests
 {
     private readonly DaprClient _daprClient = Substitute.For<DaprClient>();
-    private readonly ILogger<ReadSecretHandler> _logger = Substitute.For<ILogger<ReadSecretHandler>>();
+    private readonly ILogger<ReadSecretQueryHandler> _logger = Substitute.For<ILogger<ReadSecretQueryHandler>>();
 
     [Fact]
     public async Task Handle_HappyPath_Success()
     {
         // Arrange
-        ReadSecretCommand command = new("Cookies");
-        var handler = new ReadSecretHandler(_daprClient, _logger);
+        ReadSecretQuery query = new("Cookies");
+        var handler = new ReadSecretQueryHandler(_daprClient, _logger);
         _daprClient
             .GetSecretAsync(
             Constants.SecretsStoreName,
@@ -34,7 +34,7 @@ public class ReadSecretHandlerTests
             }));
 
         // Act
-        string? value = await handler.Handle(command, CancellationToken.None);
+        string? value = await handler.Handle(query, CancellationToken.None);
 
         // Assert
         value.Should().NotBeNull();

@@ -13,7 +13,7 @@ public class SecretsController(ISender sender) : ControllerBase
     [HttpGet("read")]
     public async Task<ActionResult<string>> Read(string key)
     {
-        var command = new ReadSecretCommand(key);
+        var command = new ReadSecretQuery(key);
         var result = await sender.Send(command);
 
         if (result is null)

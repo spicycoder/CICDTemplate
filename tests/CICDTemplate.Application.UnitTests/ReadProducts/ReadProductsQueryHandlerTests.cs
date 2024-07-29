@@ -10,7 +10,7 @@ using Microsoft.Extensions.Logging;
 
 using NSubstitute;
 
-namespace CICDTemplate.Application.UnitTests.Products.ReadProducts;
+namespace CICDTemplate.Application.UnitTests.ReadProducts;
 
 public class ReadProductsQueryHandlerTests
 {

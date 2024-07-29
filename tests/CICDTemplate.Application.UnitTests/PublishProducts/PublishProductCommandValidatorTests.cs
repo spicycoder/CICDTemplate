@@ -2,7 +2,7 @@
 
 using FluentAssertions;
 
-namespace CICDTemplate.Application.UnitTests.Products.PublishProducts;
+namespace CICDTemplate.Application.UnitTests.PublishProducts;
 
 public class PublishProductCommandValidatorTests
 {

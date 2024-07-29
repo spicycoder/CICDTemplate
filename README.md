@@ -63,7 +63,7 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Read state
     - [x] Delete state
 - [x] Secrets Management - Json File Based
-- [ ] Configurations Management
+- [x] Configurations Store
 - [x] Bindings
     - [x] Input: `Cron`
 - [ ] Code Tour✈️
@@ -84,4 +84,6 @@ Cloud Native - Clean Architecture template, ideal for
 - [ ] Package as Template
     - [x] Template Config
     - [ ] Publish as Nuget package
+- [ ] Automapper
+- [ ] Validation `Fluent Validation`
 - [ ] Code Tour✈️

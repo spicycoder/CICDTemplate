@@ -8,19 +8,19 @@ using Microsoft.Extensions.Logging;
 
 using NSubstitute;
 
-namespace CICDTemplate.Application.UnitTests.Products.ReadState;
+namespace CICDTemplate.Application.UnitTests.ReadState;
 
-public class ReadStateCommandTests
+public class ReadStateQueryHandlerTests
 {
     private readonly DaprClient _daprClient = Substitute.For<DaprClient>();
-    private readonly ILogger<ReadStateCommandHandler> _logger = Substitute.For<ILogger<ReadStateCommandHandler>>();
+    private readonly ILogger<ReadStateQueryHandler> _logger = Substitute.For<ILogger<ReadStateQueryHandler>>();
 
     [Fact]
     public async Task Handle_HappyPath_Success()
     {
         // Arrange
-        ReadStateCommand command = new("Cookies");
-        var handler = new ReadStateCommandHandler(_daprClient, _logger);
+        ReadStateQuery query = new("Cookies");
+        var handler = new ReadStateQueryHandler(_daprClient, _logger);
         _daprClient
             .GetStateAsync<ProductState?>(
             "statestore",
@@ -31,7 +31,7 @@ public class ReadStateCommandTests
             .Returns(new ProductState("Cookies", "Yummy!"));
 
         // Act
-        ProductState? state = await handler.Handle(command, CancellationToken.None);
+        ProductState? state = await handler.Handle(query, CancellationToken.None);
 
         // Assert
         await _daprClient

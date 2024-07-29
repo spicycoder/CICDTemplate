@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 using NSubstitute;
 
-namespace CICDTemplate.Application.UnitTests.Products.PublishProducts;
+namespace CICDTemplate.Application.UnitTests.PublishProducts;
 
 public class PublishProductCommandHandlerTests
 {
