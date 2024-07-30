@@ -2,33 +2,33 @@
 
 Cloud Native - Clean Architecture template, ideal for
 
-1. Web API 🕸️
-2. Pub / Sub 👂
-3. Schedulers ⏱️
+1. Web API
+2. Pub / Sub
+3. Schedulers
 
-## Clean Architecture 🧹
+## Clean Architecture
 
 - [x] `CQRS` - with `EF Core` - In Memory
 - [x] `MediatR`
-- [ ] Code Tour ✈️
+- [ ] Code Tour
 
-## Test Automation 🧪
+## Test Automation
 
 - [x] Unit Tests - `xUnit` and `NSubstitute`
 - [x] Functional Tests - In Memory API Testing `WebApplicationFactory` using `Testcontainers`
 - [x] Mutation Tests - `Stryker` *recommended for local only*
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
-- [ ] Code Tour ✈️
+- [ ] Code Tour
 
-## DevOps 🏗️
+## DevOps
 
 - [ ] Build Script - `PowerShell` / `Cake`
     - [x] Local build [build.ps1](./build.ps1)
     - [ ] CI / CD Pipeline Scripts
 - [ ] Helm Charts
 - [ ] Deployment Scripts - *yet to be decided*
-- [ ] Code Tour ✈️
+- [ ] Code Tour
 
 ## Orchestration
 
@@ -38,15 +38,15 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Distributed Cache - `Redis`
     - [x] Aspire Dashboard
     - [x] Jaeger
-- [ ] Code Tour ✈️
+- [ ] Code Tour
 
-## Health Checks 🩺
+## Health Checks
 
 - [x] Self
 - [x] PostgreSQL Database
 - [x] Redis
 - [ ] ~~MongoDB~~
-- [ ] Code Tour ✈️
+- [ ] Code Tour
 
 ## Observability
 
@@ -54,7 +54,7 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Metrics - `Aspire`
 - [x] Distributed Tracing - `Aspire` & `Jaeger`
 - [x] Aspire Dashboard
-- [ ] Code Tour✈️
+- [ ] Code Tour
 
 ## DAPR
 
@@ -68,13 +68,13 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Configurations Store
 - [x] Bindings
     - [x] Input: `Cron`
-- [ ] Code Tour✈️
+- [ ] Code Tour
 
-## Performance 📈
+## Performance
 
 - [ ] Benchmarking - using `Benchmark.NET`
 - [ ] Load Testing - using `K6`
-- [ ] Code Tour✈️
+- [ ] Code Tour
 
 ## Misc
 
@@ -87,5 +87,11 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Template Config
     - [ ] Publish as Nuget package
 - [ ] Automapper
-- [ ] Validation `Fluent Validation`
-- [ ] Code Tour✈️
+- [x] Validation `Fluent Validation`
+- [ ] GitHub Action
+    - [ ] Clean
+    - [ ] Restore
+    - [ ] Build
+    - [ ] Test
+    - [ ] Publish (nuget package)
+- [ ] Code Tour
