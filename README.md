@@ -36,6 +36,8 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] RDBMS - `PostgreSQL`
     - [ ] ~~NoSQL - `MongoDB`~~
     - [x] Distributed Cache - `Redis`
+    - [x] Aspire Dashboard
+    - [x] Jaeger
 - [ ] Code Tour ✈️
 
 ## Health Checks 🩺
