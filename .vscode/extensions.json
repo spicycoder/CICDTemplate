@@ -1,11 +1,18 @@
 {
     "recommendations": [
         "vsls-contrib.codetour",
-        "ms-dotnettools.csdevkit",
         "ms-dotnettools.csharp",
         "ms-dotnettools.vscodeintellicode-csharp",
         "ms-azuretools.vscode-dapr",
         "ms-azuretools.vscode-docker",
-        "josefpihrt-vscode.roslynator"
+        "josefpihrt-vscode.roslynator",
+        "ms-dotnettools.vscode-dotnet-pack",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-toolsai.jupyter",
+        "ms-toolsai.jupyter-renderers",
+        "ms-kubernetes-tools.vscode-kubernetes-tools",
+        "bierner.markdown-checkbox",
+        "ms-dotnettools.dotnet-interactive-vscode",
+        "ms-vscode.powershell"
     ]
 }
