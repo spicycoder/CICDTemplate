@@ -1,7 +1,5 @@
-﻿using CICDTemplate.Application.Abstractions.Caching;
-using CICDTemplate.Application.Products.Commands.CreateProduct;
+﻿using CICDTemplate.Application.Products.Commands.CreateProduct;
 using CICDTemplate.Application.Products.Queries.ReadProducts;
-using CICDTemplate.Domain.Abstract;
 using CICDTemplate.Domain.Entities;
 
 using MediatR;
@@ -14,8 +12,7 @@ namespace CICDTemplate.Api.Controllers.Products;
 [ApiController]
 public class ProductsController(
     ISender sender,
-    ILogger<ProductsController> logger,
-    ICacheService cacheService) : ControllerBase
+    ILogger<ProductsController> logger) : ControllerBase
 {
     [HttpPost]
     public async Task<ActionResult<Guid>> CreateProduct(
@@ -38,26 +35,15 @@ public class ProductsController(
     public async Task<ActionResult<ReadProductsResponse>> GetProducts(
         CancellationToken cancellationToken = default)
     {
-        Product[]? cachedProducts = await cacheService.GetAsync<Product[]>(Constants.AllProductsCacheKey, cancellationToken);
-
-        if (cachedProducts is null)
-        {
-            cachedProducts = await sender.Send(
+        Product[]? products = await sender.Send(
             new ReadProductsQuery(),
             cancellationToken);
 
-            await cacheService.SetAsync(
-                Constants.AllProductsCacheKey,
-                cachedProducts,
-                null,
-                cancellationToken);
-        }
-
-        ProductResponse[] productsResponse = cachedProducts!
+        ProductResponse[] productsResponse = products!
             .Select(x => new ProductResponse(x.Id, x.Name, x.Description))
             .ToArray();
 
-        logger.LogInformation("Found {Count} products: {@Products}", cachedProducts!.Length, cachedProducts!);
+        logger.LogInformation("Found {Count} products: {@Products}", products!.Length, products!);
 
         ReadProductsResponse response = new(new(productsResponse));
 
