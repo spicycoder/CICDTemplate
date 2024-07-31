@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: cicdtemplate-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: cicdtemplate-api
+  template:
+    metadata:
+      labels:
+        app: cicdtemplate-api
+      annotations:
+        dapr.io/enabled: "true"
+        dapr.io/app-id: "cicdtemplate"
+        dapr.io/app-port: "8080"
+    spec:
+      containers:
+      - name: cicdtemplate-api
+        image: spicycoder/cicdtemplate:latest
+        ports:
+        - containerPort: 8080
+        env:
+        - name: ASPNETCORE_ENVIRONMENT
+          value: Development
+        - name: ConnectionStrings__Cache
+          value: redis-master:6379
+        - name: ConnectionStrings__Database
+          value: "Host=postgres-postgresql;Port=5432;Database=cicdtemplatedb;Username=postgres;Password=postgres;"
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: cicdtemplate-api
+spec:
+  selector:
+    app: cicdtemplate-api
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
