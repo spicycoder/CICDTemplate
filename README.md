@@ -21,15 +21,6 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Code Coverage
 - [ ] Code Tour
 
-## DevOps
-
-- [ ] Build Script - `PowerShell` / `Cake`
-    - [x] Local build [build.ps1](./build.ps1)
-    - [ ] CI / CD Pipeline Scripts
-- [ ] Helm Charts
-- [ ] Deployment Scripts - *yet to be decided*
-- [ ] Code Tour
-
 ## Orchestration
 
 - [x] Docker compose
@@ -70,12 +61,6 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Input: `Cron`
 - [ ] Code Tour
 
-## Performance
-
-- [ ] Benchmarking - using `Benchmark.NET`
-- [ ] Load Testing - using `K6`
-- [ ] Code Tour
-
 ## Misc
 
 - [x] Git ignore
@@ -83,15 +68,39 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Build props
 - [x] Code Analysis
 - [x] Tool manifest
-- [ ] Package as Template
-    - [x] Template Config
-    - [ ] Publish as Nuget package
 - [ ] Automapper
 - [x] Validation `Fluent Validation`
+- [ ] Code Tour
+
+## Build
+
+- [x] Local build - Notebook
 - [ ] GitHub Action
     - [ ] Clean
     - [ ] Restore
     - [ ] Build
     - [ ] Test
+    - [ ] Publish Coverage Report
     - [ ] Publish (nuget package)
+- [ ] Package as Template
+    - [x] Template Config
+    - [ ] Publish as Nuget package
+
+## Deployment
+
+- [ ] Install Dependencies
+    - [ ] Redis
+    - [ ] Postgresql
+    - [ ] Aspire Dashboard
+- [ ] Dapr Components
+    - [ ] State store
+    - [ ] Pub / Sub
+    - [ ] Secret store
+    - [ ] Configuration store
+- [ ] Deploy API
+
+## Performance
+
+- [ ] Benchmarking - using `Benchmark.NET`
+- [ ] Load Testing - using `K6`
 - [ ] Code Tour
