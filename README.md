@@ -10,7 +10,6 @@ Cloud Native - Clean Architecture template, ideal for
 
 - [x] `CQRS` - with `EF Core` - In Memory
 - [x] `MediatR`
-- [ ] Code Tour
 
 ## Test Automation
 
@@ -19,7 +18,6 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Mutation Tests - `Stryker` *recommended for local only*
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
-- [ ] Code Tour
 
 ## Orchestration
 
@@ -29,7 +27,6 @@ Cloud Native - Clean Architecture template, ideal for
     - [x] Distributed Cache - `Redis`
     - [x] Aspire Dashboard
     - [x] Jaeger
-- [ ] Code Tour
 
 ## Health Checks
 
@@ -37,7 +34,6 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] PostgreSQL Database
 - [x] Redis
 - [ ] ~~MongoDB~~
-- [ ] Code Tour
 
 ## Observability
 
@@ -45,11 +41,11 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Metrics - `Aspire`
 - [x] Distributed Tracing - `Aspire` & `Jaeger`
 - [x] Aspire Dashboard
-- [ ] Code Tour
 
 ## DAPR
 
 - [x] Pub / Sub - `Redis Streams`
+    - [x] Code Tour
 - [ ] Service Invocation
 - [x] State Management - `Redis`
     - [x] Save state
@@ -59,7 +55,7 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Configurations Store
 - [x] Bindings
     - [x] Input: `Cron`
-- [ ] Code Tour
+        - [x] Code Tour
 
 ## Misc
 
@@ -70,7 +66,6 @@ Cloud Native - Clean Architecture template, ideal for
 - [x] Tool manifest
 - [ ] Automapper
 - [x] Validation `Fluent Validation`
-- [ ] Code Tour
 
 ## Build
 
@@ -103,4 +98,3 @@ Cloud Native - Clean Architecture template, ideal for
 
 - [ ] Benchmarking - using `Benchmark.NET`
 - [ ] Load Testing - using `K6`
-- [ ] Code Tour
