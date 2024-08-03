@@ -27,7 +27,7 @@ jobs:
     - name: Build
       run: dotnet build -c Release ./CICDTemplate.sln --no-restore
     - name: Test
-      run: dotnet test -c Release ./CICDTemplate.sln --collect:"XPlat Code Coverage" --settings ../coverage.runsettings --no-build
+      run: dotnet test -c Release ./CICDTemplate.sln --collect:"XPlat Code Coverage" --settings ./coverage.runsettings --no-build
     - name: Generate coverage report
       run: dotnet reportgenerator "-reports:./**/coverage.cobertura.xml" "-targetdir:./.coverage" -reporttypes:"Html_Dark;SonarQube"
       
