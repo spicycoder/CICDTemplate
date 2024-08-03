@@ -1,5 +1,7 @@
 # CI / CD Template
 
+[![cn-ca build](https://github.com/spicycoder/CICDTemplate/actions/workflows/dotnet.yml/badge.svg)](https://github.com/spicycoder/CICDTemplate/actions/workflows/dotnet.yml)
+
 Cloud Native - Clean Architecture template, ideal for
 
 1. Web API
