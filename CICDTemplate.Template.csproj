@@ -21,7 +21,6 @@
         <Content Include="**\*" Exclude="
             **/bin/**;
             **/obj/**;
-            .template.config/**;
             **/*.filelist;
             **/*.user;
             **/.git/**;
