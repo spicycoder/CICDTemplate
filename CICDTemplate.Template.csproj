@@ -1,0 +1,44 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <PackageType>Template</PackageType>
+        <PackageVersion>1.0.0</PackageVersion>
+        <PackageId>CloudNative.CleanArchitecture.Template</PackageId>
+        <Title>Cloud Native Clean Architecture Template</Title>
+        <Authors>SpicyCoder</Authors>
+        <Description>A template for creating a Clean Architecture based Cloud Native solution.</Description>
+        <PackageTags>dotnet-new;templates;web;webapi;clean-architecture;cicd</PackageTags>
+        <NoBuild>true</NoBuild>
+        <IncludeContentInPack>true</IncludeContentInPack>
+        <IncludeBuildOutput>false</IncludeBuildOutput>
+        <IsPackable>true</IsPackable>
+        <ContentTargetFolders>content</ContentTargetFolders>
+        <SuppressDependenciesWhenPacking>true</SuppressDependenciesWhenPacking>
+        <NoDefaultExcludes>true</NoDefaultExcludes>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Content Include="**\*" Exclude="
+            **/bin/**;
+            **/obj/**;
+            .template.config/**;
+            **/*.filelist;
+            **/*.user;
+            **/.git/**;
+            .dockerignore;
+            .gitignore;
+            .editorconfig;
+            **/*.lock.json;
+            **/.coverage/**;
+            **/CICDTemplate.Template.csproj;
+            .vs/**;
+            build/pack-as-template.ipynb;
+            " />
+        <Compile Remove="**\*" />
+        <None Remove="**\*" />
+    </ItemGroup>
+    <ItemGroup>
+        <Content Include=".dockerignore" PackagePath="content\.dockerignore" />
+        <Content Include=".gitignore" PackagePath="content\.gitignore" />
+        <Content Include=".editorconfig" PackagePath="content\.editorconfig" />
+    </ItemGroup>
+</Project>
