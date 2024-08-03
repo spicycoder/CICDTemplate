@@ -1,8 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <PackageVersion>1.0.0</PackageVersion>
+        <PackageVersion>1.0.1</PackageVersion>
         <PackageId>CloudNative.CleanArchitecture.Template</PackageId>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
         <Title>Cloud Native Clean Architecture Template</Title>
         <Authors>SpicyCoder</Authors>
         <Description>A template for creating a Clean Architecture based Cloud Native solution.</Description>
@@ -40,5 +41,6 @@
         <Content Include=".dockerignore" PackagePath="content\.dockerignore" />
         <Content Include=".gitignore" PackagePath="content\.gitignore" />
         <Content Include=".editorconfig" PackagePath="content\.editorconfig" />
+        <None Include="README.md" Pack="true" PackagePath="" />
     </ItemGroup>
 </Project>
