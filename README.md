@@ -39,10 +39,16 @@ Cloud Native - Clean Architecture template, ideal for
 
 ## Observability
 
-- [x] Logging - `Aspire`
-- [x] Metrics - `Aspire`
-- [x] Distributed Tracing - `Aspire` & `Jaeger`
-- [x] Aspire Dashboard
+- [x] Logging
+    - [x] `Aspire Dashboard`
+    - [x] `Seq`
+    - [ ] `OpenSearch` + `OpenSearch-Dashboard`
+- [x] Metrics
+    - [x] `Aspire Dashboard`
+    - [ ] `Prometheus` + `Grafana`
+- [x] Distributed Tracing
+    - [x] `Aspire Dashboard`
+    - [x] `Jaeger`
 
 ## DAPR
 
