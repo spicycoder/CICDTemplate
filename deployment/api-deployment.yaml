@@ -24,19 +24,9 @@ spec:
         env:
         - name: ASPNETCORE_ENVIRONMENT
           value: Development
+        - name: OTEL_EXPORTER_OTLP_ENDPOINT
+          value: "http://aspire-dashboard-service:18889"
         - name: ConnectionStrings__Cache
           value: redis-master:6379
         - name: ConnectionStrings__Database
           value: "Host=postgres-postgresql;Port=5432;Database=cicdtemplatedb;Username=postgres;Password=postgres;"
----
-apiVersion: v1
-kind: Service
-metadata:
-  name: cicdtemplate-api
-spec:
-  selector:
-    app: cicdtemplate-api
-  ports:
-    - protocol: TCP
-      port: 8080
-      targetPort: 8080

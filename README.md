@@ -78,29 +78,29 @@ Cloud Native - Clean Architecture template, ideal for
 ## Build
 
 - [x] Local build - Notebook
-- [ ] GitHub Action
-    - [ ] Clean
-    - [ ] Restore
-    - [ ] Build
-    - [ ] Test
-    - [ ] Publish Coverage Report
-    - [ ] Publish (nuget package)
-- [ ] Package as Template
-    - [x] Template Config
-    - [ ] Publish as Nuget package
+- [x] GitHub Action
+    - [x] Tool Restore
+    - [x] Package Restore
+    - [x] Build
+    - [x] Test
+    - [x] Publish Coverage Report
+    - [x] Pack as nuget package
+    - [x] Push to nuget.org
 
 ## Deployment
 
-- [ ] Install Dependencies
-    - [ ] Redis
-    - [ ] Postgresql
-    - [ ] Aspire Dashboard
-- [ ] Dapr Components
-    - [ ] State store
-    - [ ] Pub / Sub
-    - [ ] Secret store
-    - [ ] Configuration store
-- [ ] Deploy API
+- [x] Install Dependencies
+    - [x] Dapr
+    - [x] Redis
+    - [x] Postgresql
+    - [x] Aspire Dashboard
+- [x] Dapr Components
+    - [x] State store
+    - [x] Pub / Sub
+    - [x] Secret store
+    - [x] Configuration store
+    - [x] Cron Binding
+- [x] Deploy API
 
 ## Performance
 
