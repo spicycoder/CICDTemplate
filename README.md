@@ -8,6 +8,20 @@ Cloud Native - Clean Architecture template, ideal for
 2. Pub / Sub
 3. Schedulers
 
+## Usage
+
+Install the template
+
+```sh
+dotnet new install CloudNative.CleanArchitecture.Template
+```
+
+To create a new solution
+
+```sh
+dotnet new cn-ca -n MyCloudNativeApi
+```
+
 ## Clean Architecture
 
 - [x] `CQRS` - with `EF Core` - In Memory
