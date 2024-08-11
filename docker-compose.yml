@@ -30,6 +30,7 @@ services:
 
   redis:
     image: redis:latest
+    container_name: redis-store
     ports:
       - 6500:6379
 
