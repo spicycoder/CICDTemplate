@@ -14,7 +14,6 @@ public static class OpenTelemetryExtensions
         builder
             .Services
             .AddOpenTelemetry()
-            .ConfigureResource(resource => resource.AddService("CICDTemplate.Api"))
             .WithMetrics(metrics =>
             {
                 metrics

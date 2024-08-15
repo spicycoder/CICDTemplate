@@ -8,6 +8,7 @@ services:
       dockerfile: src/CICDTemplate.Api/Dockerfile
     environment:
         - OTEL_EXPORTER_OTLP_ENDPOINT=http://aspire-dashboard:18889
+        - OTEL_SERVICE_NAME=CICDTemplate.Api
         # - OTEL_EXPORTER_OTLP_ENDPOINT=http://seq:5341/ingest/otlp
         # - OTEL_EXPORTER_OTLP_PROTOCOL=http/protobuf
         # - OTEL_EXPORTER_OTLP_ENDPOINT=http://jaeger:4317
