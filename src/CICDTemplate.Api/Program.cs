@@ -1,3 +1,5 @@
+using AspNetCore.Swagger.Themes;
+
 using CICDTemplate.Api.Extensions;
 using CICDTemplate.Application;
 using CICDTemplate.Infrastructure;
@@ -19,7 +21,7 @@ var app = builder.Build();
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(ModernStyle.Futuristic);
     await app.MigrateAndSeed();
 }
 
