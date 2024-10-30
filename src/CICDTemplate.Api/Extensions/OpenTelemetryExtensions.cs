@@ -3,6 +3,8 @@ using OpenTelemetry.Metrics;
 using OpenTelemetry.Resources;
 using OpenTelemetry.Trace;
 
+using Serilog;
+
 namespace CICDTemplate.Api.Extensions;
 
 public static class OpenTelemetryExtensions
@@ -40,6 +42,15 @@ public static class OpenTelemetryExtensions
                 logging.IncludeScopes = true;
 
                 logging.AddOtlpExporter();
+            });
+
+        builder
+            .Services
+            .AddSerilog((context, loggerConfiguration) =>
+            {
+                loggerConfiguration
+                    .ReadFrom.Configuration(builder.Configuration)
+                    .Enrich.FromLogContext();
             });
 
         return builder;
