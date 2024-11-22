@@ -1,0 +1,3 @@
+[*]
+dotnet_diagnostic.CA1707.severity = none
+dotnet_diagnostic.IDE0055.severity = none

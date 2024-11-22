@@ -16,11 +16,11 @@ public sealed class DeleteStateCommandHandler(
     {
         ArgumentNullException.ThrowIfNull(request);
 
-        logger.LogInformation("Deleting state: {ProductName}", request.productName);
+        logger.LogInformation("Deleting state: {ProductName}", request.ProductName);
 
         await daprClient.DeleteStateAsync(
             Constants.StateStoreName,
-            request.productName,
+            request.ProductName,
             cancellationToken: cancellationToken);
     }
 }
