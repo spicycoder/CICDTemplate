@@ -26,7 +26,9 @@ spec:
           value: Development
         - name: OTEL_EXPORTER_OTLP_ENDPOINT
           value: "http://aspire-dashboard-service:18889"
-        - name: ConnectionStrings__Cache
+        - name: OTEL_SERVICE_NAME
+          value: "CICDTemplate.Api"
+        - name: ConnectionStrings__redis
           value: redis-master:6379
-        - name: ConnectionStrings__Database
+        - name: ConnectionStrings__cicdtemplatedb
           value: "Host=postgres-postgresql;Port=5432;Database=cicdtemplatedb;Username=postgres;Password=postgres;"

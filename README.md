@@ -1,6 +1,6 @@
 # CI / CD Template
 
-Cloud Native - Clean Architecture template, for ASP.NET 8 Web API, powered by DAPR
+Cloud Native - Clean Architecture template, for ASP.NET 9 Web API, powered by DAPR
 
 | Build Status | Nuget Version |
 | --- | --- |

@@ -3,7 +3,6 @@
     <UserSecretsId>659244cc-54b5-47ab-854c-702542705ebb</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
     <DockerfileContext>..\..</DockerfileContext>
-    <DockerComposeProjectPath>..\..\docker-compose.dcproj</DockerComposeProjectPath>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="AspNetCore.HealthChecks.NpgSql" Version="8.0.2" />
@@ -34,5 +33,6 @@
     <ProjectReference Include="..\CICDTemplate.Application\CICDTemplate.Application.csproj" />
     <ProjectReference Include="..\CICDTemplate.Domain\CICDTemplate.Domain.csproj" />
     <ProjectReference Include="..\CICDTemplate.Infrastructure\CICDTemplate.Infrastructure.csproj" />
+    <ProjectReference Include="..\CICDTemplate.ServiceDefaults\CICDTemplate.ServiceDefaults.csproj" />
   </ItemGroup>
 </Project>

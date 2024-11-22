@@ -17,12 +17,11 @@ Checklist on roadmap
 
 ## Orchestration
 
-- [x] Docker compose
+- [x] Aspire
     - [x] RDBMS - `PostgreSQL`
     - [ ] ~~NoSQL - `MongoDB`~~
     - [x] Distributed Cache - `Redis`
     - [x] Aspire Dashboard
-    - [x] Jaeger
 
 ## Health Checks
 
@@ -31,18 +30,11 @@ Checklist on roadmap
 - [x] Redis
 - [ ] ~~MongoDB~~
 
-## Observability
+## Observability - `Aspire Dashboard`
 
 - [x] Logging
-    - [x] `Aspire Dashboard`
-    - [x] `Seq`
-    - [ ] `OpenSearch` + `OpenSearch-Dashboard`
 - [x] Metrics
-    - [x] `Aspire Dashboard`
-    - [ ] `Prometheus` + `Grafana`
 - [x] Distributed Tracing
-    - [x] `Aspire Dashboard`
-    - [x] `Jaeger`
 
 ## DAPR
 
@@ -98,5 +90,4 @@ Checklist on roadmap
 
 ## Performance
 
-- [ ] Benchmarking - using `Benchmark.NET`
 - [ ] Load Testing - using `K6`

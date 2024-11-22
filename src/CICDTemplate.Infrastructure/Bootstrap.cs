@@ -24,11 +24,8 @@ public static class Bootstrap
         string dbConnectionString = configuration.GetConnectionString(Constants.DatabaseConnectionstringName)
             ?? throw new ArgumentNullException(nameof(configuration));
 
-        services.AddDbContext<ApplicationDbContext>(options =>
-        {
-            options
-            .UseNpgsql(dbConnectionString);
-        });
+        services.AddDbContext<ApplicationDbContext>(options => options
+            .UseNpgsql(dbConnectionString));
 
         string cacheConnectionString = configuration.GetConnectionString(Constants.CacheConnectionstringName)
             ?? throw new ArgumentNullException(nameof(configuration));

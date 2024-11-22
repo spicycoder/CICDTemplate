@@ -47,14 +47,11 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
         ArgumentNullException.ThrowIfNull(builder);
 
         builder
-            .ConfigureHostConfiguration(config =>
-            {
-                config.AddInMemoryCollection(
+            .ConfigureHostConfiguration(config => config.AddInMemoryCollection(
                 [
-                    new("ConnectionStrings:Database", _dbContainer.GetConnectionString()),
-                    new("ConnectionStrings:Cache", _redisContainer.GetConnectionString())
-                ]);
-            });
+                    new($"ConnectionStrings:{Domain.Abstract.Constants.DatabaseConnectionstringName}", _dbContainer.GetConnectionString()),
+                    new($"ConnectionStrings:{Domain.Abstract.Constants.CacheConnectionstringName}", _redisContainer.GetConnectionString())
+                ]));
 
         builder.ConfigureServices(services => services.AddSingleton(_ => MockDaprClient.Object));
 

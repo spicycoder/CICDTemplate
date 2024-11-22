@@ -8,6 +8,6 @@ public static class Constants
     public const string StateStoreName = "statestore";
     public const string SecretsStoreName = "secretstore";
     public const string ConfigStoreName = "configstore";
-    public const string DatabaseConnectionstringName = "Database";
-    public const string CacheConnectionstringName = "Cache";
+    public const string DatabaseConnectionstringName = "cicdtemplatedb";
+    public const string CacheConnectionstringName = "redis";
 }
