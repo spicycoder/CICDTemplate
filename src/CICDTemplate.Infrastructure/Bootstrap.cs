@@ -27,8 +27,7 @@ public static class Bootstrap
         services.AddDbContext<ApplicationDbContext>(options =>
         {
             options
-            .UseNpgsql(dbConnectionString)
-            .UseSnakeCaseNamingConvention();
+            .UseNpgsql(dbConnectionString);
         });
 
         string cacheConnectionString = configuration.GetConnectionString(Constants.CacheConnectionstringName)
