@@ -4,7 +4,9 @@ using Aspire.Hosting.Dapr;
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
 
 bool portSpecified = int.TryParse(builder.Configuration["Redis:Port"], out int port);
-IResourceBuilder<RedisResource> redis = builder.AddRedis("redis", portSpecified ? port : null);
+IResourceBuilder<RedisResource> redis = builder
+    .AddRedis("redis", portSpecified ? port : null)
+    .WithRedisCommander();
 
 IResourceBuilder<IDaprComponentResource> statestore = builder.AddDaprStateStore(
     "statestore",
