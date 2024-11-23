@@ -2,6 +2,8 @@
     <PropertyGroup>
         <PackageType>Template</PackageType>
         <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd")).$([System.DateTime]::Now.TimeOfDay.TotalSeconds.ToString(0))</PackageVersion>
+        <RepositoryUrl>https://github.com/spicycoder/CICDTemplate</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
         <PackageId>CloudNative.CleanArchitecture.Template</PackageId>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <Title>Cloud Native Clean Architecture Template</Title>
