@@ -4,13 +4,21 @@ Checklist on roadmap
 
 ## Clean Architecture
 
-- [x] `CQRS` - with `EF Core` - In Memory
+> Replace with Vertical Slice Architecture
+
+- [x] `CQRS`
+    - [ ] Commands with `PostgreSql` + `EF Core`
+    - [ ] Queries with `MongoDB` + `EF Core`
+    - [ ] CDC using Debezium
 - [x] `MediatR`
 
 ## Test Automation
 
 - [x] Unit Tests - `xUnit` and `NSubstitute`
-- [x] Functional Tests - In Memory API Testing `WebApplicationFactory` using `Testcontainers`
+- [x] Functional Tests
+    - [x] In Memory API Testing `WebApplicationFactory`
+    - [x] `Testcontainers`
+    - [ ] BDD using `Reqnroll`
 - [x] Mutation Tests - `Stryker` *recommended for local only*
 - [x] Architecture Tests - `NetArchTest.Rules`
 - [x] Code Coverage
@@ -19,7 +27,7 @@ Checklist on roadmap
 
 - [x] Aspire
     - [x] RDBMS - `PostgreSQL`
-    - [ ] ~~NoSQL - `MongoDB`~~
+    - [ ] NoSQL - `MongoDB`
     - [x] Distributed Cache - `Redis`
     - [x] Aspire Dashboard
 
@@ -28,7 +36,7 @@ Checklist on roadmap
 - [x] Self
 - [x] PostgreSQL Database
 - [x] Redis
-- [ ] ~~MongoDB~~
+- [ ] MongoDB
 
 ## Observability - `Aspire Dashboard`
 
@@ -58,7 +66,7 @@ Checklist on roadmap
 - [x] Build props
 - [x] Code Analysis
 - [x] Tool manifest
-- [ ] Automapper
+- [ ] Automapper / Mapster
 - [x] Validation `Fluent Validation`
 
 ## Build
