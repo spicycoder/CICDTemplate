@@ -68,6 +68,7 @@ Checklist on roadmap
 - [x] Tool manifest
 - [ ] Automapper / Mapster
 - [x] Validation `Fluent Validation`
+- [x] `Dependabot` to update outdated nuget packages
 
 ## Build
 
