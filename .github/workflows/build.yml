@@ -35,4 +35,5 @@ jobs:
     - name: Create the package
       run: dotnet pack -c Release ./CICDTemplate.Template.csproj
     - name: Publish the package to GPR
+      if: github.ref == 'refs/heads/main'
       run: dotnet nuget push ./bin/Release/*.nupkg --source https://api.nuget.org/v3/index.json --api-key ${{ secrets.NUGET_API_KEY }}
