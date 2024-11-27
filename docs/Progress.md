@@ -69,6 +69,7 @@ Checklist on roadmap
 - [ ] Automapper / Mapster
 - [x] Validation `Fluent Validation`
 - [x] `Dependabot` to update outdated nuget packages
+- [x] Security Score Card
 
 ## Build
 
