@@ -2,9 +2,11 @@
 
 Cloud Native - Clean Architecture template, for ASP.NET 9 Web API, powered by DAPR
 
-| Build Status | Nuget Version | Score Card |
-| --- | --- | --- |
-| [![cn-ca build](https://github.com/spicycoder/CICDTemplate/actions/workflows/build.yml/badge.svg)](https://github.com/spicycoder/CICDTemplate/actions/workflows/build.yml) | [![NuGet Version](https://img.shields.io/nuget/v/CloudNative.CleanArchitecture.Template)](https://www.nuget.org/packages/CloudNative.CleanArchitecture.Template) | [![Scorecard supply-chain security](https://github.com/spicycoder/CICDTemplate/actions/workflows/scorecard.yml/badge.svg)](https://github.com/spicycoder/CICDTemplate/actions/workflows/scorecard.yml) |
+| Component | Badge |
+| --- | --- |
+| Build Status | [![cn-ca build](https://github.com/spicycoder/CICDTemplate/actions/workflows/build.yml/badge.svg)](https://github.com/spicycoder/CICDTemplate/actions/workflows/build.yml) |
+| Nuget Version | [![NuGet Version](https://img.shields.io/nuget/v/CloudNative.CleanArchitecture.Template)](https://www.nuget.org/packages/CloudNative.CleanArchitecture.Template) |
+| Security Score Card | [![Scorecard supply-chain security](https://github.com/spicycoder/CICDTemplate/actions/workflows/scorecard.yml/badge.svg)](https://github.com/spicycoder/CICDTemplate/actions/workflows/scorecard.yml) |
 
 ## Usage
 
