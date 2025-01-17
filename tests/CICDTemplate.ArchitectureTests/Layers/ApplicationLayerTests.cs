@@ -1,6 +1,6 @@
 ﻿using CICDTemplate.ArchitectureTests.Infrastructure;
 
-using FluentAssertions;
+using Shouldly;
 
 using FluentValidation;
 
@@ -20,7 +20,7 @@ public class ApplicationLayerTests : BaseTest
             .NotHaveDependencyOn(InfrastructureAssembly.GetName().Name)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 
     [Fact]
@@ -31,7 +31,7 @@ public class ApplicationLayerTests : BaseTest
             .NotHaveDependencyOn(PresentationAssembly.GetName().Name)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 
     [Fact]
@@ -44,7 +44,7 @@ public class ApplicationLayerTests : BaseTest
             .HaveNameEndingWith("Handler", StringComparison.InvariantCulture)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 
     [Fact]
@@ -57,6 +57,6 @@ public class ApplicationLayerTests : BaseTest
             .HaveNameEndingWith("Validator", StringComparison.InvariantCulture)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 }

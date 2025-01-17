@@ -2,7 +2,7 @@
 
 using Dapr.Client;
 
-using FluentAssertions;
+using Shouldly;
 
 using Microsoft.Extensions.Logging;
 
@@ -43,8 +43,8 @@ public class ReadStateQueryHandlerTests
             null,
             Arg.Any<CancellationToken>());
 
-        state.Should().NotBeNull();
-        state!.Name.Should().Be("Cookies");
-        state!.Description.Should().Be("Yummy!");
+        state.ShouldNotBeNull();
+        state!.Name.ShouldBe("Cookies");
+        state!.Description.ShouldBe("Yummy!");
     }
 }

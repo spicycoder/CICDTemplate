@@ -2,7 +2,7 @@
 
 using Dapr.Client;
 
-using FluentAssertions;
+using Shouldly;
 using Moq;
 using System.Net;
 using System.Web;
@@ -44,7 +44,7 @@ public class ConfigurationsControllerTests
         HttpResponseMessage response = await _httpClient.GetAsync(uri, CancellationToken.None);
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
     }
 
     [Fact]
@@ -70,6 +70,6 @@ public class ConfigurationsControllerTests
         HttpResponseMessage response = await _httpClient.GetAsync(uri, CancellationToken.None);
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.NotFound);
+        response.StatusCode.ShouldBe(HttpStatusCode.NotFound);
     }
 }

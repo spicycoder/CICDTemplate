@@ -5,7 +5,7 @@ using System.Text.Json;
 
 using CICDTemplate.Api.Models.Common;
 
-using FluentAssertions;
+using Shouldly;
 
 namespace CICDTemplate.FunctionalTests.Subscriber;
 
@@ -36,6 +36,6 @@ public class SubscriberControllerTests
         content.Dispose();
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
     }
 }

@@ -3,7 +3,7 @@ using System.Net.Http.Json;
 
 using CICDTemplate.Api.Controllers.Products;
 
-using FluentAssertions;
+using Shouldly;
 
 namespace CICDTemplate.FunctionalTests.Products;
 
@@ -30,10 +30,9 @@ public class CreateProductsTests
         Guid? result = await response.Content.ReadFromJsonAsync<Guid?>();
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
-        result.Should().NotBeNull();
-        result.Value.Should().NotBeEmpty();
-        result.Value.Should().NotBe(Guid.Empty);
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
+        result.ShouldNotBeNull();
+        result.Value.ShouldNotBe(Guid.Empty);
     }
 
     [Fact]
@@ -47,6 +46,6 @@ public class CreateProductsTests
         var response = await _httpClient.PostAsJsonAsync(uri, request);
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.BadRequest);
+        response.StatusCode.ShouldBe(HttpStatusCode.BadRequest);
     }
 }

@@ -2,7 +2,7 @@
 
 using CICDTemplate.Api.Controllers.Products;
 
-using FluentAssertions;
+using Shouldly;
 
 namespace CICDTemplate.FunctionalTests.Products;
 
@@ -27,7 +27,7 @@ public class GetProductsTests
         ReadProductsResponse? response = await _httpClient.GetFromJsonAsync<ReadProductsResponse>(uri);
 
         // Assert
-        response.Should().NotBeNull();
-        response!.Products.Count.Should().BeGreaterThanOrEqualTo(10);
+        response.ShouldNotBeNull();
+        response!.Products.Count.ShouldBeGreaterThanOrEqualTo(10);
     }
 }

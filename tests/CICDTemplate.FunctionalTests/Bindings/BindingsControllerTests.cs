@@ -1,6 +1,6 @@
 ﻿using System.Net;
 
-using FluentAssertions;
+using Shouldly;
 
 namespace CICDTemplate.FunctionalTests.Bindings;
 
@@ -26,6 +26,6 @@ public class BindingsControllerTests
         var response = await _httpClient.PostAsync(uri, null);
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
     }
 }

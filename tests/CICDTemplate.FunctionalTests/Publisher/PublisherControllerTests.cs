@@ -8,7 +8,7 @@ using CICDTemplate.Domain.Abstract;
 
 using Dapr.Client;
 
-using FluentAssertions;
+using Shouldly;
 
 using Moq;
 
@@ -51,6 +51,6 @@ public class PublisherControllerTests
         content.Dispose();
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
     }
 }

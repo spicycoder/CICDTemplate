@@ -1,6 +1,6 @@
 ﻿using CICDTemplate.ArchitectureTests.Infrastructure;
 
-using FluentAssertions;
+using Shouldly;
 
 using NetArchTest.Rules;
 
@@ -16,6 +16,6 @@ public class InfrastructureTests : BaseTest
             .NotHaveDependencyOn(PresentationAssembly.GetName().Name)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 }

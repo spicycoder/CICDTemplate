@@ -3,7 +3,7 @@ using CICDTemplate.Domain.Abstract;
 
 using Dapr.Client;
 
-using FluentAssertions;
+using Shouldly;
 
 using Microsoft.Extensions.Logging;
 
@@ -37,7 +37,7 @@ public class ReadSecretQueryHandlerTests
         string? value = await handler.Handle(query, CancellationToken.None);
 
         // Assert
-        value.Should().NotBeNull();
-        value!.Should().Be("Yummy!");
+        value.ShouldNotBeNull();
+        value!.ShouldBe("Yummy!");
     }
 }

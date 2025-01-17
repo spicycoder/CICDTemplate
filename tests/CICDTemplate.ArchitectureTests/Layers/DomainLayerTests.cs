@@ -3,7 +3,7 @@
 using CICDTemplate.ArchitectureTests.Infrastructure;
 using CICDTemplate.Domain.Entities;
 
-using FluentAssertions;
+using Shouldly;
 
 using NetArchTest.Rules;
 
@@ -19,7 +19,7 @@ public class DomainLayerTests : BaseTest
             .NotHaveDependencyOn(ApplicationAssembly.GetName().Name)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 
     [Fact]
@@ -30,7 +30,7 @@ public class DomainLayerTests : BaseTest
             .NotHaveDependencyOn(InfrastructureAssembly.GetName().Name)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 
     [Fact]
@@ -41,7 +41,7 @@ public class DomainLayerTests : BaseTest
             .NotHaveDependencyOn(PresentationAssembly.GetName().Name)
             .GetResult();
 
-        result.IsSuccessful.Should().BeTrue();
+        result.IsSuccessful.ShouldBeTrue();
     }
 
     [Fact]
@@ -57,6 +57,6 @@ public class DomainLayerTests : BaseTest
             .SelectMany(x => x.GetConstructors(BindingFlags.NonPublic | BindingFlags.Instance))
             .Any(y => !y.IsPrivate || y.GetParameters().Length > 0);
 
-        violatingEntities.Should().BeFalse();
+        violatingEntities.ShouldBeFalse();
     }
 }

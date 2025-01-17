@@ -7,7 +7,7 @@ using CICDTemplate.Domain.Abstract;
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Domain.Repositories;
 
-using FluentAssertions;
+using Shouldly;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
 
@@ -47,8 +47,8 @@ public class ReadProductsQueryHandlerTests
         var response = await handler.Handle(new ReadProductsQuery(), CancellationToken.None);
 
         // Assert
-        response.Should().NotBeNull();
-        response!.Length.Should().Be(10);
+        response.ShouldNotBeNull();
+        response!.Length.ShouldBe(10);
 
         await _productsRepository
             .Received(0)
@@ -83,8 +83,8 @@ public class ReadProductsQueryHandlerTests
         var response = await handler.Handle(new ReadProductsQuery(), CancellationToken.None);
 
         // Assert
-        response.Should().NotBeNull();
-        response!.Length.Should().Be(10);
+        response.ShouldNotBeNull();
+        response!.Length.ShouldBe(10);
 
         await _productsRepository
             .Received(1)

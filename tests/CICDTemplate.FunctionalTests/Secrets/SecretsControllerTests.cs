@@ -5,7 +5,7 @@ using CICDTemplate.Domain.Abstract;
 
 using Dapr.Client;
 
-using FluentAssertions;
+using Shouldly;
 
 using Moq;
 
@@ -45,7 +45,7 @@ public class SecretsControllerTests
         HttpResponseMessage response = await _httpClient.GetAsync(uri, CancellationToken.None);
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.OK);
+        response.StatusCode.ShouldBe(HttpStatusCode.OK);
     }
 
     [Fact]
@@ -70,6 +70,6 @@ public class SecretsControllerTests
         HttpResponseMessage response = await _httpClient.GetAsync(uri, CancellationToken.None);
 
         // Assert
-        response.StatusCode.Should().Be(HttpStatusCode.NotFound);
+        response.StatusCode.ShouldBe(HttpStatusCode.NotFound);
     }
 }

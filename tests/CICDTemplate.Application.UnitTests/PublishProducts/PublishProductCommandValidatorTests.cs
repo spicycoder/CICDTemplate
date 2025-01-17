@@ -1,6 +1,6 @@
 ﻿using CICDTemplate.Application.PubSub.Commands.PublishProduct;
 
-using FluentAssertions;
+using Shouldly;
 
 namespace CICDTemplate.Application.UnitTests.PublishProducts;
 
@@ -17,7 +17,7 @@ public class PublishProductCommandValidatorTests
         var result = validator.Validate(command);
 
         // Assert
-        result.IsValid.Should().BeTrue();
+        result.IsValid.ShouldBeTrue();
     }
 
     [Fact]
@@ -31,7 +31,7 @@ public class PublishProductCommandValidatorTests
         var result = validator.Validate(command);
 
         // Assert
-        result.IsValid.Should().BeFalse();
+        result.IsValid.ShouldBeFalse();
     }
 
     [Fact]
@@ -45,7 +45,7 @@ public class PublishProductCommandValidatorTests
         var result = validator.Validate(command);
 
         // Assert
-        result.IsValid.Should().BeFalse();
+        result.IsValid.ShouldBeFalse();
     }
 
 
@@ -61,7 +61,7 @@ public class PublishProductCommandValidatorTests
         var result = validator.Validate(command);
 
         // Assert
-        result.IsValid.Should().BeTrue();
+        result.IsValid.ShouldBeTrue();
     }
 
     [Fact]
@@ -75,6 +75,6 @@ public class PublishProductCommandValidatorTests
         var result = validator.Validate(command);
 
         // Assert
-        result.IsValid.Should().BeFalse();
+        result.IsValid.ShouldBeFalse();
     }
 }

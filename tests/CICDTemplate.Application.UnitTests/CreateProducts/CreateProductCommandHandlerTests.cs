@@ -3,7 +3,7 @@ using CICDTemplate.Application.Products.Commands.CreateProduct;
 using CICDTemplate.Domain.Entities;
 using CICDTemplate.Domain.Repositories;
 
-using FluentAssertions;
+using Shouldly;
 
 using NSubstitute;
 
@@ -38,7 +38,7 @@ public class CreateProductCommandHandlerTests
             new CancellationToken());
 
         // Assert
-        response.Should().NotBeNull();
-        response!.Should().Be(expectedId);
+        response.ShouldNotBeNull();
+        response!.ShouldBe(expectedId);
     }
 }

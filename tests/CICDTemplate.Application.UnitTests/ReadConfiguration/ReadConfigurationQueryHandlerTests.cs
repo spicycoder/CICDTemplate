@@ -4,7 +4,7 @@ using CICDTemplate.Domain.Abstract;
 
 using Dapr.Client;
 
-using FluentAssertions;
+using Shouldly;
 using Microsoft.Extensions.Logging;
 using NSubstitute;
 
@@ -38,7 +38,7 @@ public class ReadConfigurationQueryHandlerTests
         string? value = await handler.Handle(query, CancellationToken.None);
 
         // Assert
-        value.Should().NotBeNull();
-        value!.Should().Be("Yummy!");
+        value.ShouldNotBeNull();
+        value!.ShouldBe("Yummy!");
     }
 }
