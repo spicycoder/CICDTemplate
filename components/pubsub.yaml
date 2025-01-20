@@ -3,8 +3,6 @@ kind: Component
 metadata:
   name: pubsub
 spec:
-  type: pubsub.redis
+  type: pubsub.in-memory
   version: v1
-  metadata:
-  - name: redisHost
-    value: localhost:6500
+  metadata: []

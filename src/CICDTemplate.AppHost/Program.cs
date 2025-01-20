@@ -19,7 +19,7 @@ IResourceBuilder<IDaprComponentResource> pubsub = builder.AddDaprPubSub(
     new DaprComponentOptions
     {
         LocalPath = "../../components/pubsub.yaml"
-    }).WaitFor(redis);
+    });
 
 IResourceBuilder<IDaprComponentResource> secretstore = builder.AddDaprComponent(
     "secretstore",
