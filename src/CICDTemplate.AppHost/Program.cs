@@ -1,4 +1,3 @@
-
 using Aspire.Hosting.Dapr;
 
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
@@ -53,13 +52,13 @@ IResourceBuilder<PostgresDatabaseResource> db = builder
 
 builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplate-api")
-    .WithReference(redis)
-    .WithReference(db)
-    .WithReference(statestore)
-    .WithReference(pubsub)
-    .WithReference(secretstore)
-    .WithReference(configstore)
-    .WithReference(cron)
+    .WithReference(redis).WaitFor(redis)
+    .WithReference(db).WaitFor(db)
+    .WithReference(statestore).WaitFor(statestore)
+    .WithReference(pubsub).WaitFor(pubsub)
+    .WithReference(secretstore).WaitFor(secretstore)
+    .WithReference(configstore).WaitFor(configstore)
+    .WithReference(cron).WaitFor(cron)
     .WithDaprSidecar();
 
 await builder.Build().RunAsync().ConfigureAwait(false);
