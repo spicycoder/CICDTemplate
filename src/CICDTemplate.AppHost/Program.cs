@@ -12,14 +12,14 @@ IResourceBuilder<IDaprComponentResource> statestore = builder.AddDaprStateStore(
     new DaprComponentOptions
     {
         LocalPath = "../../components/statestore.yaml"
-    });
+    }).WaitFor(redis);
 
 IResourceBuilder<IDaprComponentResource> pubsub = builder.AddDaprPubSub(
     "pubsub",
     new DaprComponentOptions
     {
         LocalPath = "../../components/pubsub.yaml"
-    });
+    }).WaitFor(redis);
 
 IResourceBuilder<IDaprComponentResource> secretstore = builder.AddDaprComponent(
     "secretstore",
@@ -35,7 +35,7 @@ IResourceBuilder<IDaprComponentResource> configstore = builder.AddDaprComponent(
     new DaprComponentOptions
     {
         LocalPath = "../../components/configstore.yaml"
-    });
+    }).WaitFor(redis);
 
 IResourceBuilder<IDaprComponentResource> cron = builder.AddDaprComponent(
     "scheduler",
@@ -52,13 +52,13 @@ IResourceBuilder<PostgresDatabaseResource> db = builder
 
 builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplate-api")
-    .WithReference(redis).WaitFor(redis)
-    .WithReference(db).WaitFor(db)
-    .WithReference(statestore).WaitFor(statestore)
-    .WithReference(pubsub).WaitFor(pubsub)
-    .WithReference(secretstore).WaitFor(secretstore)
-    .WithReference(configstore).WaitFor(configstore)
-    .WithReference(cron).WaitFor(cron)
+    .WithReference(redis)
+    .WithReference(db)
+    .WithReference(statestore)
+    .WithReference(pubsub)
+    .WithReference(secretstore)
+    .WithReference(configstore)
+    .WithReference(cron)
     .WithDaprSidecar();
 
 await builder.Build().RunAsync().ConfigureAwait(false);
