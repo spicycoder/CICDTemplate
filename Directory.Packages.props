@@ -40,7 +40,7 @@
         <PackageVersion Include="Aspire.Hosting.AppHost" Version="9.0.0" />
         <PackageVersion Include="Aspire.Hosting.Dapr" Version="9.0.0" />
         <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="9.0.0" />
-        <PackageVersion Include="Aspire.Hosting.Redis" Version="9.0.0" />
+        <PackageVersion Include="Aspire.Hosting.Redis" Version="9.1.0" />
         <PackageVersion Include="Dapr.Client" Version="1.14.0" />
         <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
         <PackageVersion Include="MediatR" Version="12.4.1" />
