@@ -36,7 +36,7 @@
         <PackageVersion Include="Serilog.Enrichers.Environment" Version="3.0.1" />
         <PackageVersion Include="Serilog.Enrichers.Thread" Version="4.0.0" />
         <PackageVersion Include="Serilog.Sinks.OpenTelemetry" Version="4.1.1" />
-        <PackageVersion Include="Swashbuckle.AspNetCore" Version="7.2.0" />
+        <PackageVersion Include="Swashbuckle.AspNetCore" Version="7.3.1" />
         <PackageVersion Include="Aspire.Hosting.AppHost" Version="9.1.0" />
         <PackageVersion Include="Aspire.Hosting.Dapr" Version="9.1.0" />
         <PackageVersion Include="Aspire.Hosting.PostgreSQL" Version="9.1.0" />
