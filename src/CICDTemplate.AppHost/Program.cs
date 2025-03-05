@@ -1,4 +1,4 @@
-using Aspire.Hosting.Dapr;
+using CommunityToolkit.Aspire.Hosting.Dapr;
 
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
 
@@ -7,11 +7,11 @@ IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null)
     .WithRedisCommander();
 
-IResourceBuilder<IDaprComponentResource> statestore = builder.AddDaprStateStore(
+var statestore = builder.AddDaprStateStore(
     "statestore",
     new DaprComponentOptions
     {
-        LocalPath = "../../components/statestore.yaml"
+
     }).WaitFor(redis);
 
 IResourceBuilder<IDaprComponentResource> pubsub = builder.AddDaprPubSub(
