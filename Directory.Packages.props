@@ -21,7 +21,7 @@
         <PackageVersion Include="AspNetCore.HealthChecks.UI.Client" Version="9.0.0" />
         <PackageVersion Include="AspNetCore.SwaggerUI.Themes" Version="2.0.0" />
         <PackageVersion Include="Bogus" Version="35.6.2" />
-        <PackageVersion Include="Dapr.AspNetCore" Version="1.15.0" />
+        <PackageVersion Include="Dapr.AspNetCore" Version="1.15.1" />
         <PackageVersion Include="MediatR.Contracts" Version="2.0.1" />
         <PackageVersion Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.2" />
         <PackageVersion Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.21.0" />
