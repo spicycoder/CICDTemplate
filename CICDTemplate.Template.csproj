@@ -1,7 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <PackageType>Template</PackageType>
-        <PackageVersion>$([System.DateTime]::Now.ToString("yyyy.MM.dd")).$([System.DateTime]::Now.TimeOfDay.TotalSeconds.ToString(0))</PackageVersion>
+        <PackageVersion>
+            $([System.DateTime]::Now.ToString("yyyy.MM.dd")).$([System.DateTime]::Now.TimeOfDay.TotalSeconds.ToString(0))</PackageVersion>
         <RepositoryUrl>https://github.com/spicycoder/CICDTemplate</RepositoryUrl>
         <RepositoryType>git</RepositoryType>
         <PackageId>CloudNative.CleanArchitecture.Template</PackageId>
@@ -20,7 +21,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-        <Content Include="**\*" Exclude="
+        <None Include="LICENSE" Pack="true" PackagePath="" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <Content Include="**\*"
+            Exclude="
             **/bin/**;
             **/obj/**;
             **/*.filelist;
