@@ -20,11 +20,11 @@ jobs:
     - name: Restore tools
       run: dotnet tool restore
     - name: Restore dependencies
-      run: dotnet restore ./CICDTemplate.sln
+      run: dotnet restore ./CICDTemplate.slnx
     - name: Build
-      run: dotnet build -c Release ./CICDTemplate.sln --no-restore
+      run: dotnet build -c Release ./CICDTemplate.slnx --no-restore
     - name: Test
-      run: dotnet test -c Release ./CICDTemplate.sln --collect:"XPlat Code Coverage" --settings ./coverage.runsettings --no-build
+      run: dotnet test -c Release ./CICDTemplate.slnx --collect:"XPlat Code Coverage" --settings ./coverage.runsettings --no-build
     - name: Generate coverage report
       run: dotnet reportgenerator "-reports:./**/coverage.cobertura.xml" "-targetdir:./.coverage" -reporttypes:"Html_Dark;SonarQube"
     - name: Upload artifact for coverage report
