@@ -44,7 +44,7 @@
     <PackageVersion Include="Aspire.Hosting.Redis" Version="9.1.0" />
     <PackageVersion Include="Dapr.Client" Version="1.15.2" />
     <PackageVersion Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
-    <PackageVersion Include="MediatR" Version="12.4.1" />
+    <PackageVersion Include="MediatR" Version="12.5.0" />
     <PackageVersion Include="Microsoft.Extensions.Logging.Abstractions" Version="9.0.3" />
     <PackageVersion Include="Microsoft.Extensions.Caching.StackExchangeRedis" Version="9.0.2" />
     <PackageVersion Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.3" />
