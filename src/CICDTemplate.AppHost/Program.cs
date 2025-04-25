@@ -8,6 +8,7 @@ var password = builder.AddParameter("REDISPASSWORD", redisPassword ?? string.Emp
 bool portSpecified = int.TryParse(builder.Configuration["Redis:Port"], out int port);
 IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null, password)
+    .WithRedisInsight()
     .WithRedisCommander();
 
 var statestore = builder.AddDaprStateStore(
@@ -55,14 +56,13 @@ IResourceBuilder<PostgresDatabaseResource> db = builder
 
 builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplate-api")
-    .WithReference(redis)
-    .WithReference(db)
+    .WithReference(redis).WaitFor(redis)
+    .WithReference(db).WaitFor(db)
     .WithReference(statestore)
     .WithReference(pubsub)
     .WithReference(secretstore)
     .WithReference(configstore)
     .WithReference(cron)
-    .WithDaprSidecar()
-    .WaitFor(db);
+    .WithDaprSidecar();
 
 await builder.Build().RunAsync().ConfigureAwait(false);
