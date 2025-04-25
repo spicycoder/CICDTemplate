@@ -6,5 +6,7 @@ spec:
   type: configuration.redis
   version: v1
   metadata:
-  - name: redisHost
-    value: localhost:6500
+    - name: redisHost
+      value: localhost:6500
+    - name: redisPassword
+      value: "localdev"

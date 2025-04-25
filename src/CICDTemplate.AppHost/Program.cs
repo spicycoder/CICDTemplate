@@ -2,16 +2,19 @@ using CommunityToolkit.Aspire.Hosting.Dapr;
 
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
 
+var redisPassword = builder.Configuration["Redis:Password"]?.ToString();
+var password = builder.AddParameter("REDISPASSWORD", redisPassword ?? string.Empty);
+
 bool portSpecified = int.TryParse(builder.Configuration["Redis:Port"], out int port);
 IResourceBuilder<RedisResource> redis = builder
-    .AddRedis("redis", portSpecified ? port : null)
+    .AddRedis("redis", portSpecified ? port : null, password)
     .WithRedisCommander();
 
 var statestore = builder.AddDaprStateStore(
     "statestore",
     new DaprComponentOptions
     {
-
+        LocalPath = "../../components/statestore.yaml"
     }).WaitFor(redis);
 
 IResourceBuilder<IDaprComponentResource> pubsub = builder.AddDaprPubSub(
@@ -59,6 +62,7 @@ builder
     .WithReference(secretstore)
     .WithReference(configstore)
     .WithReference(cron)
-    .WithDaprSidecar();
+    .WithDaprSidecar()
+    .WaitFor(db);
 
 await builder.Build().RunAsync().ConfigureAwait(false);

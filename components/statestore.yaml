@@ -9,8 +9,6 @@ spec:
     - name: redisHost
       value: localhost:6500
     - name: redisPassword
-      value: ""
-    - name: actorStateStore
-      value: "true"
+      value: "localdev"
     - name: keyprefix
       value: none
