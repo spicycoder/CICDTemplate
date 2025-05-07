@@ -1,3 +1,5 @@
+using System.Diagnostics.Metrics;
+
 using AspNetCore.Swagger.Themes;
 
 using CICDTemplate.Application;
@@ -15,6 +17,11 @@ builder
     .Services
     .AddApplication()
     .AddInfrastructure(builder.Configuration);
+
+using var meter = new Meter("CICDTemplate.Counter");
+var counter = meter.CreateCounter<int>("cron_counter");
+builder.Services.AddSingleton(meter);
+builder.Services.AddSingleton(counter);
 
 WebApplication app = builder.Build();
 
