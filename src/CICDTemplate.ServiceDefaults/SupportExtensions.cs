@@ -6,6 +6,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.ServiceDiscovery;
 
+using Npgsql;
+
 using OpenTelemetry;
 using OpenTelemetry.Metrics;
 using OpenTelemetry.Trace;
@@ -60,7 +62,8 @@ public static class SupportExtensions
             .WithTracing(tracing => tracing.AddSource(builder.Environment.ApplicationName)
                     .AddAspNetCoreInstrumentation()
                     .AddGrpcClientInstrumentation()
-                    .AddHttpClientInstrumentation());
+                    .AddHttpClientInstrumentation()
+                    .AddNpgsql());
 
         builder.AddOpenTelemetryExporters();
 
