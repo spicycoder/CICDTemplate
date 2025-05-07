@@ -1,6 +1,5 @@
 using AspNetCore.Swagger.Themes;
 
-using CICDTemplate.Api.Extensions;
 using CICDTemplate.Application;
 using CICDTemplate.Infrastructure;
 using CICDTemplate.ServiceDefaults;
@@ -24,7 +23,6 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI(ModernStyle.Futuristic);
-    await app.MigrateAndSeed();
 }
 
 app.UseAuthorization();

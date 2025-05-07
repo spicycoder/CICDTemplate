@@ -1,4 +1,11 @@
-﻿using Dapr.Client;
+﻿using System.Threading.Tasks;
+
+using Bogus;
+
+using CICDTemplate.Domain.Entities;
+using CICDTemplate.Infrastructure;
+
+using Dapr.Client;
 
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.Configuration;
@@ -55,7 +62,14 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
 
         builder.ConfigureServices(services => services.AddSingleton(_ => MockDaprClient.Object));
 
-        return base.CreateHost(builder);
+        IHost host = base.CreateHost(builder);
+
+        using var scope = host.Services.CreateScope();
+        var dbContext = scope.ServiceProvider.GetRequiredService<ApplicationDbContext>();
+        dbContext.Database.EnsureCreated();
+        Seed(dbContext, CancellationToken.None).GetAwaiter().GetResult();
+
+        return host;
     }
 
     public new async Task DisposeAsync()
@@ -65,5 +79,22 @@ public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsy
 
         await _redisContainer.StopAsync();
         await _redisContainer.DisposeAsync();
+    }
+
+    private static async Task Seed(
+        ApplicationDbContext dbContext,
+        CancellationToken cancellationToken)
+    {
+        var products = new Faker<Product>()
+            .RuleFor(x => x.Name, x => string.Concat(x.Commerce.ProductName().Take(20)))
+            .RuleFor(x => x.Description, x => string.Concat(x.Commerce.ProductDescription().Take(200)))
+            .RuleFor(x => x.CreatedAtUtc, x => DateTime.UtcNow.AddDays(x.Random.Number(0, 6)))
+            .Generate(10);
+
+        await dbContext
+            .AddRangeAsync(products, cancellationToken);
+
+        await dbContext
+            .SaveChangesAsync(cancellationToken);
     }
 }

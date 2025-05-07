@@ -22,6 +22,7 @@
     <Project Path="src/CICDTemplate.Application/CICDTemplate.Application.csproj" />
     <Project Path="src/CICDTemplate.Domain/CICDTemplate.Domain.csproj" />
     <Project Path="src/CICDTemplate.Infrastructure/CICDTemplate.Infrastructure.csproj" />
+    <Project Path="src/CICDTemplate.MigrationService/CICDTemplate.MigrationService.csproj" />
     <Project Path="src/CICDTemplate.ServiceDefaults/CICDTemplate.ServiceDefaults.csproj" />
   </Folder>
   <Folder Name="/tests/">

@@ -8,8 +8,7 @@ bool portSpecified = int.TryParse(redisPort.Resource.Value, out int port);
 
 IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null, password)
-    .WithRedisInsight()
-    .WithRedisCommander();
+    .WithRedisInsight();
 
 var statestore = builder.AddDaprStateStore(
     "statestore",
@@ -49,20 +48,29 @@ IResourceBuilder<IDaprComponentResource> cron = builder.AddDaprComponent(
         LocalPath = "../../components/cron.yaml"
     });
 
-IResourceBuilder<PostgresDatabaseResource> db = builder
+var server = builder
     .AddPostgres("cicdtemplate-db")
-    .WithPgAdmin()
+    .WithLifetime(ContainerLifetime.Persistent)
+    .WithPgAdmin();
+
+var db = server
     .AddDatabase("cicdtemplatedb");
 
-builder
+var migration = builder
+    .AddProject<Projects.CICDTemplate_MigrationService>("migrations")
+    .WithReference(db).WaitFor(db);
+
+var api = builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplate-api")
-    .WithReference(redis).WaitFor(redis)
     .WithReference(db).WaitFor(db)
+    .WithReference(redis).WaitFor(redis)
     .WithReference(statestore)
     .WithReference(pubsub)
     .WithReference(secretstore)
     .WithReference(configstore)
     .WithReference(cron)
     .WithDaprSidecar();
+
+migration.WithParentRelationship(api);
 
 await builder.Build().RunAsync().ConfigureAwait(false);

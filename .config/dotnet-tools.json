@@ -36,6 +36,13 @@
         "aspire"
       ],
       "rollForward": false
+    },
+    "dotnet-sonarscanner": {
+      "version": "10.1.2",
+      "commands": [
+        "dotnet-sonarscanner"
+      ],
+      "rollForward": false
     }
   }
 }
