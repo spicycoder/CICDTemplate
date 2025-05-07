@@ -2,10 +2,10 @@ using CommunityToolkit.Aspire.Hosting.Dapr;
 
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
 
-var redisPassword = builder.Configuration["Redis:Password"]?.ToString();
-var password = builder.AddParameter("REDISPASSWORD", redisPassword ?? string.Empty);
+var password = builder.AddParameter("RedisPassword", true);
+var redisPort = builder.AddParameter("RedisPort");
+bool portSpecified = int.TryParse(redisPort.Resource.Value, out int port);
 
-bool portSpecified = int.TryParse(builder.Configuration["Redis:Port"], out int port);
 IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null, password)
     .WithRedisInsight()
