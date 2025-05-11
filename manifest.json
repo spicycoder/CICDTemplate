@@ -41,6 +41,1195 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Bindings.BindingsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Bindings.BindingsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Bindings.BindingsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Bindings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Bindings.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Bindings",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Configurations.ConfigurationsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Configurations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Configurations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Products.CreateProductRequest",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.yml\" sourcestartlinenumber=\"1\">Request to create product</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Products.ProductResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Products.ProductResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Products.ProductResponse",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Api.Controllers.Products.ProductResponse.yml\" sourcestartlinenumber=\"1\">Product response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Products.ProductsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Products.ProductsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Products.ProductsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Products.ReadProductsResponse",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.yml\" sourcestartlinenumber=\"1\">Read products - response</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Products.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Products.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Products",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Publisher.PublisherController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Publisher.PublisherController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Publisher.PublisherController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Publisher.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Publisher.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Publisher",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Secrets.SecretsController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Secrets.SecretsController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Secrets.SecretsController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Secrets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Secrets.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Secrets",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.States.StatesController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.States.StatesController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.States.StatesController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.States.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.States.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.States",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Subscriber.SubscriberController",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Controllers.Subscriber.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Controllers.Subscriber.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Controllers.Subscriber",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Models.Common.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Models.Common.Product.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Models.Common.Product",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Api.Models.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Api.Models.Common.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Api.Models.Common",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Abstractions.Caching.ICacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Abstractions.Caching.ICacheService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Abstractions.Caching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Abstractions.Caching.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Abstractions.Caching",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.yml\" sourcestartlinenumber=\"1\">Date time provider</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Abstractions.Clock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Abstractions.Clock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Abstractions.Clock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Behaviors.ValidationBehavior<TRequest, TResponse>",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Behaviors.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Behaviors.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Behaviors",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Bootstrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Bootstrap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Bootstrap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Configurations.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Configurations.Queries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Configurations.Queries",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.yml\" sourcestartlinenumber=\"1\">Create product command</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.CreateProduct.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.CreateProduct",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Commands.DeleteState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Commands.DeleteState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Commands.DeleteState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Products.Queries.ReadProducts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Products.Queries.ReadProducts.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Products.Queries.ReadProducts",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.PubSub.Commands.PublishProduct.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.PubSub.Commands.PublishProduct",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Secrets.Queries.ReadSecretQuery",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.Secrets.Queries.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.Secrets.Queries.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.Secrets.Queries",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Commands.SaveState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Commands.SaveState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.ProductState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Queries.ReadState.ProductState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.States.Queries.ReadState.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application.States.Queries.ReadState",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Application.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Application.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Application",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Abstract.Constants.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Abstract.Constants.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Abstract.Constants",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Abstract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Abstract.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Abstract",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Entities.Entity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Entities.Entity.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Entities.Entity",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Entities.Product.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Entities.Product.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Entities.Product",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Domain.Entities.Product.yml\" sourcestartlinenumber=\"1\">Product entity</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Entities.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Entities",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Repositories.IProductsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Repositories.IProductsRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Repositories.IProductsRepository",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Domain.Repositories.IProductsRepository.yml\" sourcestartlinenumber=\"1\">Products repository</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Domain.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Domain.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Domain.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.ApplicationDbContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.ApplicationDbContext.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.ApplicationDbContext",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Bootstrap.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Bootstrap.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Bootstrap",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Caching.CacheOptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Caching.CacheOptions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Caching.CacheOptions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Caching.CacheService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Caching.CacheService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Caching.CacheService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Caching.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Caching.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Caching",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Clock.DateTimeProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Clock.DateTimeProvider.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Clock.DateTimeProvider",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Clock.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Clock.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Clock",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Configurations.ProductConfiguration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Configurations.ProductConfiguration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Configurations.ProductConfiguration",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Configurations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Configurations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Configurations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Migrations.DbMigration.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Migrations.DbMigration.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Migrations.DbMigration",
+      "Summary": "<p sourcefile=\"api/CICDTemplate.Infrastructure.Migrations.DbMigration.yml\" sourcestartlinenumber=\"1\">A base class inherited by each EF Core migration.</p>\n"
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Migrations.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Migrations.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Migrations",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Repositories.ProductsRepository",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.Repositories.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.Repositories.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure.Repositories",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.Infrastructure.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.Infrastructure.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.Infrastructure",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.MigrationService.Worker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.MigrationService.Worker.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.MigrationService.Worker",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.MigrationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.MigrationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.MigrationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.ServiceDefaults.SupportExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.ServiceDefaults.SupportExtensions.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.ServiceDefaults.SupportExtensions",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/CICDTemplate.ServiceDefaults.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/CICDTemplate.ServiceDefaults.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "CICDTemplate.ServiceDefaults",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Projects.CICDTemplate_Api.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Projects.CICDTemplate_Api.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Projects.CICDTemplate_Api",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Projects.CICDTemplate_AppHost.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Projects.CICDTemplate_AppHost.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Projects.CICDTemplate_AppHost",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Projects.CICDTemplate_MigrationService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Projects.CICDTemplate_MigrationService.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Projects.CICDTemplate_MigrationService",
+      "Summary": null
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Projects.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Projects.html"
+        }
+      },
+      "version": "",
+      "Uid": null,
+      "IsMRef": true,
+      "Title": "Projects",
+      "Summary": null
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".json": {
+          "relative_path": "api/toc.json"
+        },
+        ".html": {
+          "relative_path": "api/toc.html"
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Conceptual",
       "source_relative_path": "docs/00. Intro.md",
       "output": {

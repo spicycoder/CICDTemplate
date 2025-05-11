@@ -1,3 +1,2278 @@
 ### YamlMime:XRefMap
 sorted: true
-references: []
+references:
+- uid: CICDTemplate.Api.Controllers.Bindings
+  name: CICDTemplate.Api.Controllers.Bindings
+  href: api/CICDTemplate.Api.Controllers.Bindings.html
+  commentId: N:CICDTemplate.Api.Controllers.Bindings
+  fullName: CICDTemplate.Api.Controllers.Bindings
+  nameWithType: CICDTemplate.Api.Controllers.Bindings
+- uid: CICDTemplate.Api.Controllers.Bindings.BindingsController
+  name: BindingsController
+  href: api/CICDTemplate.Api.Controllers.Bindings.BindingsController.html
+  commentId: T:CICDTemplate.Api.Controllers.Bindings.BindingsController
+  fullName: CICDTemplate.Api.Controllers.Bindings.BindingsController
+  nameWithType: BindingsController
+- uid: CICDTemplate.Api.Controllers.Bindings.BindingsController.#ctor(Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Bindings.BindingsController},System.Diagnostics.Metrics.Counter{System.Int32})
+  name: BindingsController(ILogger<BindingsController>, Counter<int>)
+  href: api/CICDTemplate.Api.Controllers.Bindings.BindingsController.html#CICDTemplate_Api_Controllers_Bindings_BindingsController__ctor_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Api_Controllers_Bindings_BindingsController__System_Diagnostics_Metrics_Counter_System_Int32__
+  commentId: M:CICDTemplate.Api.Controllers.Bindings.BindingsController.#ctor(Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Bindings.BindingsController},System.Diagnostics.Metrics.Counter{System.Int32})
+  name.vb: New(ILogger(Of BindingsController), Counter(Of Integer))
+  fullName: CICDTemplate.Api.Controllers.Bindings.BindingsController.BindingsController(Microsoft.Extensions.Logging.ILogger<CICDTemplate.Api.Controllers.Bindings.BindingsController>, System.Diagnostics.Metrics.Counter<int>)
+  fullName.vb: CICDTemplate.Api.Controllers.Bindings.BindingsController.New(Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Api.Controllers.Bindings.BindingsController), System.Diagnostics.Metrics.Counter(Of Integer))
+  nameWithType: BindingsController.BindingsController(ILogger<BindingsController>, Counter<int>)
+  nameWithType.vb: BindingsController.New(ILogger(Of BindingsController), Counter(Of Integer))
+- uid: CICDTemplate.Api.Controllers.Bindings.BindingsController.#ctor*
+  name: BindingsController
+  href: api/CICDTemplate.Api.Controllers.Bindings.BindingsController.html#CICDTemplate_Api_Controllers_Bindings_BindingsController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Bindings.BindingsController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Bindings.BindingsController.BindingsController
+  fullName.vb: CICDTemplate.Api.Controllers.Bindings.BindingsController.New
+  nameWithType: BindingsController.BindingsController
+  nameWithType.vb: BindingsController.New
+- uid: CICDTemplate.Api.Controllers.Bindings.BindingsController.Cron
+  name: Cron()
+  href: api/CICDTemplate.Api.Controllers.Bindings.BindingsController.html#CICDTemplate_Api_Controllers_Bindings_BindingsController_Cron
+  commentId: M:CICDTemplate.Api.Controllers.Bindings.BindingsController.Cron
+  fullName: CICDTemplate.Api.Controllers.Bindings.BindingsController.Cron()
+  nameWithType: BindingsController.Cron()
+- uid: CICDTemplate.Api.Controllers.Bindings.BindingsController.Cron*
+  name: Cron
+  href: api/CICDTemplate.Api.Controllers.Bindings.BindingsController.html#CICDTemplate_Api_Controllers_Bindings_BindingsController_Cron_
+  commentId: Overload:CICDTemplate.Api.Controllers.Bindings.BindingsController.Cron
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Bindings.BindingsController.Cron
+  nameWithType: BindingsController.Cron
+- uid: CICDTemplate.Api.Controllers.Configurations
+  name: CICDTemplate.Api.Controllers.Configurations
+  href: api/CICDTemplate.Api.Controllers.Configurations.html
+  commentId: N:CICDTemplate.Api.Controllers.Configurations
+  fullName: CICDTemplate.Api.Controllers.Configurations
+  nameWithType: CICDTemplate.Api.Controllers.Configurations
+- uid: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController
+  name: ConfigurationsController
+  href: api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.html
+  commentId: T:CICDTemplate.Api.Controllers.Configurations.ConfigurationsController
+  fullName: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController
+  nameWithType: ConfigurationsController
+- uid: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.#ctor(MediatR.ISender)
+  name: ConfigurationsController(ISender)
+  href: api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.html#CICDTemplate_Api_Controllers_Configurations_ConfigurationsController__ctor_MediatR_ISender_
+  commentId: M:CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.#ctor(MediatR.ISender)
+  name.vb: New(ISender)
+  fullName: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.ConfigurationsController(MediatR.ISender)
+  fullName.vb: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.New(MediatR.ISender)
+  nameWithType: ConfigurationsController.ConfigurationsController(ISender)
+  nameWithType.vb: ConfigurationsController.New(ISender)
+- uid: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.#ctor*
+  name: ConfigurationsController
+  href: api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.html#CICDTemplate_Api_Controllers_Configurations_ConfigurationsController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.ConfigurationsController
+  fullName.vb: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.New
+  nameWithType: ConfigurationsController.ConfigurationsController
+  nameWithType.vb: ConfigurationsController.New
+- uid: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read(System.String)
+  name: Read(string)
+  href: api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.html#CICDTemplate_Api_Controllers_Configurations_ConfigurationsController_Read_System_String_
+  commentId: M:CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read(System.String)
+  name.vb: Read(String)
+  fullName: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read(string)
+  fullName.vb: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read(String)
+  nameWithType: ConfigurationsController.Read(string)
+  nameWithType.vb: ConfigurationsController.Read(String)
+- uid: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read*
+  name: Read
+  href: api/CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.html#CICDTemplate_Api_Controllers_Configurations_ConfigurationsController_Read_
+  commentId: Overload:CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Configurations.ConfigurationsController.Read
+  nameWithType: ConfigurationsController.Read
+- uid: CICDTemplate.Api.Controllers.Products
+  name: CICDTemplate.Api.Controllers.Products
+  href: api/CICDTemplate.Api.Controllers.Products.html
+  commentId: N:CICDTemplate.Api.Controllers.Products
+  fullName: CICDTemplate.Api.Controllers.Products
+  nameWithType: CICDTemplate.Api.Controllers.Products
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest
+  name: CreateProductRequest
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html
+  commentId: T:CICDTemplate.Api.Controllers.Products.CreateProductRequest
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest
+  nameWithType: CreateProductRequest
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest.#ctor(System.String,System.String)
+  name: CreateProductRequest(string, string)
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html#CICDTemplate_Api_Controllers_Products_CreateProductRequest__ctor_System_String_System_String_
+  commentId: M:CICDTemplate.Api.Controllers.Products.CreateProductRequest.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest.CreateProductRequest(string, string)
+  fullName.vb: CICDTemplate.Api.Controllers.Products.CreateProductRequest.New(String, String)
+  nameWithType: CreateProductRequest.CreateProductRequest(string, string)
+  nameWithType.vb: CreateProductRequest.New(String, String)
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest.#ctor*
+  name: CreateProductRequest
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html#CICDTemplate_Api_Controllers_Products_CreateProductRequest__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.CreateProductRequest.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest.CreateProductRequest
+  fullName.vb: CICDTemplate.Api.Controllers.Products.CreateProductRequest.New
+  nameWithType: CreateProductRequest.CreateProductRequest
+  nameWithType.vb: CreateProductRequest.New
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Description
+  name: Description
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html#CICDTemplate_Api_Controllers_Products_CreateProductRequest_Description
+  commentId: P:CICDTemplate.Api.Controllers.Products.CreateProductRequest.Description
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Description
+  nameWithType: CreateProductRequest.Description
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Description*
+  name: Description
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html#CICDTemplate_Api_Controllers_Products_CreateProductRequest_Description_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.CreateProductRequest.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Description
+  nameWithType: CreateProductRequest.Description
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Name
+  name: Name
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html#CICDTemplate_Api_Controllers_Products_CreateProductRequest_Name
+  commentId: P:CICDTemplate.Api.Controllers.Products.CreateProductRequest.Name
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Name
+  nameWithType: CreateProductRequest.Name
+- uid: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Name*
+  name: Name
+  href: api/CICDTemplate.Api.Controllers.Products.CreateProductRequest.html#CICDTemplate_Api_Controllers_Products_CreateProductRequest_Name_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.CreateProductRequest.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.CreateProductRequest.Name
+  nameWithType: CreateProductRequest.Name
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse
+  name: ProductResponse
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html
+  commentId: T:CICDTemplate.Api.Controllers.Products.ProductResponse
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse
+  nameWithType: ProductResponse
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.#ctor(System.Guid,System.String,System.String)
+  name: ProductResponse(Guid, string, string?)
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse__ctor_System_Guid_System_String_System_String_
+  commentId: M:CICDTemplate.Api.Controllers.Products.ProductResponse.#ctor(System.Guid,System.String,System.String)
+  name.vb: New(Guid, String, String)
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.ProductResponse(System.Guid, string, string?)
+  fullName.vb: CICDTemplate.Api.Controllers.Products.ProductResponse.New(System.Guid, String, String)
+  nameWithType: ProductResponse.ProductResponse(Guid, string, string?)
+  nameWithType.vb: ProductResponse.New(Guid, String, String)
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.#ctor*
+  name: ProductResponse
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductResponse.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.ProductResponse
+  fullName.vb: CICDTemplate.Api.Controllers.Products.ProductResponse.New
+  nameWithType: ProductResponse.ProductResponse
+  nameWithType.vb: ProductResponse.New
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.Description
+  name: Description
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse_Description
+  commentId: P:CICDTemplate.Api.Controllers.Products.ProductResponse.Description
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.Description
+  nameWithType: ProductResponse.Description
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.Description*
+  name: Description
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse_Description_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductResponse.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.Description
+  nameWithType: ProductResponse.Description
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.Id
+  name: Id
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse_Id
+  commentId: P:CICDTemplate.Api.Controllers.Products.ProductResponse.Id
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.Id
+  nameWithType: ProductResponse.Id
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.Id*
+  name: Id
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse_Id_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductResponse.Id
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.Id
+  nameWithType: ProductResponse.Id
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.Name
+  name: Name
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse_Name
+  commentId: P:CICDTemplate.Api.Controllers.Products.ProductResponse.Name
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.Name
+  nameWithType: ProductResponse.Name
+- uid: CICDTemplate.Api.Controllers.Products.ProductResponse.Name*
+  name: Name
+  href: api/CICDTemplate.Api.Controllers.Products.ProductResponse.html#CICDTemplate_Api_Controllers_Products_ProductResponse_Name_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductResponse.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.ProductResponse.Name
+  nameWithType: ProductResponse.Name
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController
+  name: ProductsController
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html
+  commentId: T:CICDTemplate.Api.Controllers.Products.ProductsController
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController
+  nameWithType: ProductsController
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController.#ctor(MediatR.ISender,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Products.ProductsController})
+  name: ProductsController(ISender, ILogger<ProductsController>)
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html#CICDTemplate_Api_Controllers_Products_ProductsController__ctor_MediatR_ISender_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Api_Controllers_Products_ProductsController__
+  commentId: M:CICDTemplate.Api.Controllers.Products.ProductsController.#ctor(MediatR.ISender,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Products.ProductsController})
+  name.vb: New(ISender, ILogger(Of ProductsController))
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController.ProductsController(MediatR.ISender, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Api.Controllers.Products.ProductsController>)
+  fullName.vb: CICDTemplate.Api.Controllers.Products.ProductsController.New(MediatR.ISender, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Api.Controllers.Products.ProductsController))
+  nameWithType: ProductsController.ProductsController(ISender, ILogger<ProductsController>)
+  nameWithType.vb: ProductsController.New(ISender, ILogger(Of ProductsController))
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController.#ctor*
+  name: ProductsController
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html#CICDTemplate_Api_Controllers_Products_ProductsController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductsController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController.ProductsController
+  fullName.vb: CICDTemplate.Api.Controllers.Products.ProductsController.New
+  nameWithType: ProductsController.ProductsController
+  nameWithType.vb: ProductsController.New
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController.CreateProduct(CICDTemplate.Api.Controllers.Products.CreateProductRequest,System.Threading.CancellationToken)
+  name: CreateProduct(CreateProductRequest, CancellationToken)
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html#CICDTemplate_Api_Controllers_Products_ProductsController_CreateProduct_CICDTemplate_Api_Controllers_Products_CreateProductRequest_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Api.Controllers.Products.ProductsController.CreateProduct(CICDTemplate.Api.Controllers.Products.CreateProductRequest,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController.CreateProduct(CICDTemplate.Api.Controllers.Products.CreateProductRequest, System.Threading.CancellationToken)
+  nameWithType: ProductsController.CreateProduct(CreateProductRequest, CancellationToken)
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController.CreateProduct*
+  name: CreateProduct
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html#CICDTemplate_Api_Controllers_Products_ProductsController_CreateProduct_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductsController.CreateProduct
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController.CreateProduct
+  nameWithType: ProductsController.CreateProduct
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController.GetProducts(System.Threading.CancellationToken)
+  name: GetProducts(CancellationToken)
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html#CICDTemplate_Api_Controllers_Products_ProductsController_GetProducts_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Api.Controllers.Products.ProductsController.GetProducts(System.Threading.CancellationToken)
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController.GetProducts(System.Threading.CancellationToken)
+  nameWithType: ProductsController.GetProducts(CancellationToken)
+- uid: CICDTemplate.Api.Controllers.Products.ProductsController.GetProducts*
+  name: GetProducts
+  href: api/CICDTemplate.Api.Controllers.Products.ProductsController.html#CICDTemplate_Api_Controllers_Products_ProductsController_GetProducts_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ProductsController.GetProducts
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.ProductsController.GetProducts
+  nameWithType: ProductsController.GetProducts
+- uid: CICDTemplate.Api.Controllers.Products.ReadProductsResponse
+  name: ReadProductsResponse
+  href: api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.html
+  commentId: T:CICDTemplate.Api.Controllers.Products.ReadProductsResponse
+  fullName: CICDTemplate.Api.Controllers.Products.ReadProductsResponse
+  nameWithType: ReadProductsResponse
+- uid: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.#ctor(System.Collections.ObjectModel.Collection{CICDTemplate.Api.Controllers.Products.ProductResponse})
+  name: ReadProductsResponse(Collection<ProductResponse>)
+  href: api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.html#CICDTemplate_Api_Controllers_Products_ReadProductsResponse__ctor_System_Collections_ObjectModel_Collection_CICDTemplate_Api_Controllers_Products_ProductResponse__
+  commentId: M:CICDTemplate.Api.Controllers.Products.ReadProductsResponse.#ctor(System.Collections.ObjectModel.Collection{CICDTemplate.Api.Controllers.Products.ProductResponse})
+  name.vb: New(Collection(Of ProductResponse))
+  fullName: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.ReadProductsResponse(System.Collections.ObjectModel.Collection<CICDTemplate.Api.Controllers.Products.ProductResponse>)
+  fullName.vb: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.New(System.Collections.ObjectModel.Collection(Of CICDTemplate.Api.Controllers.Products.ProductResponse))
+  nameWithType: ReadProductsResponse.ReadProductsResponse(Collection<ProductResponse>)
+  nameWithType.vb: ReadProductsResponse.New(Collection(Of ProductResponse))
+- uid: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.#ctor*
+  name: ReadProductsResponse
+  href: api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.html#CICDTemplate_Api_Controllers_Products_ReadProductsResponse__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ReadProductsResponse.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.ReadProductsResponse
+  fullName.vb: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.New
+  nameWithType: ReadProductsResponse.ReadProductsResponse
+  nameWithType.vb: ReadProductsResponse.New
+- uid: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.Products
+  name: Products
+  href: api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.html#CICDTemplate_Api_Controllers_Products_ReadProductsResponse_Products
+  commentId: P:CICDTemplate.Api.Controllers.Products.ReadProductsResponse.Products
+  fullName: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.Products
+  nameWithType: ReadProductsResponse.Products
+- uid: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.Products*
+  name: Products
+  href: api/CICDTemplate.Api.Controllers.Products.ReadProductsResponse.html#CICDTemplate_Api_Controllers_Products_ReadProductsResponse_Products_
+  commentId: Overload:CICDTemplate.Api.Controllers.Products.ReadProductsResponse.Products
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Products.ReadProductsResponse.Products
+  nameWithType: ReadProductsResponse.Products
+- uid: CICDTemplate.Api.Controllers.Publisher
+  name: CICDTemplate.Api.Controllers.Publisher
+  href: api/CICDTemplate.Api.Controllers.Publisher.html
+  commentId: N:CICDTemplate.Api.Controllers.Publisher
+  fullName: CICDTemplate.Api.Controllers.Publisher
+  nameWithType: CICDTemplate.Api.Controllers.Publisher
+- uid: CICDTemplate.Api.Controllers.Publisher.PublisherController
+  name: PublisherController
+  href: api/CICDTemplate.Api.Controllers.Publisher.PublisherController.html
+  commentId: T:CICDTemplate.Api.Controllers.Publisher.PublisherController
+  fullName: CICDTemplate.Api.Controllers.Publisher.PublisherController
+  nameWithType: PublisherController
+- uid: CICDTemplate.Api.Controllers.Publisher.PublisherController.#ctor(MediatR.ISender,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Publisher.PublisherController})
+  name: PublisherController(ISender, ILogger<PublisherController>)
+  href: api/CICDTemplate.Api.Controllers.Publisher.PublisherController.html#CICDTemplate_Api_Controllers_Publisher_PublisherController__ctor_MediatR_ISender_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Api_Controllers_Publisher_PublisherController__
+  commentId: M:CICDTemplate.Api.Controllers.Publisher.PublisherController.#ctor(MediatR.ISender,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Publisher.PublisherController})
+  name.vb: New(ISender, ILogger(Of PublisherController))
+  fullName: CICDTemplate.Api.Controllers.Publisher.PublisherController.PublisherController(MediatR.ISender, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Api.Controllers.Publisher.PublisherController>)
+  fullName.vb: CICDTemplate.Api.Controllers.Publisher.PublisherController.New(MediatR.ISender, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Api.Controllers.Publisher.PublisherController))
+  nameWithType: PublisherController.PublisherController(ISender, ILogger<PublisherController>)
+  nameWithType.vb: PublisherController.New(ISender, ILogger(Of PublisherController))
+- uid: CICDTemplate.Api.Controllers.Publisher.PublisherController.#ctor*
+  name: PublisherController
+  href: api/CICDTemplate.Api.Controllers.Publisher.PublisherController.html#CICDTemplate_Api_Controllers_Publisher_PublisherController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Publisher.PublisherController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Publisher.PublisherController.PublisherController
+  fullName.vb: CICDTemplate.Api.Controllers.Publisher.PublisherController.New
+  nameWithType: PublisherController.PublisherController
+  nameWithType.vb: PublisherController.New
+- uid: CICDTemplate.Api.Controllers.Publisher.PublisherController.Publish(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)
+  name: Publish(Product, CancellationToken)
+  href: api/CICDTemplate.Api.Controllers.Publisher.PublisherController.html#CICDTemplate_Api_Controllers_Publisher_PublisherController_Publish_CICDTemplate_Api_Models_Common_Product_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Api.Controllers.Publisher.PublisherController.Publish(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Api.Controllers.Publisher.PublisherController.Publish(CICDTemplate.Api.Models.Common.Product, System.Threading.CancellationToken)
+  nameWithType: PublisherController.Publish(Product, CancellationToken)
+- uid: CICDTemplate.Api.Controllers.Publisher.PublisherController.Publish*
+  name: Publish
+  href: api/CICDTemplate.Api.Controllers.Publisher.PublisherController.html#CICDTemplate_Api_Controllers_Publisher_PublisherController_Publish_
+  commentId: Overload:CICDTemplate.Api.Controllers.Publisher.PublisherController.Publish
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Publisher.PublisherController.Publish
+  nameWithType: PublisherController.Publish
+- uid: CICDTemplate.Api.Controllers.Secrets
+  name: CICDTemplate.Api.Controllers.Secrets
+  href: api/CICDTemplate.Api.Controllers.Secrets.html
+  commentId: N:CICDTemplate.Api.Controllers.Secrets
+  fullName: CICDTemplate.Api.Controllers.Secrets
+  nameWithType: CICDTemplate.Api.Controllers.Secrets
+- uid: CICDTemplate.Api.Controllers.Secrets.SecretsController
+  name: SecretsController
+  href: api/CICDTemplate.Api.Controllers.Secrets.SecretsController.html
+  commentId: T:CICDTemplate.Api.Controllers.Secrets.SecretsController
+  fullName: CICDTemplate.Api.Controllers.Secrets.SecretsController
+  nameWithType: SecretsController
+- uid: CICDTemplate.Api.Controllers.Secrets.SecretsController.#ctor(MediatR.ISender)
+  name: SecretsController(ISender)
+  href: api/CICDTemplate.Api.Controllers.Secrets.SecretsController.html#CICDTemplate_Api_Controllers_Secrets_SecretsController__ctor_MediatR_ISender_
+  commentId: M:CICDTemplate.Api.Controllers.Secrets.SecretsController.#ctor(MediatR.ISender)
+  name.vb: New(ISender)
+  fullName: CICDTemplate.Api.Controllers.Secrets.SecretsController.SecretsController(MediatR.ISender)
+  fullName.vb: CICDTemplate.Api.Controllers.Secrets.SecretsController.New(MediatR.ISender)
+  nameWithType: SecretsController.SecretsController(ISender)
+  nameWithType.vb: SecretsController.New(ISender)
+- uid: CICDTemplate.Api.Controllers.Secrets.SecretsController.#ctor*
+  name: SecretsController
+  href: api/CICDTemplate.Api.Controllers.Secrets.SecretsController.html#CICDTemplate_Api_Controllers_Secrets_SecretsController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Secrets.SecretsController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Secrets.SecretsController.SecretsController
+  fullName.vb: CICDTemplate.Api.Controllers.Secrets.SecretsController.New
+  nameWithType: SecretsController.SecretsController
+  nameWithType.vb: SecretsController.New
+- uid: CICDTemplate.Api.Controllers.Secrets.SecretsController.Read(System.String)
+  name: Read(string)
+  href: api/CICDTemplate.Api.Controllers.Secrets.SecretsController.html#CICDTemplate_Api_Controllers_Secrets_SecretsController_Read_System_String_
+  commentId: M:CICDTemplate.Api.Controllers.Secrets.SecretsController.Read(System.String)
+  name.vb: Read(String)
+  fullName: CICDTemplate.Api.Controllers.Secrets.SecretsController.Read(string)
+  fullName.vb: CICDTemplate.Api.Controllers.Secrets.SecretsController.Read(String)
+  nameWithType: SecretsController.Read(string)
+  nameWithType.vb: SecretsController.Read(String)
+- uid: CICDTemplate.Api.Controllers.Secrets.SecretsController.Read*
+  name: Read
+  href: api/CICDTemplate.Api.Controllers.Secrets.SecretsController.html#CICDTemplate_Api_Controllers_Secrets_SecretsController_Read_
+  commentId: Overload:CICDTemplate.Api.Controllers.Secrets.SecretsController.Read
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Secrets.SecretsController.Read
+  nameWithType: SecretsController.Read
+- uid: CICDTemplate.Api.Controllers.States
+  name: CICDTemplate.Api.Controllers.States
+  href: api/CICDTemplate.Api.Controllers.States.html
+  commentId: N:CICDTemplate.Api.Controllers.States
+  fullName: CICDTemplate.Api.Controllers.States
+  nameWithType: CICDTemplate.Api.Controllers.States
+- uid: CICDTemplate.Api.Controllers.States.StatesController
+  name: StatesController
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html
+  commentId: T:CICDTemplate.Api.Controllers.States.StatesController
+  fullName: CICDTemplate.Api.Controllers.States.StatesController
+  nameWithType: StatesController
+- uid: CICDTemplate.Api.Controllers.States.StatesController.#ctor(MediatR.ISender)
+  name: StatesController(ISender)
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController__ctor_MediatR_ISender_
+  commentId: M:CICDTemplate.Api.Controllers.States.StatesController.#ctor(MediatR.ISender)
+  name.vb: New(ISender)
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.StatesController(MediatR.ISender)
+  fullName.vb: CICDTemplate.Api.Controllers.States.StatesController.New(MediatR.ISender)
+  nameWithType: StatesController.StatesController(ISender)
+  nameWithType.vb: StatesController.New(ISender)
+- uid: CICDTemplate.Api.Controllers.States.StatesController.#ctor*
+  name: StatesController
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.States.StatesController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.StatesController
+  fullName.vb: CICDTemplate.Api.Controllers.States.StatesController.New
+  nameWithType: StatesController.StatesController
+  nameWithType.vb: StatesController.New
+- uid: CICDTemplate.Api.Controllers.States.StatesController.Delete(System.String)
+  name: Delete(string)
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController_Delete_System_String_
+  commentId: M:CICDTemplate.Api.Controllers.States.StatesController.Delete(System.String)
+  name.vb: Delete(String)
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.Delete(string)
+  fullName.vb: CICDTemplate.Api.Controllers.States.StatesController.Delete(String)
+  nameWithType: StatesController.Delete(string)
+  nameWithType.vb: StatesController.Delete(String)
+- uid: CICDTemplate.Api.Controllers.States.StatesController.Delete*
+  name: Delete
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController_Delete_
+  commentId: Overload:CICDTemplate.Api.Controllers.States.StatesController.Delete
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.Delete
+  nameWithType: StatesController.Delete
+- uid: CICDTemplate.Api.Controllers.States.StatesController.Read(System.String)
+  name: Read(string)
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController_Read_System_String_
+  commentId: M:CICDTemplate.Api.Controllers.States.StatesController.Read(System.String)
+  name.vb: Read(String)
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.Read(string)
+  fullName.vb: CICDTemplate.Api.Controllers.States.StatesController.Read(String)
+  nameWithType: StatesController.Read(string)
+  nameWithType.vb: StatesController.Read(String)
+- uid: CICDTemplate.Api.Controllers.States.StatesController.Read*
+  name: Read
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController_Read_
+  commentId: Overload:CICDTemplate.Api.Controllers.States.StatesController.Read
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.Read
+  nameWithType: StatesController.Read
+- uid: CICDTemplate.Api.Controllers.States.StatesController.Save(CICDTemplate.Api.Models.Common.Product)
+  name: Save(Product)
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController_Save_CICDTemplate_Api_Models_Common_Product_
+  commentId: M:CICDTemplate.Api.Controllers.States.StatesController.Save(CICDTemplate.Api.Models.Common.Product)
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.Save(CICDTemplate.Api.Models.Common.Product)
+  nameWithType: StatesController.Save(Product)
+- uid: CICDTemplate.Api.Controllers.States.StatesController.Save*
+  name: Save
+  href: api/CICDTemplate.Api.Controllers.States.StatesController.html#CICDTemplate_Api_Controllers_States_StatesController_Save_
+  commentId: Overload:CICDTemplate.Api.Controllers.States.StatesController.Save
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.States.StatesController.Save
+  nameWithType: StatesController.Save
+- uid: CICDTemplate.Api.Controllers.Subscriber
+  name: CICDTemplate.Api.Controllers.Subscriber
+  href: api/CICDTemplate.Api.Controllers.Subscriber.html
+  commentId: N:CICDTemplate.Api.Controllers.Subscriber
+  fullName: CICDTemplate.Api.Controllers.Subscriber
+  nameWithType: CICDTemplate.Api.Controllers.Subscriber
+- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController
+  name: SubscriberController
+  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html
+  commentId: T:CICDTemplate.Api.Controllers.Subscriber.SubscriberController
+  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController
+  nameWithType: SubscriberController
+- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.#ctor(Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Subscriber.SubscriberController})
+  name: SubscriberController(ILogger<SubscriberController>)
+  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController__ctor_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Api_Controllers_Subscriber_SubscriberController__
+  commentId: M:CICDTemplate.Api.Controllers.Subscriber.SubscriberController.#ctor(Microsoft.Extensions.Logging.ILogger{CICDTemplate.Api.Controllers.Subscriber.SubscriberController})
+  name.vb: New(ILogger(Of SubscriberController))
+  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.SubscriberController(Microsoft.Extensions.Logging.ILogger<CICDTemplate.Api.Controllers.Subscriber.SubscriberController>)
+  fullName.vb: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.New(Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Api.Controllers.Subscriber.SubscriberController))
+  nameWithType: SubscriberController.SubscriberController(ILogger<SubscriberController>)
+  nameWithType.vb: SubscriberController.New(ILogger(Of SubscriberController))
+- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.#ctor*
+  name: SubscriberController
+  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController__ctor_
+  commentId: Overload:CICDTemplate.Api.Controllers.Subscriber.SubscriberController.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.SubscriberController
+  fullName.vb: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.New
+  nameWithType: SubscriberController.SubscriberController
+  nameWithType.vb: SubscriberController.New
+- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)
+  name: Subscribe(Product, CancellationToken)
+  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_CICDTemplate_Api_Models_Common_Product_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product, System.Threading.CancellationToken)
+  nameWithType: SubscriberController.Subscribe(Product, CancellationToken)
+- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe*
+  name: Subscribe
+  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_
+  commentId: Overload:CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe
+  nameWithType: SubscriberController.Subscribe
+- uid: CICDTemplate.Api.Models.Common
+  name: CICDTemplate.Api.Models.Common
+  href: api/CICDTemplate.Api.Models.Common.html
+  commentId: N:CICDTemplate.Api.Models.Common
+  fullName: CICDTemplate.Api.Models.Common
+  nameWithType: CICDTemplate.Api.Models.Common
+- uid: CICDTemplate.Api.Models.Common.Product
+  name: Product
+  href: api/CICDTemplate.Api.Models.Common.Product.html
+  commentId: T:CICDTemplate.Api.Models.Common.Product
+  fullName: CICDTemplate.Api.Models.Common.Product
+  nameWithType: Product
+- uid: CICDTemplate.Api.Models.Common.Product.#ctor(System.String,System.String)
+  name: Product(string, string)
+  href: api/CICDTemplate.Api.Models.Common.Product.html#CICDTemplate_Api_Models_Common_Product__ctor_System_String_System_String_
+  commentId: M:CICDTemplate.Api.Models.Common.Product.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: CICDTemplate.Api.Models.Common.Product.Product(string, string)
+  fullName.vb: CICDTemplate.Api.Models.Common.Product.New(String, String)
+  nameWithType: Product.Product(string, string)
+  nameWithType.vb: Product.New(String, String)
+- uid: CICDTemplate.Api.Models.Common.Product.#ctor*
+  name: Product
+  href: api/CICDTemplate.Api.Models.Common.Product.html#CICDTemplate_Api_Models_Common_Product__ctor_
+  commentId: Overload:CICDTemplate.Api.Models.Common.Product.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Api.Models.Common.Product.Product
+  fullName.vb: CICDTemplate.Api.Models.Common.Product.New
+  nameWithType: Product.Product
+  nameWithType.vb: Product.New
+- uid: CICDTemplate.Api.Models.Common.Product.Description
+  name: Description
+  href: api/CICDTemplate.Api.Models.Common.Product.html#CICDTemplate_Api_Models_Common_Product_Description
+  commentId: P:CICDTemplate.Api.Models.Common.Product.Description
+  fullName: CICDTemplate.Api.Models.Common.Product.Description
+  nameWithType: Product.Description
+- uid: CICDTemplate.Api.Models.Common.Product.Description*
+  name: Description
+  href: api/CICDTemplate.Api.Models.Common.Product.html#CICDTemplate_Api_Models_Common_Product_Description_
+  commentId: Overload:CICDTemplate.Api.Models.Common.Product.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Models.Common.Product.Description
+  nameWithType: Product.Description
+- uid: CICDTemplate.Api.Models.Common.Product.Name
+  name: Name
+  href: api/CICDTemplate.Api.Models.Common.Product.html#CICDTemplate_Api_Models_Common_Product_Name
+  commentId: P:CICDTemplate.Api.Models.Common.Product.Name
+  fullName: CICDTemplate.Api.Models.Common.Product.Name
+  nameWithType: Product.Name
+- uid: CICDTemplate.Api.Models.Common.Product.Name*
+  name: Name
+  href: api/CICDTemplate.Api.Models.Common.Product.html#CICDTemplate_Api_Models_Common_Product_Name_
+  commentId: Overload:CICDTemplate.Api.Models.Common.Product.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Api.Models.Common.Product.Name
+  nameWithType: Product.Name
+- uid: CICDTemplate.Application
+  name: CICDTemplate.Application
+  href: api/CICDTemplate.Application.html
+  commentId: N:CICDTemplate.Application
+  fullName: CICDTemplate.Application
+  nameWithType: CICDTemplate.Application
+- uid: CICDTemplate.Application.Abstractions.Caching
+  name: CICDTemplate.Application.Abstractions.Caching
+  href: api/CICDTemplate.Application.Abstractions.Caching.html
+  commentId: N:CICDTemplate.Application.Abstractions.Caching
+  fullName: CICDTemplate.Application.Abstractions.Caching
+  nameWithType: CICDTemplate.Application.Abstractions.Caching
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService
+  name: ICacheService
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html
+  commentId: T:CICDTemplate.Application.Abstractions.Caching.ICacheService
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService
+  nameWithType: ICacheService
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync*
+  name: GetAsync
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html#CICDTemplate_Application_Abstractions_Caching_ICacheService_GetAsync_
+  commentId: Overload:CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync
+  nameWithType: ICacheService.GetAsync
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync``1(System.String,System.Threading.CancellationToken)
+  name: GetAsync<T>(string, CancellationToken)
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html#CICDTemplate_Application_Abstractions_Caching_ICacheService_GetAsync__1_System_String_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync``1(System.String,System.Threading.CancellationToken)
+  name.vb: GetAsync(Of T)(String, CancellationToken)
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync<T>(string, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Application.Abstractions.Caching.ICacheService.GetAsync(Of T)(String, System.Threading.CancellationToken)
+  nameWithType: ICacheService.GetAsync<T>(string, CancellationToken)
+  nameWithType.vb: ICacheService.GetAsync(Of T)(String, CancellationToken)
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync(System.String,System.Threading.CancellationToken)
+  name: RemoveAsync(string, CancellationToken)
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html#CICDTemplate_Application_Abstractions_Caching_ICacheService_RemoveAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync(System.String,System.Threading.CancellationToken)
+  name.vb: RemoveAsync(String, CancellationToken)
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync(string, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync(String, System.Threading.CancellationToken)
+  nameWithType: ICacheService.RemoveAsync(string, CancellationToken)
+  nameWithType.vb: ICacheService.RemoveAsync(String, CancellationToken)
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync*
+  name: RemoveAsync
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html#CICDTemplate_Application_Abstractions_Caching_ICacheService_RemoveAsync_
+  commentId: Overload:CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService.RemoveAsync
+  nameWithType: ICacheService.RemoveAsync
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync*
+  name: SetAsync
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html#CICDTemplate_Application_Abstractions_Caching_ICacheService_SetAsync_
+  commentId: Overload:CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync
+  nameWithType: ICacheService.SetAsync
+- uid: CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync``1(System.String,``0,System.Nullable{System.TimeSpan},System.Threading.CancellationToken)
+  name: SetAsync<T>(string, T, TimeSpan?, CancellationToken)
+  href: api/CICDTemplate.Application.Abstractions.Caching.ICacheService.html#CICDTemplate_Application_Abstractions_Caching_ICacheService_SetAsync__1_System_String___0_System_Nullable_System_TimeSpan__System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync``1(System.String,``0,System.Nullable{System.TimeSpan},System.Threading.CancellationToken)
+  name.vb: SetAsync(Of T)(String, T, TimeSpan?, CancellationToken)
+  fullName: CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync<T>(string, T, System.TimeSpan?, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Application.Abstractions.Caching.ICacheService.SetAsync(Of T)(String, T, System.TimeSpan?, System.Threading.CancellationToken)
+  nameWithType: ICacheService.SetAsync<T>(string, T, TimeSpan?, CancellationToken)
+  nameWithType.vb: ICacheService.SetAsync(Of T)(String, T, TimeSpan?, CancellationToken)
+- uid: CICDTemplate.Application.Abstractions.Clock
+  name: CICDTemplate.Application.Abstractions.Clock
+  href: api/CICDTemplate.Application.Abstractions.Clock.html
+  commentId: N:CICDTemplate.Application.Abstractions.Clock
+  fullName: CICDTemplate.Application.Abstractions.Clock
+  nameWithType: CICDTemplate.Application.Abstractions.Clock
+- uid: CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider
+  name: IDateTimeProvider
+  href: api/CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.html
+  commentId: T:CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider
+  fullName: CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider
+  nameWithType: IDateTimeProvider
+- uid: CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.Now
+  name: Now
+  href: api/CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.html#CICDTemplate_Application_Abstractions_Clock_IDateTimeProvider_Now
+  commentId: P:CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.Now
+  fullName: CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.Now
+  nameWithType: IDateTimeProvider.Now
+- uid: CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.Now*
+  name: Now
+  href: api/CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.html#CICDTemplate_Application_Abstractions_Clock_IDateTimeProvider_Now_
+  commentId: Overload:CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.Now
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider.Now
+  nameWithType: IDateTimeProvider.Now
+- uid: CICDTemplate.Application.Behaviors
+  name: CICDTemplate.Application.Behaviors
+  href: api/CICDTemplate.Application.Behaviors.html
+  commentId: N:CICDTemplate.Application.Behaviors
+  fullName: CICDTemplate.Application.Behaviors
+  nameWithType: CICDTemplate.Application.Behaviors
+- uid: CICDTemplate.Application.Behaviors.ValidationBehavior`2
+  name: ValidationBehavior<TRequest, TResponse>
+  href: api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.html
+  commentId: T:CICDTemplate.Application.Behaviors.ValidationBehavior`2
+  name.vb: ValidationBehavior(Of TRequest, TResponse)
+  fullName: CICDTemplate.Application.Behaviors.ValidationBehavior<TRequest, TResponse>
+  fullName.vb: CICDTemplate.Application.Behaviors.ValidationBehavior(Of TRequest, TResponse)
+  nameWithType: ValidationBehavior<TRequest, TResponse>
+  nameWithType.vb: ValidationBehavior(Of TRequest, TResponse)
+- uid: CICDTemplate.Application.Behaviors.ValidationBehavior`2.#ctor(System.Collections.Generic.IEnumerable{FluentValidation.IValidator{`0}})
+  name: ValidationBehavior(IEnumerable<IValidator<TRequest>>)
+  href: api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.html#CICDTemplate_Application_Behaviors_ValidationBehavior_2__ctor_System_Collections_Generic_IEnumerable_FluentValidation_IValidator__0___
+  commentId: M:CICDTemplate.Application.Behaviors.ValidationBehavior`2.#ctor(System.Collections.Generic.IEnumerable{FluentValidation.IValidator{`0}})
+  name.vb: New(IEnumerable(Of IValidator(Of TRequest)))
+  fullName: CICDTemplate.Application.Behaviors.ValidationBehavior<TRequest, TResponse>.ValidationBehavior(System.Collections.Generic.IEnumerable<FluentValidation.IValidator<TRequest>>)
+  fullName.vb: CICDTemplate.Application.Behaviors.ValidationBehavior(Of TRequest, TResponse).New(System.Collections.Generic.IEnumerable(Of FluentValidation.IValidator(Of TRequest)))
+  nameWithType: ValidationBehavior<TRequest, TResponse>.ValidationBehavior(IEnumerable<IValidator<TRequest>>)
+  nameWithType.vb: ValidationBehavior(Of TRequest, TResponse).New(IEnumerable(Of IValidator(Of TRequest)))
+- uid: CICDTemplate.Application.Behaviors.ValidationBehavior`2.#ctor*
+  name: ValidationBehavior
+  href: api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.html#CICDTemplate_Application_Behaviors_ValidationBehavior_2__ctor_
+  commentId: Overload:CICDTemplate.Application.Behaviors.ValidationBehavior`2.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Behaviors.ValidationBehavior<TRequest, TResponse>.ValidationBehavior
+  fullName.vb: CICDTemplate.Application.Behaviors.ValidationBehavior(Of TRequest, TResponse).New
+  nameWithType: ValidationBehavior<TRequest, TResponse>.ValidationBehavior
+  nameWithType.vb: ValidationBehavior(Of TRequest, TResponse).New
+- uid: CICDTemplate.Application.Behaviors.ValidationBehavior`2.Handle(`0,MediatR.RequestHandlerDelegate{`1},System.Threading.CancellationToken)
+  name: Handle(TRequest, RequestHandlerDelegate<TResponse>, CancellationToken)
+  href: api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.html#CICDTemplate_Application_Behaviors_ValidationBehavior_2_Handle__0_MediatR_RequestHandlerDelegate__1__System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Behaviors.ValidationBehavior`2.Handle(`0,MediatR.RequestHandlerDelegate{`1},System.Threading.CancellationToken)
+  name.vb: Handle(TRequest, RequestHandlerDelegate(Of TResponse), CancellationToken)
+  fullName: CICDTemplate.Application.Behaviors.ValidationBehavior<TRequest, TResponse>.Handle(TRequest, MediatR.RequestHandlerDelegate<TResponse>, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Application.Behaviors.ValidationBehavior(Of TRequest, TResponse).Handle(TRequest, MediatR.RequestHandlerDelegate(Of TResponse), System.Threading.CancellationToken)
+  nameWithType: ValidationBehavior<TRequest, TResponse>.Handle(TRequest, RequestHandlerDelegate<TResponse>, CancellationToken)
+  nameWithType.vb: ValidationBehavior(Of TRequest, TResponse).Handle(TRequest, RequestHandlerDelegate(Of TResponse), CancellationToken)
+- uid: CICDTemplate.Application.Behaviors.ValidationBehavior`2.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.Behaviors.ValidationBehavior-2.html#CICDTemplate_Application_Behaviors_ValidationBehavior_2_Handle_
+  commentId: Overload:CICDTemplate.Application.Behaviors.ValidationBehavior`2.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Behaviors.ValidationBehavior<TRequest, TResponse>.Handle
+  fullName.vb: CICDTemplate.Application.Behaviors.ValidationBehavior(Of TRequest, TResponse).Handle
+  nameWithType: ValidationBehavior<TRequest, TResponse>.Handle
+  nameWithType.vb: ValidationBehavior(Of TRequest, TResponse).Handle
+- uid: CICDTemplate.Application.Bootstrap
+  name: Bootstrap
+  href: api/CICDTemplate.Application.Bootstrap.html
+  commentId: T:CICDTemplate.Application.Bootstrap
+  fullName: CICDTemplate.Application.Bootstrap
+  nameWithType: Bootstrap
+- uid: CICDTemplate.Application.Bootstrap.AddApplication(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  name: AddApplication(IServiceCollection)
+  href: api/CICDTemplate.Application.Bootstrap.html#CICDTemplate_Application_Bootstrap_AddApplication_Microsoft_Extensions_DependencyInjection_IServiceCollection_
+  commentId: M:CICDTemplate.Application.Bootstrap.AddApplication(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  fullName: CICDTemplate.Application.Bootstrap.AddApplication(Microsoft.Extensions.DependencyInjection.IServiceCollection)
+  nameWithType: Bootstrap.AddApplication(IServiceCollection)
+- uid: CICDTemplate.Application.Bootstrap.AddApplication*
+  name: AddApplication
+  href: api/CICDTemplate.Application.Bootstrap.html#CICDTemplate_Application_Bootstrap_AddApplication_
+  commentId: Overload:CICDTemplate.Application.Bootstrap.AddApplication
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Bootstrap.AddApplication
+  nameWithType: Bootstrap.AddApplication
+- uid: CICDTemplate.Application.Configurations.Queries
+  name: CICDTemplate.Application.Configurations.Queries
+  href: api/CICDTemplate.Application.Configurations.Queries.html
+  commentId: N:CICDTemplate.Application.Configurations.Queries
+  fullName: CICDTemplate.Application.Configurations.Queries
+  nameWithType: CICDTemplate.Application.Configurations.Queries
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery
+  name: ReadConfigurationQuery
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.html
+  commentId: T:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery
+  nameWithType: ReadConfigurationQuery
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.#ctor(System.String)
+  name: ReadConfigurationQuery(string)
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQuery__ctor_System_String_
+  commentId: M:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.ReadConfigurationQuery(string)
+  fullName.vb: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.New(String)
+  nameWithType: ReadConfigurationQuery.ReadConfigurationQuery(string)
+  nameWithType.vb: ReadConfigurationQuery.New(String)
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.#ctor*
+  name: ReadConfigurationQuery
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQuery__ctor_
+  commentId: Overload:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.ReadConfigurationQuery
+  fullName.vb: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.New
+  nameWithType: ReadConfigurationQuery.ReadConfigurationQuery
+  nameWithType.vb: ReadConfigurationQuery.New
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.Key
+  name: Key
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQuery_Key
+  commentId: P:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.Key
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.Key
+  nameWithType: ReadConfigurationQuery.Key
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.Key*
+  name: Key
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQuery_Key_
+  commentId: Overload:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.Key
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery.Key
+  nameWithType: ReadConfigurationQuery.Key
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler
+  name: ReadConfigurationQueryHandler
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.html
+  commentId: T:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler
+  nameWithType: ReadConfigurationQueryHandler
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler})
+  name: ReadConfigurationQueryHandler(DaprClient, ILogger<ReadConfigurationQueryHandler>)
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQueryHandler__ctor_Dapr_Client_DaprClient_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_Configurations_Queries_ReadConfigurationQueryHandler__
+  commentId: M:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler})
+  name.vb: New(DaprClient, ILogger(Of ReadConfigurationQueryHandler))
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.ReadConfigurationQueryHandler(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler>)
+  fullName.vb: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.New(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler))
+  nameWithType: ReadConfigurationQueryHandler.ReadConfigurationQueryHandler(DaprClient, ILogger<ReadConfigurationQueryHandler>)
+  nameWithType.vb: ReadConfigurationQueryHandler.New(DaprClient, ILogger(Of ReadConfigurationQueryHandler))
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.#ctor*
+  name: ReadConfigurationQueryHandler
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQueryHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.ReadConfigurationQueryHandler
+  fullName.vb: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.New
+  nameWithType: ReadConfigurationQueryHandler.ReadConfigurationQueryHandler
+  nameWithType.vb: ReadConfigurationQueryHandler.New
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.Handle(CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery,System.Threading.CancellationToken)
+  name: Handle(ReadConfigurationQuery, CancellationToken)
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQueryHandler_Handle_CICDTemplate_Application_Configurations_Queries_ReadConfigurationQuery_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.Handle(CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.Handle(CICDTemplate.Application.Configurations.Queries.ReadConfigurationQuery, System.Threading.CancellationToken)
+  nameWithType: ReadConfigurationQueryHandler.Handle(ReadConfigurationQuery, CancellationToken)
+- uid: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.html#CICDTemplate_Application_Configurations_Queries_ReadConfigurationQueryHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Configurations.Queries.ReadConfigurationQueryHandler.Handle
+  nameWithType: ReadConfigurationQueryHandler.Handle
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct
+  name: CICDTemplate.Application.Products.Commands.CreateProduct
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.html
+  commentId: N:CICDTemplate.Application.Products.Commands.CreateProduct
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct
+  nameWithType: CICDTemplate.Application.Products.Commands.CreateProduct
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand
+  name: CreateProductCommand
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html
+  commentId: T:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand
+  nameWithType: CreateProductCommand
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.#ctor(System.String,System.String)
+  name: CreateProductCommand(string, string)
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand__ctor_System_String_System_String_
+  commentId: M:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.CreateProductCommand(string, string)
+  fullName.vb: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.New(String, String)
+  nameWithType: CreateProductCommand.CreateProductCommand(string, string)
+  nameWithType.vb: CreateProductCommand.New(String, String)
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.#ctor*
+  name: CreateProductCommand
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.CreateProductCommand
+  fullName.vb: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.New
+  nameWithType: CreateProductCommand.CreateProductCommand
+  nameWithType.vb: CreateProductCommand.New
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Description
+  name: Description
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand_Description
+  commentId: P:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Description
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Description
+  nameWithType: CreateProductCommand.Description
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Description*
+  name: Description
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand_Description_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Description
+  nameWithType: CreateProductCommand.Description
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Name
+  name: Name
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand_Name
+  commentId: P:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Name
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Name
+  nameWithType: CreateProductCommand.Name
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Name*
+  name: Name
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand_Name_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand.Name
+  nameWithType: CreateProductCommand.Name
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler
+  name: CreateProductCommandHandler
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.html
+  commentId: T:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler
+  nameWithType: CreateProductCommandHandler
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.#ctor(CICDTemplate.Domain.Repositories.IProductsRepository,CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider)
+  name: CreateProductCommandHandler(IProductsRepository, IDateTimeProvider)
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommandHandler__ctor_CICDTemplate_Domain_Repositories_IProductsRepository_CICDTemplate_Application_Abstractions_Clock_IDateTimeProvider_
+  commentId: M:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.#ctor(CICDTemplate.Domain.Repositories.IProductsRepository,CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider)
+  name.vb: New(IProductsRepository, IDateTimeProvider)
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.CreateProductCommandHandler(CICDTemplate.Domain.Repositories.IProductsRepository, CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider)
+  fullName.vb: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.New(CICDTemplate.Domain.Repositories.IProductsRepository, CICDTemplate.Application.Abstractions.Clock.IDateTimeProvider)
+  nameWithType: CreateProductCommandHandler.CreateProductCommandHandler(IProductsRepository, IDateTimeProvider)
+  nameWithType.vb: CreateProductCommandHandler.New(IProductsRepository, IDateTimeProvider)
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.#ctor*
+  name: CreateProductCommandHandler
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommandHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.CreateProductCommandHandler
+  fullName.vb: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.New
+  nameWithType: CreateProductCommandHandler.CreateProductCommandHandler
+  nameWithType.vb: CreateProductCommandHandler.New
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.Handle(CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand,System.Threading.CancellationToken)
+  name: Handle(CreateProductCommand, CancellationToken)
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommandHandler_Handle_CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommand_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.Handle(CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.Handle(CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommand, System.Threading.CancellationToken)
+  nameWithType: CreateProductCommandHandler.Handle(CreateProductCommand, CancellationToken)
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommandHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandHandler.Handle
+  nameWithType: CreateProductCommandHandler.Handle
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator
+  name: CreateProductCommandValidator
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.html
+  commentId: T:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator
+  nameWithType: CreateProductCommandValidator
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.#ctor
+  name: CreateProductCommandValidator()
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommandValidator__ctor
+  commentId: M:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.#ctor
+  name.vb: New()
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.CreateProductCommandValidator()
+  fullName.vb: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.New()
+  nameWithType: CreateProductCommandValidator.CreateProductCommandValidator()
+  nameWithType.vb: CreateProductCommandValidator.New()
+- uid: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.#ctor*
+  name: CreateProductCommandValidator
+  href: api/CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.html#CICDTemplate_Application_Products_Commands_CreateProduct_CreateProductCommandValidator__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.CreateProductCommandValidator
+  fullName.vb: CICDTemplate.Application.Products.Commands.CreateProduct.CreateProductCommandValidator.New
+  nameWithType: CreateProductCommandValidator.CreateProductCommandValidator
+  nameWithType.vb: CreateProductCommandValidator.New
+- uid: CICDTemplate.Application.Products.Commands.DeleteState
+  name: CICDTemplate.Application.Products.Commands.DeleteState
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.html
+  commentId: N:CICDTemplate.Application.Products.Commands.DeleteState
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState
+  nameWithType: CICDTemplate.Application.Products.Commands.DeleteState
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand
+  name: DeleteStateCommand
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.html
+  commentId: T:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand
+  nameWithType: DeleteStateCommand
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.#ctor(System.String)
+  name: DeleteStateCommand(string)
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommand__ctor_System_String_
+  commentId: M:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.DeleteStateCommand(string)
+  fullName.vb: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.New(String)
+  nameWithType: DeleteStateCommand.DeleteStateCommand(string)
+  nameWithType.vb: DeleteStateCommand.New(String)
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.#ctor*
+  name: DeleteStateCommand
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommand__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.DeleteStateCommand
+  fullName.vb: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.New
+  nameWithType: DeleteStateCommand.DeleteStateCommand
+  nameWithType.vb: DeleteStateCommand.New
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.ProductName
+  name: ProductName
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommand_ProductName
+  commentId: P:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.ProductName
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.ProductName
+  nameWithType: DeleteStateCommand.ProductName
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.ProductName*
+  name: ProductName
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommand_ProductName_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.ProductName
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand.ProductName
+  nameWithType: DeleteStateCommand.ProductName
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler
+  name: DeleteStateCommandHandler
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.html
+  commentId: T:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler
+  nameWithType: DeleteStateCommandHandler
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler})
+  name: DeleteStateCommandHandler(DaprClient, ILogger<DeleteStateCommandHandler>)
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommandHandler__ctor_Dapr_Client_DaprClient_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommandHandler__
+  commentId: M:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler})
+  name.vb: New(DaprClient, ILogger(Of DeleteStateCommandHandler))
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.DeleteStateCommandHandler(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler>)
+  fullName.vb: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.New(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler))
+  nameWithType: DeleteStateCommandHandler.DeleteStateCommandHandler(DaprClient, ILogger<DeleteStateCommandHandler>)
+  nameWithType.vb: DeleteStateCommandHandler.New(DaprClient, ILogger(Of DeleteStateCommandHandler))
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.#ctor*
+  name: DeleteStateCommandHandler
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommandHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.DeleteStateCommandHandler
+  fullName.vb: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.New
+  nameWithType: DeleteStateCommandHandler.DeleteStateCommandHandler
+  nameWithType.vb: DeleteStateCommandHandler.New
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.Handle(CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand,System.Threading.CancellationToken)
+  name: Handle(DeleteStateCommand, CancellationToken)
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommandHandler_Handle_CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommand_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.Handle(CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.Handle(CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommand, System.Threading.CancellationToken)
+  nameWithType: DeleteStateCommandHandler.Handle(DeleteStateCommand, CancellationToken)
+- uid: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.html#CICDTemplate_Application_Products_Commands_DeleteState_DeleteStateCommandHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Products.Commands.DeleteState.DeleteStateCommandHandler.Handle
+  nameWithType: DeleteStateCommandHandler.Handle
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts
+  name: CICDTemplate.Application.Products.Queries.ReadProducts
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.html
+  commentId: N:CICDTemplate.Application.Products.Queries.ReadProducts
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts
+  nameWithType: CICDTemplate.Application.Products.Queries.ReadProducts
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery
+  name: ReadProductsQuery
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.html
+  commentId: T:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery
+  nameWithType: ReadProductsQuery
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.#ctor
+  name: ReadProductsQuery()
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.html#CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQuery__ctor
+  commentId: M:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.#ctor
+  name.vb: New()
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.ReadProductsQuery()
+  fullName.vb: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.New()
+  nameWithType: ReadProductsQuery.ReadProductsQuery()
+  nameWithType.vb: ReadProductsQuery.New()
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.#ctor*
+  name: ReadProductsQuery
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.html#CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQuery__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.ReadProductsQuery
+  fullName.vb: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery.New
+  nameWithType: ReadProductsQuery.ReadProductsQuery
+  nameWithType.vb: ReadProductsQuery.New
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler
+  name: ReadProductsQueryHandler
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.html
+  commentId: T:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler
+  nameWithType: ReadProductsQueryHandler
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.#ctor(CICDTemplate.Domain.Repositories.IProductsRepository,CICDTemplate.Application.Abstractions.Caching.ICacheService,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler})
+  name: ReadProductsQueryHandler(IProductsRepository, ICacheService, ILogger<ReadProductsQueryHandler>)
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.html#CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQueryHandler__ctor_CICDTemplate_Domain_Repositories_IProductsRepository_CICDTemplate_Application_Abstractions_Caching_ICacheService_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQueryHandler__
+  commentId: M:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.#ctor(CICDTemplate.Domain.Repositories.IProductsRepository,CICDTemplate.Application.Abstractions.Caching.ICacheService,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler})
+  name.vb: New(IProductsRepository, ICacheService, ILogger(Of ReadProductsQueryHandler))
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.ReadProductsQueryHandler(CICDTemplate.Domain.Repositories.IProductsRepository, CICDTemplate.Application.Abstractions.Caching.ICacheService, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler>)
+  fullName.vb: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.New(CICDTemplate.Domain.Repositories.IProductsRepository, CICDTemplate.Application.Abstractions.Caching.ICacheService, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler))
+  nameWithType: ReadProductsQueryHandler.ReadProductsQueryHandler(IProductsRepository, ICacheService, ILogger<ReadProductsQueryHandler>)
+  nameWithType.vb: ReadProductsQueryHandler.New(IProductsRepository, ICacheService, ILogger(Of ReadProductsQueryHandler))
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.#ctor*
+  name: ReadProductsQueryHandler
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.html#CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQueryHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.ReadProductsQueryHandler
+  fullName.vb: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.New
+  nameWithType: ReadProductsQueryHandler.ReadProductsQueryHandler
+  nameWithType.vb: ReadProductsQueryHandler.New
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.Handle(CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery,System.Threading.CancellationToken)
+  name: Handle(ReadProductsQuery, CancellationToken)
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.html#CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQueryHandler_Handle_CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQuery_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.Handle(CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.Handle(CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQuery, System.Threading.CancellationToken)
+  nameWithType: ReadProductsQueryHandler.Handle(ReadProductsQuery, CancellationToken)
+- uid: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.html#CICDTemplate_Application_Products_Queries_ReadProducts_ReadProductsQueryHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Products.Queries.ReadProducts.ReadProductsQueryHandler.Handle
+  nameWithType: ReadProductsQueryHandler.Handle
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct
+  name: CICDTemplate.Application.PubSub.Commands.PublishProduct
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.html
+  commentId: N:CICDTemplate.Application.PubSub.Commands.PublishProduct
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct
+  nameWithType: CICDTemplate.Application.PubSub.Commands.PublishProduct
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand
+  name: PublishProductCommand
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html
+  commentId: T:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand
+  nameWithType: PublishProductCommand
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.#ctor(System.String,System.String)
+  name: PublishProductCommand(string, string)
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand__ctor_System_String_System_String_
+  commentId: M:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.PublishProductCommand(string, string)
+  fullName.vb: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.New(String, String)
+  nameWithType: PublishProductCommand.PublishProductCommand(string, string)
+  nameWithType.vb: PublishProductCommand.New(String, String)
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.#ctor*
+  name: PublishProductCommand
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand__ctor_
+  commentId: Overload:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.PublishProductCommand
+  fullName.vb: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.New
+  nameWithType: PublishProductCommand.PublishProductCommand
+  nameWithType.vb: PublishProductCommand.New
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Description
+  name: Description
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand_Description
+  commentId: P:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Description
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Description
+  nameWithType: PublishProductCommand.Description
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Description*
+  name: Description
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand_Description_
+  commentId: Overload:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Description
+  nameWithType: PublishProductCommand.Description
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Name
+  name: Name
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand_Name
+  commentId: P:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Name
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Name
+  nameWithType: PublishProductCommand.Name
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Name*
+  name: Name
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand_Name_
+  commentId: Overload:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand.Name
+  nameWithType: PublishProductCommand.Name
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler
+  name: PublishProductCommandHandler
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.html
+  commentId: T:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler
+  nameWithType: PublishProductCommandHandler
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler})
+  name: PublishProductCommandHandler(DaprClient, ILogger<PublishProductCommandHandler>)
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandHandler__ctor_Dapr_Client_DaprClient_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandHandler__
+  commentId: M:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler})
+  name.vb: New(DaprClient, ILogger(Of PublishProductCommandHandler))
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.PublishProductCommandHandler(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler>)
+  fullName.vb: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.New(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler))
+  nameWithType: PublishProductCommandHandler.PublishProductCommandHandler(DaprClient, ILogger<PublishProductCommandHandler>)
+  nameWithType.vb: PublishProductCommandHandler.New(DaprClient, ILogger(Of PublishProductCommandHandler))
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.#ctor*
+  name: PublishProductCommandHandler
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.PublishProductCommandHandler
+  fullName.vb: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.New
+  nameWithType: PublishProductCommandHandler.PublishProductCommandHandler
+  nameWithType.vb: PublishProductCommandHandler.New
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.Handle(CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand,System.Threading.CancellationToken)
+  name: Handle(PublishProductCommand, CancellationToken)
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandHandler_Handle_CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommand_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.Handle(CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.Handle(CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommand, System.Threading.CancellationToken)
+  nameWithType: PublishProductCommandHandler.Handle(PublishProductCommand, CancellationToken)
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandHandler.Handle
+  nameWithType: PublishProductCommandHandler.Handle
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator
+  name: PublishProductCommandValidator
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.html
+  commentId: T:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator
+  nameWithType: PublishProductCommandValidator
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.#ctor
+  name: PublishProductCommandValidator()
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandValidator__ctor
+  commentId: M:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.#ctor
+  name.vb: New()
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.PublishProductCommandValidator()
+  fullName.vb: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.New()
+  nameWithType: PublishProductCommandValidator.PublishProductCommandValidator()
+  nameWithType.vb: PublishProductCommandValidator.New()
+- uid: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.#ctor*
+  name: PublishProductCommandValidator
+  href: api/CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.html#CICDTemplate_Application_PubSub_Commands_PublishProduct_PublishProductCommandValidator__ctor_
+  commentId: Overload:CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.PublishProductCommandValidator
+  fullName.vb: CICDTemplate.Application.PubSub.Commands.PublishProduct.PublishProductCommandValidator.New
+  nameWithType: PublishProductCommandValidator.PublishProductCommandValidator
+  nameWithType.vb: PublishProductCommandValidator.New
+- uid: CICDTemplate.Application.Secrets.Queries
+  name: CICDTemplate.Application.Secrets.Queries
+  href: api/CICDTemplate.Application.Secrets.Queries.html
+  commentId: N:CICDTemplate.Application.Secrets.Queries
+  fullName: CICDTemplate.Application.Secrets.Queries
+  nameWithType: CICDTemplate.Application.Secrets.Queries
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery
+  name: ReadSecretQuery
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.html
+  commentId: T:CICDTemplate.Application.Secrets.Queries.ReadSecretQuery
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery
+  nameWithType: ReadSecretQuery
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.#ctor(System.String)
+  name: ReadSecretQuery(string)
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQuery__ctor_System_String_
+  commentId: M:CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.ReadSecretQuery(string)
+  fullName.vb: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.New(String)
+  nameWithType: ReadSecretQuery.ReadSecretQuery(string)
+  nameWithType.vb: ReadSecretQuery.New(String)
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.#ctor*
+  name: ReadSecretQuery
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQuery__ctor_
+  commentId: Overload:CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.ReadSecretQuery
+  fullName.vb: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.New
+  nameWithType: ReadSecretQuery.ReadSecretQuery
+  nameWithType.vb: ReadSecretQuery.New
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.Key
+  name: Key
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQuery_Key
+  commentId: P:CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.Key
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.Key
+  nameWithType: ReadSecretQuery.Key
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.Key*
+  name: Key
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQuery_Key_
+  commentId: Overload:CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.Key
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQuery.Key
+  nameWithType: ReadSecretQuery.Key
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler
+  name: ReadSecretQueryHandler
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.html
+  commentId: T:CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler
+  nameWithType: ReadSecretQueryHandler
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler})
+  name: ReadSecretQueryHandler(DaprClient, ILogger<ReadSecretQueryHandler>)
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQueryHandler__ctor_Dapr_Client_DaprClient_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_Secrets_Queries_ReadSecretQueryHandler__
+  commentId: M:CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler})
+  name.vb: New(DaprClient, ILogger(Of ReadSecretQueryHandler))
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.ReadSecretQueryHandler(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler>)
+  fullName.vb: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.New(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler))
+  nameWithType: ReadSecretQueryHandler.ReadSecretQueryHandler(DaprClient, ILogger<ReadSecretQueryHandler>)
+  nameWithType.vb: ReadSecretQueryHandler.New(DaprClient, ILogger(Of ReadSecretQueryHandler))
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.#ctor*
+  name: ReadSecretQueryHandler
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQueryHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.ReadSecretQueryHandler
+  fullName.vb: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.New
+  nameWithType: ReadSecretQueryHandler.ReadSecretQueryHandler
+  nameWithType.vb: ReadSecretQueryHandler.New
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.Handle(CICDTemplate.Application.Secrets.Queries.ReadSecretQuery,System.Threading.CancellationToken)
+  name: Handle(ReadSecretQuery, CancellationToken)
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQueryHandler_Handle_CICDTemplate_Application_Secrets_Queries_ReadSecretQuery_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.Handle(CICDTemplate.Application.Secrets.Queries.ReadSecretQuery,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.Handle(CICDTemplate.Application.Secrets.Queries.ReadSecretQuery, System.Threading.CancellationToken)
+  nameWithType: ReadSecretQueryHandler.Handle(ReadSecretQuery, CancellationToken)
+- uid: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.html#CICDTemplate_Application_Secrets_Queries_ReadSecretQueryHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.Secrets.Queries.ReadSecretQueryHandler.Handle
+  nameWithType: ReadSecretQueryHandler.Handle
+- uid: CICDTemplate.Application.States.Commands.SaveState
+  name: CICDTemplate.Application.States.Commands.SaveState
+  href: api/CICDTemplate.Application.States.Commands.SaveState.html
+  commentId: N:CICDTemplate.Application.States.Commands.SaveState
+  fullName: CICDTemplate.Application.States.Commands.SaveState
+  nameWithType: CICDTemplate.Application.States.Commands.SaveState
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand
+  name: SaveStateCommand
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html
+  commentId: T:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand
+  nameWithType: SaveStateCommand
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.#ctor(System.String,System.String)
+  name: SaveStateCommand(string, string)
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand__ctor_System_String_System_String_
+  commentId: M:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.SaveStateCommand(string, string)
+  fullName.vb: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.New(String, String)
+  nameWithType: SaveStateCommand.SaveStateCommand(string, string)
+  nameWithType.vb: SaveStateCommand.New(String, String)
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.#ctor*
+  name: SaveStateCommand
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand__ctor_
+  commentId: Overload:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.SaveStateCommand
+  fullName.vb: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.New
+  nameWithType: SaveStateCommand.SaveStateCommand
+  nameWithType.vb: SaveStateCommand.New
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Description
+  name: Description
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand_Description
+  commentId: P:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Description
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Description
+  nameWithType: SaveStateCommand.Description
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Description*
+  name: Description
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand_Description_
+  commentId: Overload:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Description
+  nameWithType: SaveStateCommand.Description
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Name
+  name: Name
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand_Name
+  commentId: P:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Name
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Name
+  nameWithType: SaveStateCommand.Name
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Name*
+  name: Name
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand_Name_
+  commentId: Overload:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand.Name
+  nameWithType: SaveStateCommand.Name
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler
+  name: SaveStateCommandHandler
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.html
+  commentId: T:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler
+  nameWithType: SaveStateCommandHandler
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler})
+  name: SaveStateCommandHandler(DaprClient, ILogger<SaveStateCommandHandler>)
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandHandler__ctor_Dapr_Client_DaprClient_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandHandler__
+  commentId: M:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler})
+  name.vb: New(DaprClient, ILogger(Of SaveStateCommandHandler))
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.SaveStateCommandHandler(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler>)
+  fullName.vb: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.New(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler))
+  nameWithType: SaveStateCommandHandler.SaveStateCommandHandler(DaprClient, ILogger<SaveStateCommandHandler>)
+  nameWithType.vb: SaveStateCommandHandler.New(DaprClient, ILogger(Of SaveStateCommandHandler))
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.#ctor*
+  name: SaveStateCommandHandler
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.SaveStateCommandHandler
+  fullName.vb: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.New
+  nameWithType: SaveStateCommandHandler.SaveStateCommandHandler
+  nameWithType.vb: SaveStateCommandHandler.New
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.Handle(CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand,System.Threading.CancellationToken)
+  name: Handle(SaveStateCommand, CancellationToken)
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandHandler_Handle_CICDTemplate_Application_States_Commands_SaveState_SaveStateCommand_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.Handle(CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.Handle(CICDTemplate.Application.States.Commands.SaveState.SaveStateCommand, System.Threading.CancellationToken)
+  nameWithType: SaveStateCommandHandler.Handle(SaveStateCommand, CancellationToken)
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandHandler.Handle
+  nameWithType: SaveStateCommandHandler.Handle
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator
+  name: SaveStateCommandValidator
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.html
+  commentId: T:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator
+  nameWithType: SaveStateCommandValidator
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.#ctor
+  name: SaveStateCommandValidator()
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandValidator__ctor
+  commentId: M:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.#ctor
+  name.vb: New()
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.SaveStateCommandValidator()
+  fullName.vb: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.New()
+  nameWithType: SaveStateCommandValidator.SaveStateCommandValidator()
+  nameWithType.vb: SaveStateCommandValidator.New()
+- uid: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.#ctor*
+  name: SaveStateCommandValidator
+  href: api/CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.html#CICDTemplate_Application_States_Commands_SaveState_SaveStateCommandValidator__ctor_
+  commentId: Overload:CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.SaveStateCommandValidator
+  fullName.vb: CICDTemplate.Application.States.Commands.SaveState.SaveStateCommandValidator.New
+  nameWithType: SaveStateCommandValidator.SaveStateCommandValidator
+  nameWithType.vb: SaveStateCommandValidator.New
+- uid: CICDTemplate.Application.States.Queries.ReadState
+  name: CICDTemplate.Application.States.Queries.ReadState
+  href: api/CICDTemplate.Application.States.Queries.ReadState.html
+  commentId: N:CICDTemplate.Application.States.Queries.ReadState
+  fullName: CICDTemplate.Application.States.Queries.ReadState
+  nameWithType: CICDTemplate.Application.States.Queries.ReadState
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState
+  name: ProductState
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html
+  commentId: T:CICDTemplate.Application.States.Queries.ReadState.ProductState
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState
+  nameWithType: ProductState
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState.#ctor(System.String,System.String)
+  name: ProductState(string, string)
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html#CICDTemplate_Application_States_Queries_ReadState_ProductState__ctor_System_String_System_String_
+  commentId: M:CICDTemplate.Application.States.Queries.ReadState.ProductState.#ctor(System.String,System.String)
+  name.vb: New(String, String)
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState.ProductState(string, string)
+  fullName.vb: CICDTemplate.Application.States.Queries.ReadState.ProductState.New(String, String)
+  nameWithType: ProductState.ProductState(string, string)
+  nameWithType.vb: ProductState.New(String, String)
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState.#ctor*
+  name: ProductState
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html#CICDTemplate_Application_States_Queries_ReadState_ProductState__ctor_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ProductState.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState.ProductState
+  fullName.vb: CICDTemplate.Application.States.Queries.ReadState.ProductState.New
+  nameWithType: ProductState.ProductState
+  nameWithType.vb: ProductState.New
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState.Description
+  name: Description
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html#CICDTemplate_Application_States_Queries_ReadState_ProductState_Description
+  commentId: P:CICDTemplate.Application.States.Queries.ReadState.ProductState.Description
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState.Description
+  nameWithType: ProductState.Description
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState.Description*
+  name: Description
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html#CICDTemplate_Application_States_Queries_ReadState_ProductState_Description_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ProductState.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState.Description
+  nameWithType: ProductState.Description
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState.Name
+  name: Name
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html#CICDTemplate_Application_States_Queries_ReadState_ProductState_Name
+  commentId: P:CICDTemplate.Application.States.Queries.ReadState.ProductState.Name
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState.Name
+  nameWithType: ProductState.Name
+- uid: CICDTemplate.Application.States.Queries.ReadState.ProductState.Name*
+  name: Name
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ProductState.html#CICDTemplate_Application_States_Queries_ReadState_ProductState_Name_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ProductState.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ProductState.Name
+  nameWithType: ProductState.Name
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery
+  name: ReadStateQuery
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.html
+  commentId: T:CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery
+  nameWithType: ReadStateQuery
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.#ctor(System.String)
+  name: ReadStateQuery(string)
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQuery__ctor_System_String_
+  commentId: M:CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.#ctor(System.String)
+  name.vb: New(String)
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ReadStateQuery(string)
+  fullName.vb: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.New(String)
+  nameWithType: ReadStateQuery.ReadStateQuery(string)
+  nameWithType.vb: ReadStateQuery.New(String)
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.#ctor*
+  name: ReadStateQuery
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQuery__ctor_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ReadStateQuery
+  fullName.vb: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.New
+  nameWithType: ReadStateQuery.ReadStateQuery
+  nameWithType.vb: ReadStateQuery.New
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ProductName
+  name: ProductName
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQuery_ProductName
+  commentId: P:CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ProductName
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ProductName
+  nameWithType: ReadStateQuery.ProductName
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ProductName*
+  name: ProductName
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQuery_ProductName_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ProductName
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery.ProductName
+  nameWithType: ReadStateQuery.ProductName
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler
+  name: ReadStateQueryHandler
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.html
+  commentId: T:CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler
+  nameWithType: ReadStateQueryHandler
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler})
+  name: ReadStateQueryHandler(DaprClient, ILogger<ReadStateQueryHandler>)
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQueryHandler__ctor_Dapr_Client_DaprClient_Microsoft_Extensions_Logging_ILogger_CICDTemplate_Application_States_Queries_ReadState_ReadStateQueryHandler__
+  commentId: M:CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.#ctor(Dapr.Client.DaprClient,Microsoft.Extensions.Logging.ILogger{CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler})
+  name.vb: New(DaprClient, ILogger(Of ReadStateQueryHandler))
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.ReadStateQueryHandler(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger<CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler>)
+  fullName.vb: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.New(Dapr.Client.DaprClient, Microsoft.Extensions.Logging.ILogger(Of CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler))
+  nameWithType: ReadStateQueryHandler.ReadStateQueryHandler(DaprClient, ILogger<ReadStateQueryHandler>)
+  nameWithType.vb: ReadStateQueryHandler.New(DaprClient, ILogger(Of ReadStateQueryHandler))
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.#ctor*
+  name: ReadStateQueryHandler
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQueryHandler__ctor_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.ReadStateQueryHandler
+  fullName.vb: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.New
+  nameWithType: ReadStateQueryHandler.ReadStateQueryHandler
+  nameWithType.vb: ReadStateQueryHandler.New
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.Handle(CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery,System.Threading.CancellationToken)
+  name: Handle(ReadStateQuery, CancellationToken)
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQueryHandler_Handle_CICDTemplate_Application_States_Queries_ReadState_ReadStateQuery_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.Handle(CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.Handle(CICDTemplate.Application.States.Queries.ReadState.ReadStateQuery, System.Threading.CancellationToken)
+  nameWithType: ReadStateQueryHandler.Handle(ReadStateQuery, CancellationToken)
+- uid: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.Handle*
+  name: Handle
+  href: api/CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.html#CICDTemplate_Application_States_Queries_ReadState_ReadStateQueryHandler_Handle_
+  commentId: Overload:CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.Handle
+  isSpec: "True"
+  fullName: CICDTemplate.Application.States.Queries.ReadState.ReadStateQueryHandler.Handle
+  nameWithType: ReadStateQueryHandler.Handle
+- uid: CICDTemplate.Domain.Abstract
+  name: CICDTemplate.Domain.Abstract
+  href: api/CICDTemplate.Domain.Abstract.html
+  commentId: N:CICDTemplate.Domain.Abstract
+  fullName: CICDTemplate.Domain.Abstract
+  nameWithType: CICDTemplate.Domain.Abstract
+- uid: CICDTemplate.Domain.Abstract.Constants
+  name: Constants
+  href: api/CICDTemplate.Domain.Abstract.Constants.html
+  commentId: T:CICDTemplate.Domain.Abstract.Constants
+  fullName: CICDTemplate.Domain.Abstract.Constants
+  nameWithType: Constants
+- uid: CICDTemplate.Domain.Abstract.Constants.AllProductsCacheKey
+  name: AllProductsCacheKey
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_AllProductsCacheKey
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.AllProductsCacheKey
+  fullName: CICDTemplate.Domain.Abstract.Constants.AllProductsCacheKey
+  nameWithType: Constants.AllProductsCacheKey
+- uid: CICDTemplate.Domain.Abstract.Constants.CacheConnectionstringName
+  name: CacheConnectionstringName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_CacheConnectionstringName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.CacheConnectionstringName
+  fullName: CICDTemplate.Domain.Abstract.Constants.CacheConnectionstringName
+  nameWithType: Constants.CacheConnectionstringName
+- uid: CICDTemplate.Domain.Abstract.Constants.ConfigStoreName
+  name: ConfigStoreName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_ConfigStoreName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.ConfigStoreName
+  fullName: CICDTemplate.Domain.Abstract.Constants.ConfigStoreName
+  nameWithType: Constants.ConfigStoreName
+- uid: CICDTemplate.Domain.Abstract.Constants.DatabaseConnectionstringName
+  name: DatabaseConnectionstringName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_DatabaseConnectionstringName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.DatabaseConnectionstringName
+  fullName: CICDTemplate.Domain.Abstract.Constants.DatabaseConnectionstringName
+  nameWithType: Constants.DatabaseConnectionstringName
+- uid: CICDTemplate.Domain.Abstract.Constants.PubSubName
+  name: PubSubName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_PubSubName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.PubSubName
+  fullName: CICDTemplate.Domain.Abstract.Constants.PubSubName
+  nameWithType: Constants.PubSubName
+- uid: CICDTemplate.Domain.Abstract.Constants.PubSubTopicName
+  name: PubSubTopicName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_PubSubTopicName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.PubSubTopicName
+  fullName: CICDTemplate.Domain.Abstract.Constants.PubSubTopicName
+  nameWithType: Constants.PubSubTopicName
+- uid: CICDTemplate.Domain.Abstract.Constants.SecretsStoreName
+  name: SecretsStoreName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_SecretsStoreName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.SecretsStoreName
+  fullName: CICDTemplate.Domain.Abstract.Constants.SecretsStoreName
+  nameWithType: Constants.SecretsStoreName
+- uid: CICDTemplate.Domain.Abstract.Constants.StateStoreName
+  name: StateStoreName
+  href: api/CICDTemplate.Domain.Abstract.Constants.html#CICDTemplate_Domain_Abstract_Constants_StateStoreName
+  commentId: F:CICDTemplate.Domain.Abstract.Constants.StateStoreName
+  fullName: CICDTemplate.Domain.Abstract.Constants.StateStoreName
+  nameWithType: Constants.StateStoreName
+- uid: CICDTemplate.Domain.Entities
+  name: CICDTemplate.Domain.Entities
+  href: api/CICDTemplate.Domain.Entities.html
+  commentId: N:CICDTemplate.Domain.Entities
+  fullName: CICDTemplate.Domain.Entities
+  nameWithType: CICDTemplate.Domain.Entities
+- uid: CICDTemplate.Domain.Entities.Entity
+  name: Entity
+  href: api/CICDTemplate.Domain.Entities.Entity.html
+  commentId: T:CICDTemplate.Domain.Entities.Entity
+  fullName: CICDTemplate.Domain.Entities.Entity
+  nameWithType: Entity
+- uid: CICDTemplate.Domain.Entities.Entity.#ctor
+  name: Entity()
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity__ctor
+  commentId: M:CICDTemplate.Domain.Entities.Entity.#ctor
+  name.vb: New()
+  fullName: CICDTemplate.Domain.Entities.Entity.Entity()
+  fullName.vb: CICDTemplate.Domain.Entities.Entity.New()
+  nameWithType: Entity.Entity()
+  nameWithType.vb: Entity.New()
+- uid: CICDTemplate.Domain.Entities.Entity.#ctor(System.Guid)
+  name: Entity(Guid)
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity__ctor_System_Guid_
+  commentId: M:CICDTemplate.Domain.Entities.Entity.#ctor(System.Guid)
+  name.vb: New(Guid)
+  fullName: CICDTemplate.Domain.Entities.Entity.Entity(System.Guid)
+  fullName.vb: CICDTemplate.Domain.Entities.Entity.New(System.Guid)
+  nameWithType: Entity.Entity(Guid)
+  nameWithType.vb: Entity.New(Guid)
+- uid: CICDTemplate.Domain.Entities.Entity.#ctor*
+  name: Entity
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity__ctor_
+  commentId: Overload:CICDTemplate.Domain.Entities.Entity.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Domain.Entities.Entity.Entity
+  fullName.vb: CICDTemplate.Domain.Entities.Entity.New
+  nameWithType: Entity.Entity
+  nameWithType.vb: Entity.New
+- uid: CICDTemplate.Domain.Entities.Entity.CreatedAtUtc
+  name: CreatedAtUtc
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity_CreatedAtUtc
+  commentId: P:CICDTemplate.Domain.Entities.Entity.CreatedAtUtc
+  fullName: CICDTemplate.Domain.Entities.Entity.CreatedAtUtc
+  nameWithType: Entity.CreatedAtUtc
+- uid: CICDTemplate.Domain.Entities.Entity.CreatedAtUtc*
+  name: CreatedAtUtc
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity_CreatedAtUtc_
+  commentId: Overload:CICDTemplate.Domain.Entities.Entity.CreatedAtUtc
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Entities.Entity.CreatedAtUtc
+  nameWithType: Entity.CreatedAtUtc
+- uid: CICDTemplate.Domain.Entities.Entity.Id
+  name: Id
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity_Id
+  commentId: P:CICDTemplate.Domain.Entities.Entity.Id
+  fullName: CICDTemplate.Domain.Entities.Entity.Id
+  nameWithType: Entity.Id
+- uid: CICDTemplate.Domain.Entities.Entity.Id*
+  name: Id
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity_Id_
+  commentId: Overload:CICDTemplate.Domain.Entities.Entity.Id
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Entities.Entity.Id
+  nameWithType: Entity.Id
+- uid: CICDTemplate.Domain.Entities.Entity.UpdatedAtUtc
+  name: UpdatedAtUtc
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity_UpdatedAtUtc
+  commentId: P:CICDTemplate.Domain.Entities.Entity.UpdatedAtUtc
+  fullName: CICDTemplate.Domain.Entities.Entity.UpdatedAtUtc
+  nameWithType: Entity.UpdatedAtUtc
+- uid: CICDTemplate.Domain.Entities.Entity.UpdatedAtUtc*
+  name: UpdatedAtUtc
+  href: api/CICDTemplate.Domain.Entities.Entity.html#CICDTemplate_Domain_Entities_Entity_UpdatedAtUtc_
+  commentId: Overload:CICDTemplate.Domain.Entities.Entity.UpdatedAtUtc
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Entities.Entity.UpdatedAtUtc
+  nameWithType: Entity.UpdatedAtUtc
+- uid: CICDTemplate.Domain.Entities.Product
+  name: Product
+  href: api/CICDTemplate.Domain.Entities.Product.html
+  commentId: T:CICDTemplate.Domain.Entities.Product
+  fullName: CICDTemplate.Domain.Entities.Product
+  nameWithType: Product
+- uid: CICDTemplate.Domain.Entities.Product.Description
+  name: Description
+  href: api/CICDTemplate.Domain.Entities.Product.html#CICDTemplate_Domain_Entities_Product_Description
+  commentId: P:CICDTemplate.Domain.Entities.Product.Description
+  fullName: CICDTemplate.Domain.Entities.Product.Description
+  nameWithType: Product.Description
+- uid: CICDTemplate.Domain.Entities.Product.Description*
+  name: Description
+  href: api/CICDTemplate.Domain.Entities.Product.html#CICDTemplate_Domain_Entities_Product_Description_
+  commentId: Overload:CICDTemplate.Domain.Entities.Product.Description
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Entities.Product.Description
+  nameWithType: Product.Description
+- uid: CICDTemplate.Domain.Entities.Product.Name
+  name: Name
+  href: api/CICDTemplate.Domain.Entities.Product.html#CICDTemplate_Domain_Entities_Product_Name
+  commentId: P:CICDTemplate.Domain.Entities.Product.Name
+  fullName: CICDTemplate.Domain.Entities.Product.Name
+  nameWithType: Product.Name
+- uid: CICDTemplate.Domain.Entities.Product.Name*
+  name: Name
+  href: api/CICDTemplate.Domain.Entities.Product.html#CICDTemplate_Domain_Entities_Product_Name_
+  commentId: Overload:CICDTemplate.Domain.Entities.Product.Name
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Entities.Product.Name
+  nameWithType: Product.Name
+- uid: CICDTemplate.Domain.Repositories
+  name: CICDTemplate.Domain.Repositories
+  href: api/CICDTemplate.Domain.Repositories.html
+  commentId: N:CICDTemplate.Domain.Repositories
+  fullName: CICDTemplate.Domain.Repositories
+  nameWithType: CICDTemplate.Domain.Repositories
+- uid: CICDTemplate.Domain.Repositories.IProductsRepository
+  name: IProductsRepository
+  href: api/CICDTemplate.Domain.Repositories.IProductsRepository.html
+  commentId: T:CICDTemplate.Domain.Repositories.IProductsRepository
+  fullName: CICDTemplate.Domain.Repositories.IProductsRepository
+  nameWithType: IProductsRepository
+- uid: CICDTemplate.Domain.Repositories.IProductsRepository.CreateProductAsync(CICDTemplate.Domain.Entities.Product,System.Threading.CancellationToken)
+  name: CreateProductAsync(Product, CancellationToken)
+  href: api/CICDTemplate.Domain.Repositories.IProductsRepository.html#CICDTemplate_Domain_Repositories_IProductsRepository_CreateProductAsync_CICDTemplate_Domain_Entities_Product_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Domain.Repositories.IProductsRepository.CreateProductAsync(CICDTemplate.Domain.Entities.Product,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Domain.Repositories.IProductsRepository.CreateProductAsync(CICDTemplate.Domain.Entities.Product, System.Threading.CancellationToken)
+  nameWithType: IProductsRepository.CreateProductAsync(Product, CancellationToken)
+- uid: CICDTemplate.Domain.Repositories.IProductsRepository.CreateProductAsync*
+  name: CreateProductAsync
+  href: api/CICDTemplate.Domain.Repositories.IProductsRepository.html#CICDTemplate_Domain_Repositories_IProductsRepository_CreateProductAsync_
+  commentId: Overload:CICDTemplate.Domain.Repositories.IProductsRepository.CreateProductAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Repositories.IProductsRepository.CreateProductAsync
+  nameWithType: IProductsRepository.CreateProductAsync
+- uid: CICDTemplate.Domain.Repositories.IProductsRepository.GetProductsAsync(System.Threading.CancellationToken)
+  name: GetProductsAsync(CancellationToken)
+  href: api/CICDTemplate.Domain.Repositories.IProductsRepository.html#CICDTemplate_Domain_Repositories_IProductsRepository_GetProductsAsync_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Domain.Repositories.IProductsRepository.GetProductsAsync(System.Threading.CancellationToken)
+  fullName: CICDTemplate.Domain.Repositories.IProductsRepository.GetProductsAsync(System.Threading.CancellationToken)
+  nameWithType: IProductsRepository.GetProductsAsync(CancellationToken)
+- uid: CICDTemplate.Domain.Repositories.IProductsRepository.GetProductsAsync*
+  name: GetProductsAsync
+  href: api/CICDTemplate.Domain.Repositories.IProductsRepository.html#CICDTemplate_Domain_Repositories_IProductsRepository_GetProductsAsync_
+  commentId: Overload:CICDTemplate.Domain.Repositories.IProductsRepository.GetProductsAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Domain.Repositories.IProductsRepository.GetProductsAsync
+  nameWithType: IProductsRepository.GetProductsAsync
+- uid: CICDTemplate.Infrastructure
+  name: CICDTemplate.Infrastructure
+  href: api/CICDTemplate.Infrastructure.html
+  commentId: N:CICDTemplate.Infrastructure
+  fullName: CICDTemplate.Infrastructure
+  nameWithType: CICDTemplate.Infrastructure
+- uid: CICDTemplate.Infrastructure.ApplicationDbContext
+  name: ApplicationDbContext
+  href: api/CICDTemplate.Infrastructure.ApplicationDbContext.html
+  commentId: T:CICDTemplate.Infrastructure.ApplicationDbContext
+  fullName: CICDTemplate.Infrastructure.ApplicationDbContext
+  nameWithType: ApplicationDbContext
+- uid: CICDTemplate.Infrastructure.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{CICDTemplate.Infrastructure.ApplicationDbContext})
+  name: ApplicationDbContext(DbContextOptions<ApplicationDbContext>)
+  href: api/CICDTemplate.Infrastructure.ApplicationDbContext.html#CICDTemplate_Infrastructure_ApplicationDbContext__ctor_Microsoft_EntityFrameworkCore_DbContextOptions_CICDTemplate_Infrastructure_ApplicationDbContext__
+  commentId: M:CICDTemplate.Infrastructure.ApplicationDbContext.#ctor(Microsoft.EntityFrameworkCore.DbContextOptions{CICDTemplate.Infrastructure.ApplicationDbContext})
+  name.vb: New(DbContextOptions(Of ApplicationDbContext))
+  fullName: CICDTemplate.Infrastructure.ApplicationDbContext.ApplicationDbContext(Microsoft.EntityFrameworkCore.DbContextOptions<CICDTemplate.Infrastructure.ApplicationDbContext>)
+  fullName.vb: CICDTemplate.Infrastructure.ApplicationDbContext.New(Microsoft.EntityFrameworkCore.DbContextOptions(Of CICDTemplate.Infrastructure.ApplicationDbContext))
+  nameWithType: ApplicationDbContext.ApplicationDbContext(DbContextOptions<ApplicationDbContext>)
+  nameWithType.vb: ApplicationDbContext.New(DbContextOptions(Of ApplicationDbContext))
+- uid: CICDTemplate.Infrastructure.ApplicationDbContext.#ctor*
+  name: ApplicationDbContext
+  href: api/CICDTemplate.Infrastructure.ApplicationDbContext.html#CICDTemplate_Infrastructure_ApplicationDbContext__ctor_
+  commentId: Overload:CICDTemplate.Infrastructure.ApplicationDbContext.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Infrastructure.ApplicationDbContext.ApplicationDbContext
+  fullName.vb: CICDTemplate.Infrastructure.ApplicationDbContext.New
+  nameWithType: ApplicationDbContext.ApplicationDbContext
+  nameWithType.vb: ApplicationDbContext.New
+- uid: CICDTemplate.Infrastructure.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: OnModelCreating(ModelBuilder)
+  href: api/CICDTemplate.Infrastructure.ApplicationDbContext.html#CICDTemplate_Infrastructure_ApplicationDbContext_OnModelCreating_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:CICDTemplate.Infrastructure.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: CICDTemplate.Infrastructure.ApplicationDbContext.OnModelCreating(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: ApplicationDbContext.OnModelCreating(ModelBuilder)
+- uid: CICDTemplate.Infrastructure.ApplicationDbContext.OnModelCreating*
+  name: OnModelCreating
+  href: api/CICDTemplate.Infrastructure.ApplicationDbContext.html#CICDTemplate_Infrastructure_ApplicationDbContext_OnModelCreating_
+  commentId: Overload:CICDTemplate.Infrastructure.ApplicationDbContext.OnModelCreating
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.ApplicationDbContext.OnModelCreating
+  nameWithType: ApplicationDbContext.OnModelCreating
+- uid: CICDTemplate.Infrastructure.Bootstrap
+  name: Bootstrap
+  href: api/CICDTemplate.Infrastructure.Bootstrap.html
+  commentId: T:CICDTemplate.Infrastructure.Bootstrap
+  fullName: CICDTemplate.Infrastructure.Bootstrap
+  nameWithType: Bootstrap
+- uid: CICDTemplate.Infrastructure.Bootstrap.AddInfrastructure(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  name: AddInfrastructure(IServiceCollection, IConfiguration)
+  href: api/CICDTemplate.Infrastructure.Bootstrap.html#CICDTemplate_Infrastructure_Bootstrap_AddInfrastructure_Microsoft_Extensions_DependencyInjection_IServiceCollection_Microsoft_Extensions_Configuration_IConfiguration_
+  commentId: M:CICDTemplate.Infrastructure.Bootstrap.AddInfrastructure(Microsoft.Extensions.DependencyInjection.IServiceCollection,Microsoft.Extensions.Configuration.IConfiguration)
+  fullName: CICDTemplate.Infrastructure.Bootstrap.AddInfrastructure(Microsoft.Extensions.DependencyInjection.IServiceCollection, Microsoft.Extensions.Configuration.IConfiguration)
+  nameWithType: Bootstrap.AddInfrastructure(IServiceCollection, IConfiguration)
+- uid: CICDTemplate.Infrastructure.Bootstrap.AddInfrastructure*
+  name: AddInfrastructure
+  href: api/CICDTemplate.Infrastructure.Bootstrap.html#CICDTemplate_Infrastructure_Bootstrap_AddInfrastructure_
+  commentId: Overload:CICDTemplate.Infrastructure.Bootstrap.AddInfrastructure
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Bootstrap.AddInfrastructure
+  nameWithType: Bootstrap.AddInfrastructure
+- uid: CICDTemplate.Infrastructure.Caching
+  name: CICDTemplate.Infrastructure.Caching
+  href: api/CICDTemplate.Infrastructure.Caching.html
+  commentId: N:CICDTemplate.Infrastructure.Caching
+  fullName: CICDTemplate.Infrastructure.Caching
+  nameWithType: CICDTemplate.Infrastructure.Caching
+- uid: CICDTemplate.Infrastructure.Caching.CacheOptions
+  name: CacheOptions
+  href: api/CICDTemplate.Infrastructure.Caching.CacheOptions.html
+  commentId: T:CICDTemplate.Infrastructure.Caching.CacheOptions
+  fullName: CICDTemplate.Infrastructure.Caching.CacheOptions
+  nameWithType: CacheOptions
+- uid: CICDTemplate.Infrastructure.Caching.CacheOptions.Create(System.Nullable{System.TimeSpan})
+  name: Create(TimeSpan?)
+  href: api/CICDTemplate.Infrastructure.Caching.CacheOptions.html#CICDTemplate_Infrastructure_Caching_CacheOptions_Create_System_Nullable_System_TimeSpan__
+  commentId: M:CICDTemplate.Infrastructure.Caching.CacheOptions.Create(System.Nullable{System.TimeSpan})
+  fullName: CICDTemplate.Infrastructure.Caching.CacheOptions.Create(System.TimeSpan?)
+  nameWithType: CacheOptions.Create(TimeSpan?)
+- uid: CICDTemplate.Infrastructure.Caching.CacheOptions.Create*
+  name: Create
+  href: api/CICDTemplate.Infrastructure.Caching.CacheOptions.html#CICDTemplate_Infrastructure_Caching_CacheOptions_Create_
+  commentId: Overload:CICDTemplate.Infrastructure.Caching.CacheOptions.Create
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Caching.CacheOptions.Create
+  nameWithType: CacheOptions.Create
+- uid: CICDTemplate.Infrastructure.Caching.CacheOptions.DefaultExpiration
+  name: DefaultExpiration
+  href: api/CICDTemplate.Infrastructure.Caching.CacheOptions.html#CICDTemplate_Infrastructure_Caching_CacheOptions_DefaultExpiration
+  commentId: P:CICDTemplate.Infrastructure.Caching.CacheOptions.DefaultExpiration
+  fullName: CICDTemplate.Infrastructure.Caching.CacheOptions.DefaultExpiration
+  nameWithType: CacheOptions.DefaultExpiration
+- uid: CICDTemplate.Infrastructure.Caching.CacheOptions.DefaultExpiration*
+  name: DefaultExpiration
+  href: api/CICDTemplate.Infrastructure.Caching.CacheOptions.html#CICDTemplate_Infrastructure_Caching_CacheOptions_DefaultExpiration_
+  commentId: Overload:CICDTemplate.Infrastructure.Caching.CacheOptions.DefaultExpiration
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Caching.CacheOptions.DefaultExpiration
+  nameWithType: CacheOptions.DefaultExpiration
+- uid: CICDTemplate.Infrastructure.Caching.CacheService
+  name: CacheService
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html
+  commentId: T:CICDTemplate.Infrastructure.Caching.CacheService
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService
+  nameWithType: CacheService
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+  name: CacheService(IDistributedCache)
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService__ctor_Microsoft_Extensions_Caching_Distributed_IDistributedCache_
+  commentId: M:CICDTemplate.Infrastructure.Caching.CacheService.#ctor(Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+  name.vb: New(IDistributedCache)
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.CacheService(Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+  fullName.vb: CICDTemplate.Infrastructure.Caching.CacheService.New(Microsoft.Extensions.Caching.Distributed.IDistributedCache)
+  nameWithType: CacheService.CacheService(IDistributedCache)
+  nameWithType.vb: CacheService.New(IDistributedCache)
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.#ctor*
+  name: CacheService
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService__ctor_
+  commentId: Overload:CICDTemplate.Infrastructure.Caching.CacheService.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.CacheService
+  fullName.vb: CICDTemplate.Infrastructure.Caching.CacheService.New
+  nameWithType: CacheService.CacheService
+  nameWithType.vb: CacheService.New
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.GetAsync*
+  name: GetAsync
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService_GetAsync_
+  commentId: Overload:CICDTemplate.Infrastructure.Caching.CacheService.GetAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.GetAsync
+  nameWithType: CacheService.GetAsync
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.GetAsync``1(System.String,System.Threading.CancellationToken)
+  name: GetAsync<T>(string, CancellationToken)
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService_GetAsync__1_System_String_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Infrastructure.Caching.CacheService.GetAsync``1(System.String,System.Threading.CancellationToken)
+  name.vb: GetAsync(Of T)(String, CancellationToken)
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.GetAsync<T>(string, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Infrastructure.Caching.CacheService.GetAsync(Of T)(String, System.Threading.CancellationToken)
+  nameWithType: CacheService.GetAsync<T>(string, CancellationToken)
+  nameWithType.vb: CacheService.GetAsync(Of T)(String, CancellationToken)
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync(System.String,System.Threading.CancellationToken)
+  name: RemoveAsync(string, CancellationToken)
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService_RemoveAsync_System_String_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync(System.String,System.Threading.CancellationToken)
+  name.vb: RemoveAsync(String, CancellationToken)
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync(string, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync(String, System.Threading.CancellationToken)
+  nameWithType: CacheService.RemoveAsync(string, CancellationToken)
+  nameWithType.vb: CacheService.RemoveAsync(String, CancellationToken)
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync*
+  name: RemoveAsync
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService_RemoveAsync_
+  commentId: Overload:CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.RemoveAsync
+  nameWithType: CacheService.RemoveAsync
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.SetAsync*
+  name: SetAsync
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService_SetAsync_
+  commentId: Overload:CICDTemplate.Infrastructure.Caching.CacheService.SetAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.SetAsync
+  nameWithType: CacheService.SetAsync
+- uid: CICDTemplate.Infrastructure.Caching.CacheService.SetAsync``1(System.String,``0,System.Nullable{System.TimeSpan},System.Threading.CancellationToken)
+  name: SetAsync<T>(string, T, TimeSpan?, CancellationToken)
+  href: api/CICDTemplate.Infrastructure.Caching.CacheService.html#CICDTemplate_Infrastructure_Caching_CacheService_SetAsync__1_System_String___0_System_Nullable_System_TimeSpan__System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Infrastructure.Caching.CacheService.SetAsync``1(System.String,``0,System.Nullable{System.TimeSpan},System.Threading.CancellationToken)
+  name.vb: SetAsync(Of T)(String, T, TimeSpan?, CancellationToken)
+  fullName: CICDTemplate.Infrastructure.Caching.CacheService.SetAsync<T>(string, T, System.TimeSpan?, System.Threading.CancellationToken)
+  fullName.vb: CICDTemplate.Infrastructure.Caching.CacheService.SetAsync(Of T)(String, T, System.TimeSpan?, System.Threading.CancellationToken)
+  nameWithType: CacheService.SetAsync<T>(string, T, TimeSpan?, CancellationToken)
+  nameWithType.vb: CacheService.SetAsync(Of T)(String, T, TimeSpan?, CancellationToken)
+- uid: CICDTemplate.Infrastructure.Clock
+  name: CICDTemplate.Infrastructure.Clock
+  href: api/CICDTemplate.Infrastructure.Clock.html
+  commentId: N:CICDTemplate.Infrastructure.Clock
+  fullName: CICDTemplate.Infrastructure.Clock
+  nameWithType: CICDTemplate.Infrastructure.Clock
+- uid: CICDTemplate.Infrastructure.Clock.DateTimeProvider
+  name: DateTimeProvider
+  href: api/CICDTemplate.Infrastructure.Clock.DateTimeProvider.html
+  commentId: T:CICDTemplate.Infrastructure.Clock.DateTimeProvider
+  fullName: CICDTemplate.Infrastructure.Clock.DateTimeProvider
+  nameWithType: DateTimeProvider
+- uid: CICDTemplate.Infrastructure.Clock.DateTimeProvider.Now
+  name: Now
+  href: api/CICDTemplate.Infrastructure.Clock.DateTimeProvider.html#CICDTemplate_Infrastructure_Clock_DateTimeProvider_Now
+  commentId: P:CICDTemplate.Infrastructure.Clock.DateTimeProvider.Now
+  fullName: CICDTemplate.Infrastructure.Clock.DateTimeProvider.Now
+  nameWithType: DateTimeProvider.Now
+- uid: CICDTemplate.Infrastructure.Clock.DateTimeProvider.Now*
+  name: Now
+  href: api/CICDTemplate.Infrastructure.Clock.DateTimeProvider.html#CICDTemplate_Infrastructure_Clock_DateTimeProvider_Now_
+  commentId: Overload:CICDTemplate.Infrastructure.Clock.DateTimeProvider.Now
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Clock.DateTimeProvider.Now
+  nameWithType: DateTimeProvider.Now
+- uid: CICDTemplate.Infrastructure.Configurations
+  name: CICDTemplate.Infrastructure.Configurations
+  href: api/CICDTemplate.Infrastructure.Configurations.html
+  commentId: N:CICDTemplate.Infrastructure.Configurations
+  fullName: CICDTemplate.Infrastructure.Configurations
+  nameWithType: CICDTemplate.Infrastructure.Configurations
+- uid: CICDTemplate.Infrastructure.Configurations.ProductConfiguration
+  name: ProductConfiguration
+  href: api/CICDTemplate.Infrastructure.Configurations.ProductConfiguration.html
+  commentId: T:CICDTemplate.Infrastructure.Configurations.ProductConfiguration
+  fullName: CICDTemplate.Infrastructure.Configurations.ProductConfiguration
+  nameWithType: ProductConfiguration
+- uid: CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{CICDTemplate.Domain.Entities.Product})
+  name: Configure(EntityTypeBuilder<Product>)
+  href: api/CICDTemplate.Infrastructure.Configurations.ProductConfiguration.html#CICDTemplate_Infrastructure_Configurations_ProductConfiguration_Configure_Microsoft_EntityFrameworkCore_Metadata_Builders_EntityTypeBuilder_CICDTemplate_Domain_Entities_Product__
+  commentId: M:CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder{CICDTemplate.Domain.Entities.Product})
+  name.vb: Configure(EntityTypeBuilder(Of Product))
+  fullName: CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<CICDTemplate.Domain.Entities.Product>)
+  fullName.vb: CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder(Of CICDTemplate.Domain.Entities.Product))
+  nameWithType: ProductConfiguration.Configure(EntityTypeBuilder<Product>)
+  nameWithType.vb: ProductConfiguration.Configure(EntityTypeBuilder(Of Product))
+- uid: CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure*
+  name: Configure
+  href: api/CICDTemplate.Infrastructure.Configurations.ProductConfiguration.html#CICDTemplate_Infrastructure_Configurations_ProductConfiguration_Configure_
+  commentId: Overload:CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Configurations.ProductConfiguration.Configure
+  nameWithType: ProductConfiguration.Configure
+- uid: CICDTemplate.Infrastructure.Migrations
+  name: CICDTemplate.Infrastructure.Migrations
+  href: api/CICDTemplate.Infrastructure.Migrations.html
+  commentId: N:CICDTemplate.Infrastructure.Migrations
+  fullName: CICDTemplate.Infrastructure.Migrations
+  nameWithType: CICDTemplate.Infrastructure.Migrations
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration
+  name: DbMigration
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html
+  commentId: T:CICDTemplate.Infrastructure.Migrations.DbMigration
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration
+  nameWithType: DbMigration
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  name: BuildTargetModel(ModelBuilder)
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html#CICDTemplate_Infrastructure_Migrations_DbMigration_BuildTargetModel_Microsoft_EntityFrameworkCore_ModelBuilder_
+  commentId: M:CICDTemplate.Infrastructure.Migrations.DbMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)
+  nameWithType: DbMigration.BuildTargetModel(ModelBuilder)
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration.BuildTargetModel*
+  name: BuildTargetModel
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html#CICDTemplate_Infrastructure_Migrations_DbMigration_BuildTargetModel_
+  commentId: Overload:CICDTemplate.Infrastructure.Migrations.DbMigration.BuildTargetModel
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration.BuildTargetModel
+  nameWithType: DbMigration.BuildTargetModel
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Down(MigrationBuilder)
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html#CICDTemplate_Infrastructure_Migrations_DbMigration_Down_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:CICDTemplate.Infrastructure.Migrations.DbMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: DbMigration.Down(MigrationBuilder)
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration.Down*
+  name: Down
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html#CICDTemplate_Infrastructure_Migrations_DbMigration_Down_
+  commentId: Overload:CICDTemplate.Infrastructure.Migrations.DbMigration.Down
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration.Down
+  nameWithType: DbMigration.Down
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  name: Up(MigrationBuilder)
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html#CICDTemplate_Infrastructure_Migrations_DbMigration_Up_Microsoft_EntityFrameworkCore_Migrations_MigrationBuilder_
+  commentId: M:CICDTemplate.Infrastructure.Migrations.DbMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)
+  nameWithType: DbMigration.Up(MigrationBuilder)
+- uid: CICDTemplate.Infrastructure.Migrations.DbMigration.Up*
+  name: Up
+  href: api/CICDTemplate.Infrastructure.Migrations.DbMigration.html#CICDTemplate_Infrastructure_Migrations_DbMigration_Up_
+  commentId: Overload:CICDTemplate.Infrastructure.Migrations.DbMigration.Up
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Migrations.DbMigration.Up
+  nameWithType: DbMigration.Up
+- uid: CICDTemplate.Infrastructure.Repositories
+  name: CICDTemplate.Infrastructure.Repositories
+  href: api/CICDTemplate.Infrastructure.Repositories.html
+  commentId: N:CICDTemplate.Infrastructure.Repositories
+  fullName: CICDTemplate.Infrastructure.Repositories
+  nameWithType: CICDTemplate.Infrastructure.Repositories
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository
+  name: ProductsRepository
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html
+  commentId: T:CICDTemplate.Infrastructure.Repositories.ProductsRepository
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository
+  nameWithType: ProductsRepository
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository.#ctor(CICDTemplate.Infrastructure.ApplicationDbContext)
+  name: ProductsRepository(ApplicationDbContext)
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html#CICDTemplate_Infrastructure_Repositories_ProductsRepository__ctor_CICDTemplate_Infrastructure_ApplicationDbContext_
+  commentId: M:CICDTemplate.Infrastructure.Repositories.ProductsRepository.#ctor(CICDTemplate.Infrastructure.ApplicationDbContext)
+  name.vb: New(ApplicationDbContext)
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository.ProductsRepository(CICDTemplate.Infrastructure.ApplicationDbContext)
+  fullName.vb: CICDTemplate.Infrastructure.Repositories.ProductsRepository.New(CICDTemplate.Infrastructure.ApplicationDbContext)
+  nameWithType: ProductsRepository.ProductsRepository(ApplicationDbContext)
+  nameWithType.vb: ProductsRepository.New(ApplicationDbContext)
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository.#ctor*
+  name: ProductsRepository
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html#CICDTemplate_Infrastructure_Repositories_ProductsRepository__ctor_
+  commentId: Overload:CICDTemplate.Infrastructure.Repositories.ProductsRepository.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository.ProductsRepository
+  fullName.vb: CICDTemplate.Infrastructure.Repositories.ProductsRepository.New
+  nameWithType: ProductsRepository.ProductsRepository
+  nameWithType.vb: ProductsRepository.New
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository.CreateProductAsync(CICDTemplate.Domain.Entities.Product,System.Threading.CancellationToken)
+  name: CreateProductAsync(Product, CancellationToken)
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html#CICDTemplate_Infrastructure_Repositories_ProductsRepository_CreateProductAsync_CICDTemplate_Domain_Entities_Product_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Infrastructure.Repositories.ProductsRepository.CreateProductAsync(CICDTemplate.Domain.Entities.Product,System.Threading.CancellationToken)
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository.CreateProductAsync(CICDTemplate.Domain.Entities.Product, System.Threading.CancellationToken)
+  nameWithType: ProductsRepository.CreateProductAsync(Product, CancellationToken)
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository.CreateProductAsync*
+  name: CreateProductAsync
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html#CICDTemplate_Infrastructure_Repositories_ProductsRepository_CreateProductAsync_
+  commentId: Overload:CICDTemplate.Infrastructure.Repositories.ProductsRepository.CreateProductAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository.CreateProductAsync
+  nameWithType: ProductsRepository.CreateProductAsync
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository.GetProductsAsync(System.Threading.CancellationToken)
+  name: GetProductsAsync(CancellationToken)
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html#CICDTemplate_Infrastructure_Repositories_ProductsRepository_GetProductsAsync_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.Infrastructure.Repositories.ProductsRepository.GetProductsAsync(System.Threading.CancellationToken)
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository.GetProductsAsync(System.Threading.CancellationToken)
+  nameWithType: ProductsRepository.GetProductsAsync(CancellationToken)
+- uid: CICDTemplate.Infrastructure.Repositories.ProductsRepository.GetProductsAsync*
+  name: GetProductsAsync
+  href: api/CICDTemplate.Infrastructure.Repositories.ProductsRepository.html#CICDTemplate_Infrastructure_Repositories_ProductsRepository_GetProductsAsync_
+  commentId: Overload:CICDTemplate.Infrastructure.Repositories.ProductsRepository.GetProductsAsync
+  isSpec: "True"
+  fullName: CICDTemplate.Infrastructure.Repositories.ProductsRepository.GetProductsAsync
+  nameWithType: ProductsRepository.GetProductsAsync
+- uid: CICDTemplate.MigrationService
+  name: CICDTemplate.MigrationService
+  href: api/CICDTemplate.MigrationService.html
+  commentId: N:CICDTemplate.MigrationService
+  fullName: CICDTemplate.MigrationService
+  nameWithType: CICDTemplate.MigrationService
+- uid: CICDTemplate.MigrationService.Worker
+  name: Worker
+  href: api/CICDTemplate.MigrationService.Worker.html
+  commentId: T:CICDTemplate.MigrationService.Worker
+  fullName: CICDTemplate.MigrationService.Worker
+  nameWithType: Worker
+- uid: CICDTemplate.MigrationService.Worker.#ctor(System.IServiceProvider,Microsoft.Extensions.Hosting.IHostApplicationLifetime)
+  name: Worker(IServiceProvider, IHostApplicationLifetime)
+  href: api/CICDTemplate.MigrationService.Worker.html#CICDTemplate_MigrationService_Worker__ctor_System_IServiceProvider_Microsoft_Extensions_Hosting_IHostApplicationLifetime_
+  commentId: M:CICDTemplate.MigrationService.Worker.#ctor(System.IServiceProvider,Microsoft.Extensions.Hosting.IHostApplicationLifetime)
+  name.vb: New(IServiceProvider, IHostApplicationLifetime)
+  fullName: CICDTemplate.MigrationService.Worker.Worker(System.IServiceProvider, Microsoft.Extensions.Hosting.IHostApplicationLifetime)
+  fullName.vb: CICDTemplate.MigrationService.Worker.New(System.IServiceProvider, Microsoft.Extensions.Hosting.IHostApplicationLifetime)
+  nameWithType: Worker.Worker(IServiceProvider, IHostApplicationLifetime)
+  nameWithType.vb: Worker.New(IServiceProvider, IHostApplicationLifetime)
+- uid: CICDTemplate.MigrationService.Worker.#ctor*
+  name: Worker
+  href: api/CICDTemplate.MigrationService.Worker.html#CICDTemplate_MigrationService_Worker__ctor_
+  commentId: Overload:CICDTemplate.MigrationService.Worker.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: CICDTemplate.MigrationService.Worker.Worker
+  fullName.vb: CICDTemplate.MigrationService.Worker.New
+  nameWithType: Worker.Worker
+  nameWithType.vb: Worker.New
+- uid: CICDTemplate.MigrationService.Worker.ActivitySource
+  name: ActivitySource
+  href: api/CICDTemplate.MigrationService.Worker.html#CICDTemplate_MigrationService_Worker_ActivitySource
+  commentId: F:CICDTemplate.MigrationService.Worker.ActivitySource
+  fullName: CICDTemplate.MigrationService.Worker.ActivitySource
+  nameWithType: Worker.ActivitySource
+- uid: CICDTemplate.MigrationService.Worker.ActivitySourceName
+  name: ActivitySourceName
+  href: api/CICDTemplate.MigrationService.Worker.html#CICDTemplate_MigrationService_Worker_ActivitySourceName
+  commentId: F:CICDTemplate.MigrationService.Worker.ActivitySourceName
+  fullName: CICDTemplate.MigrationService.Worker.ActivitySourceName
+  nameWithType: Worker.ActivitySourceName
+- uid: CICDTemplate.MigrationService.Worker.ExecuteAsync(System.Threading.CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/CICDTemplate.MigrationService.Worker.html#CICDTemplate_MigrationService_Worker_ExecuteAsync_System_Threading_CancellationToken_
+  commentId: M:CICDTemplate.MigrationService.Worker.ExecuteAsync(System.Threading.CancellationToken)
+  fullName: CICDTemplate.MigrationService.Worker.ExecuteAsync(System.Threading.CancellationToken)
+  nameWithType: Worker.ExecuteAsync(CancellationToken)
+- uid: CICDTemplate.MigrationService.Worker.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/CICDTemplate.MigrationService.Worker.html#CICDTemplate_MigrationService_Worker_ExecuteAsync_
+  commentId: Overload:CICDTemplate.MigrationService.Worker.ExecuteAsync
+  isSpec: "True"
+  fullName: CICDTemplate.MigrationService.Worker.ExecuteAsync
+  nameWithType: Worker.ExecuteAsync
+- uid: CICDTemplate.ServiceDefaults
+  name: CICDTemplate.ServiceDefaults
+  href: api/CICDTemplate.ServiceDefaults.html
+  commentId: N:CICDTemplate.ServiceDefaults
+  fullName: CICDTemplate.ServiceDefaults
+  nameWithType: CICDTemplate.ServiceDefaults
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions
+  name: SupportExtensions
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html
+  commentId: T:CICDTemplate.ServiceDefaults.SupportExtensions
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions
+  nameWithType: SupportExtensions
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks*
+  name: AddDefaultHealthChecks
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_AddDefaultHealthChecks_
+  commentId: Overload:CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks
+  isSpec: "True"
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks
+  nameWithType: SupportExtensions.AddDefaultHealthChecks
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks``1(``0)
+  name: AddDefaultHealthChecks<TBuilder>(TBuilder)
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_AddDefaultHealthChecks__1___0_
+  commentId: M:CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks``1(``0)
+  name.vb: AddDefaultHealthChecks(Of TBuilder)(TBuilder)
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks<TBuilder>(TBuilder)
+  fullName.vb: CICDTemplate.ServiceDefaults.SupportExtensions.AddDefaultHealthChecks(Of TBuilder)(TBuilder)
+  nameWithType: SupportExtensions.AddDefaultHealthChecks<TBuilder>(TBuilder)
+  nameWithType.vb: SupportExtensions.AddDefaultHealthChecks(Of TBuilder)(TBuilder)
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults*
+  name: AddServiceDefaults
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_AddServiceDefaults_
+  commentId: Overload:CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults
+  isSpec: "True"
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults
+  nameWithType: SupportExtensions.AddServiceDefaults
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults``1(``0)
+  name: AddServiceDefaults<TBuilder>(TBuilder)
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_AddServiceDefaults__1___0_
+  commentId: M:CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults``1(``0)
+  name.vb: AddServiceDefaults(Of TBuilder)(TBuilder)
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults<TBuilder>(TBuilder)
+  fullName.vb: CICDTemplate.ServiceDefaults.SupportExtensions.AddServiceDefaults(Of TBuilder)(TBuilder)
+  nameWithType: SupportExtensions.AddServiceDefaults<TBuilder>(TBuilder)
+  nameWithType.vb: SupportExtensions.AddServiceDefaults(Of TBuilder)(TBuilder)
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry*
+  name: ConfigureOpenTelemetry
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_ConfigureOpenTelemetry_
+  commentId: Overload:CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry
+  isSpec: "True"
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry
+  nameWithType: SupportExtensions.ConfigureOpenTelemetry
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry``1(``0)
+  name: ConfigureOpenTelemetry<TBuilder>(TBuilder)
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_ConfigureOpenTelemetry__1___0_
+  commentId: M:CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry``1(``0)
+  name.vb: ConfigureOpenTelemetry(Of TBuilder)(TBuilder)
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry<TBuilder>(TBuilder)
+  fullName.vb: CICDTemplate.ServiceDefaults.SupportExtensions.ConfigureOpenTelemetry(Of TBuilder)(TBuilder)
+  nameWithType: SupportExtensions.ConfigureOpenTelemetry<TBuilder>(TBuilder)
+  nameWithType.vb: SupportExtensions.ConfigureOpenTelemetry(Of TBuilder)(TBuilder)
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.MapDefaultEndpoints(Microsoft.AspNetCore.Builder.WebApplication)
+  name: MapDefaultEndpoints(WebApplication)
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_MapDefaultEndpoints_Microsoft_AspNetCore_Builder_WebApplication_
+  commentId: M:CICDTemplate.ServiceDefaults.SupportExtensions.MapDefaultEndpoints(Microsoft.AspNetCore.Builder.WebApplication)
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.MapDefaultEndpoints(Microsoft.AspNetCore.Builder.WebApplication)
+  nameWithType: SupportExtensions.MapDefaultEndpoints(WebApplication)
+- uid: CICDTemplate.ServiceDefaults.SupportExtensions.MapDefaultEndpoints*
+  name: MapDefaultEndpoints
+  href: api/CICDTemplate.ServiceDefaults.SupportExtensions.html#CICDTemplate_ServiceDefaults_SupportExtensions_MapDefaultEndpoints_
+  commentId: Overload:CICDTemplate.ServiceDefaults.SupportExtensions.MapDefaultEndpoints
+  isSpec: "True"
+  fullName: CICDTemplate.ServiceDefaults.SupportExtensions.MapDefaultEndpoints
+  nameWithType: SupportExtensions.MapDefaultEndpoints
+- uid: Projects
+  name: Projects
+  href: api/Projects.html
+  commentId: N:Projects
+  fullName: Projects
+  nameWithType: Projects
+- uid: Projects.CICDTemplate_Api
+  name: CICDTemplate_Api
+  href: api/Projects.CICDTemplate_Api.html
+  commentId: T:Projects.CICDTemplate_Api
+  fullName: Projects.CICDTemplate_Api
+  nameWithType: CICDTemplate_Api
+- uid: Projects.CICDTemplate_Api.ProjectPath
+  name: ProjectPath
+  href: api/Projects.CICDTemplate_Api.html#Projects_CICDTemplate_Api_ProjectPath
+  commentId: P:Projects.CICDTemplate_Api.ProjectPath
+  fullName: Projects.CICDTemplate_Api.ProjectPath
+  nameWithType: CICDTemplate_Api.ProjectPath
+- uid: Projects.CICDTemplate_Api.ProjectPath*
+  name: ProjectPath
+  href: api/Projects.CICDTemplate_Api.html#Projects_CICDTemplate_Api_ProjectPath_
+  commentId: Overload:Projects.CICDTemplate_Api.ProjectPath
+  isSpec: "True"
+  fullName: Projects.CICDTemplate_Api.ProjectPath
+  nameWithType: CICDTemplate_Api.ProjectPath
+- uid: Projects.CICDTemplate_AppHost
+  name: CICDTemplate_AppHost
+  href: api/Projects.CICDTemplate_AppHost.html
+  commentId: T:Projects.CICDTemplate_AppHost
+  fullName: Projects.CICDTemplate_AppHost
+  nameWithType: CICDTemplate_AppHost
+- uid: Projects.CICDTemplate_AppHost.ProjectPath
+  name: ProjectPath
+  href: api/Projects.CICDTemplate_AppHost.html#Projects_CICDTemplate_AppHost_ProjectPath
+  commentId: P:Projects.CICDTemplate_AppHost.ProjectPath
+  fullName: Projects.CICDTemplate_AppHost.ProjectPath
+  nameWithType: CICDTemplate_AppHost.ProjectPath
+- uid: Projects.CICDTemplate_AppHost.ProjectPath*
+  name: ProjectPath
+  href: api/Projects.CICDTemplate_AppHost.html#Projects_CICDTemplate_AppHost_ProjectPath_
+  commentId: Overload:Projects.CICDTemplate_AppHost.ProjectPath
+  isSpec: "True"
+  fullName: Projects.CICDTemplate_AppHost.ProjectPath
+  nameWithType: CICDTemplate_AppHost.ProjectPath
+- uid: Projects.CICDTemplate_MigrationService
+  name: CICDTemplate_MigrationService
+  href: api/Projects.CICDTemplate_MigrationService.html
+  commentId: T:Projects.CICDTemplate_MigrationService
+  fullName: Projects.CICDTemplate_MigrationService
+  nameWithType: CICDTemplate_MigrationService
+- uid: Projects.CICDTemplate_MigrationService.ProjectPath
+  name: ProjectPath
+  href: api/Projects.CICDTemplate_MigrationService.html#Projects_CICDTemplate_MigrationService_ProjectPath
+  commentId: P:Projects.CICDTemplate_MigrationService.ProjectPath
+  fullName: Projects.CICDTemplate_MigrationService.ProjectPath
+  nameWithType: CICDTemplate_MigrationService.ProjectPath
+- uid: Projects.CICDTemplate_MigrationService.ProjectPath*
+  name: ProjectPath
+  href: api/Projects.CICDTemplate_MigrationService.html#Projects_CICDTemplate_MigrationService_ProjectPath_
+  commentId: Overload:Projects.CICDTemplate_MigrationService.ProjectPath
+  isSpec: "True"
+  fullName: Projects.CICDTemplate_MigrationService.ProjectPath
+  nameWithType: CICDTemplate_MigrationService.ProjectPath

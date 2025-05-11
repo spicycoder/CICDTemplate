@@ -87,13 +87,13 @@
         <article data-uid="">
 <h1 id="smoke-test---on-kubernetes">Smoke Test - on Kubernetes</h1>
 
-<ul>
-<li>[x] Verify CRON</li>
-<li>[x] Verify Pub / Sub</li>
-<li>[x] Aspire Dashboard</li>
-<li>[x] Read secret</li>
-<li>[x] Read Config</li>
-<li>[x] Verify Caching</li>
+<ul class="contains-task-list">
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked"> Verify CRON</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked"> Verify Pub / Sub</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked"> Aspire Dashboard</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked"> Read secret</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked"> Read Config</li>
+<li class="task-list-item"><input disabled="disabled" type="checkbox" checked="checked"> Verify Caching</li>
 </ul>
 <p>To verify secrets, create a kubernetes secret</p>
 <pre><code class="lang-PowerShell">kubectl create secret generic hello --from-literal=hello=world
