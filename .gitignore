@@ -489,4 +489,6 @@ $RECYCLE.BIN/
 # Test results
 TestResults/
 
+# docfx
 _site/
+api/
