@@ -1,5 +1,0 @@
-[*]
-generated_code = true
-
-[*.cs]
-dotnet_diagnostic.S1186.severity = none

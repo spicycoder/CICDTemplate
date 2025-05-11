@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+      <title>CI / CD Template | CICDTemplate </title>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta name="title" content="CI / CD Template | CICDTemplate ">
+      
+      
+      <link rel="icon" href="favicon.ico">
+      <link rel="stylesheet" href="public/docfx.min.css">
+      <link rel="stylesheet" href="public/main.css">
+      <meta name="docfx:navrel" content="toc.html">
+      <meta name="docfx:tocrel" content="toc.html">
+      
+      <meta name="docfx:rel" content="">
+      
+      
+      <meta name="docfx:docurl" content="https://github.com/spicycoder/CICDTemplate/blob/main/README.md/#L1">
+      <meta name="loc:inThisArticle" content="In this article">
+      <meta name="loc:searchResultsCount" content="{count} results for &quot;{query}&quot;">
+      <meta name="loc:searchNoResults" content="No results for &quot;{query}&quot;">
+      <meta name="loc:tocFilter" content="Filter by title">
+      <meta name="loc:nextArticle" content="Next">
+      <meta name="loc:prevArticle" content="Previous">
+      <meta name="loc:themeLight" content="Light">
+      <meta name="loc:themeDark" content="Dark">
+      <meta name="loc:themeAuto" content="Auto">
+      <meta name="loc:changeTheme" content="Change theme">
+      <meta name="loc:copy" content="Copy">
+      <meta name="loc:downloadPdf" content="Download PDF">
+
+      <script type="module" src="./public/docfx.min.js"></script>
+
+      <script>
+        const theme = localStorage.getItem('theme') || 'auto'
+        document.documentElement.setAttribute('data-bs-theme', theme === 'auto' ? (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') : theme)
+      </script>
+
+  </head>
+
+  <body class="tex2jax_ignore" data-layout="" data-yaml-mime="">
+    <header class="bg-body border-bottom">
+      <nav id="autocollapse" class="navbar navbar-expand-md" role="navigation">
+        <div class="container-xxl flex-nowrap">
+          <a class="navbar-brand" href="index.html">
+            <img id="logo" class="svg" src="logo.svg" alt="CICDTemplate">
+            CICDTemplate
+          </a>
+          <button class="btn btn-lg d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navpanel" aria-controls="navpanel" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="bi bi-three-dots"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navpanel">
+            <div id="navbar">
+              <form class="search" role="search" id="search">
+                <i class="bi bi-search"></i>
+                <input class="form-control" id="search-query" type="search" disabled placeholder="Search" autocomplete="off" aria-label="Search">
+              </form>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="container-xxl">
+
+      <div class="content">
+        <div class="actionbar">
+
+          <nav id="breadcrumb"></nav>
+        </div>
+
+        <article data-uid="">
+<h1 id="ci--cd-template">CI / CD Template</h1>
+
+<p>Cloud Native - Clean Architecture template, for ASP.NET 9 Web API, powered by .NET Aspire and DAPR</p>
+<table>
+<thead>
+<tr>
+<th>Component</th>
+<th>Badge</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Build Status</td>
+<td><a href="https://github.com/spicycoder/CICDTemplate/actions/workflows/build.yml"><img src="https://github.com/spicycoder/CICDTemplate/actions/workflows/build.yml/badge.svg" alt="cn-ca build"></a></td>
+</tr>
+<tr>
+<td>Nuget Version</td>
+<td><a href="https://www.nuget.org/packages/CloudNative.CleanArchitecture.Template"><img src="https://img.shields.io/nuget/v/CloudNative.CleanArchitecture.Template" alt="NuGet Version"></a></td>
+</tr>
+<tr>
+<td>Security Score Card</td>
+<td><a href="https://github.com/spicycoder/CICDTemplate/actions/workflows/scorecard.yml"><img src="https://github.com/spicycoder/CICDTemplate/actions/workflows/scorecard.yml/badge.svg" alt="Scorecard supply-chain security"></a> <a href="https://scorecard.dev/viewer/?uri=github.com/spicycoder/CICDTemplate"><img src="https://api.scorecard.dev/projects/github.com/spicycoder/CICDTemplate/badge" alt="OpenSSF Scorecard"></a> <a href="https://www.bestpractices.dev/projects/9743"><img src="https://www.bestpractices.dev/projects/9743/badge" alt="OpenSSF Best Practices"></a></td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="usage">Usage</h2>
+<p>Install the template</p>
+<pre><code class="lang-sh">dotnet new install CloudNative.CleanArchitecture.Template
+</code></pre>
+<p>To create a new solution</p>
+<pre><code class="lang-sh">dotnet new cn-ca -n MyCloudNativeApi
+</code></pre>
+<hr>
+<h2 id="getting-started">Getting Started</h2>
+<p>Once you clone the solution, open with Visual Studio Code</p>
+<p>Install the extension - <a href="https://marketplace.visualstudio.com/items/?itemName=ms-dotnettools.dotnet-interactive-vscode">Polyglot Notebooks</a>, better to install all recommended extensions, suggested by VS Code, when you open the workspace</p>
+<p>The documents under <code>docs</code> directory would be a good start</p>
+<p>To build and deploy the project, follow the interactive notebooks under <code>build</code> and <code>deployment</code> directories.</p>
+<hr>
+
+</article>
+
+        <div class="contribution d-print-none">
+          <a href="https://github.com/spicycoder/CICDTemplate/blob/main/README.md/#L1" class="edit-link">Edit this page</a>
+        </div>
+
+        <div class="next-article d-print-none border-top" id="nextArticle"></div>
+
+      </div>
+
+      <div class="affix">
+        <nav id="affix"></nav>
+      </div>
+    </main>
+
+    <div class="container-xxl search-results" id="search-results"></div>
+
+    <footer class="border-top text-secondary">
+      <div class="container-xxl">
+        <div class="flex-fill">
+          <span>Made with <a href="https://dotnet.github.io/docfx">docfx</a></span>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

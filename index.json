@@ -1,0 +1,57 @@
+{
+  "CONTRIBUTING.html": {
+    "href": "CONTRIBUTING.html",
+    "title": "Contribution | CICDTemplate",
+    "summary": "Contribution Please make sure the code style meets the .editorconfig"
+  },
+  "README.html": {
+    "href": "README.html",
+    "title": "CI / CD Template | CICDTemplate",
+    "summary": "CI / CD Template Cloud Native - Clean Architecture template, for ASP.NET 9 Web API, powered by .NET Aspire and DAPR Component Badge Build Status Nuget Version Security Score Card Usage Install the template dotnet new install CloudNative.CleanArchitecture.Template To create a new solution dotnet new cn-ca -n MyCloudNativeApi Getting Started Once you clone the solution, open with Visual Studio Code Install the extension - Polyglot Notebooks, better to install all recommended extensions, suggested by VS Code, when you open the workspace The documents under docs directory would be a good start To build and deploy the project, follow the interactive notebooks under build and deployment directories."
+  },
+  "SECURITY.html": {
+    "href": "SECURITY.html",
+    "title": "Security Policy | CICDTemplate",
+    "summary": "Security Policy Supported Versions The table shows supported versions Version Supported 2025.x ✅ < 2025.x ❌ Reporting a Vulnerability Please raise Issues for reporting Vulnerabilities This is a hobby project, so, please expect some delay in providing fixes."
+  },
+  "docs/00. Intro.html": {
+    "href": "docs/00. Intro.html",
+    "title": "Getting Started | CICDTemplate",
+    "summary": "Getting Started Follow steps below, to get started Pre-requisites Install Docker winget install -e Docker.DockerDesktop Ensure .NET 9 SDK is installed dotnet --version Ensure Aspire workload is up to date dotnet workload list dotnet workload update Ensure Dapr is installed and initialized winget install -e Dapr.CLI dapr init dapr --version Restore tools Restore dotnet tools dotnet tool restore"
+  },
+  "docs/01. Database Migration.html": {
+    "href": "docs/01. Database Migration.html",
+    "title": "Database Migration | CICDTemplate",
+    "summary": "Database Migration Restore tools dotnet tool restore Migration Run following command, from PowerShell 7+, if Database schema is modified dotnet ef migrations add \"<migration-message>\" -s .\\src\\CICDTemplate.MigrationService\\CICDTemplate.MigrationService.csproj -p .\\src\\CICDTemplate.Infrastructure\\CICDTemplate.Infrastructure.csproj Note: Replace <migration-message> with a meaningful migration name"
+  },
+  "docs/02. Mutation Testing.html": {
+    "href": "docs/02. Mutation Testing.html",
+    "title": "Mutation Testing | CICDTemplate",
+    "summary": "Mutation Testing Using Stryker Restore tools dotnet tool restore Run mutation tests dotnet stryker --solution .\\CICDTemplate.sln -r \"html\" -r \"progress\" -r \"markdown\" Mutation tests are time soncuming, hence disabled by default from build.ps1 file. Highly recommend running them, before raising a PR"
+  },
+  "docs/03. Code Coverage.html": {
+    "href": "docs/03. Code Coverage.html",
+    "title": "Code Coverage | CICDTemplate",
+    "summary": "Code Coverage Restore tools dotnet tool restore Execute tests dotnet test -c Release .\\CICDTemplate.slnx --collect:\"XPlat Code Coverage\" --settings .\\coverage.runsettings Generate Coverage Report dotnet reportgenerator \"-reports:./**/TestResults/*/coverage.cobertura.xml\" \"-targetdir:./.coverage\" -reporttypes:\"Html_Dark;SonarQube\""
+  },
+  "docs/04. Package Updates.html": {
+    "href": "docs/04. Package Updates.html",
+    "title": "Check outdated nuget packages | CICDTemplate",
+    "summary": "Check outdated nuget packages dotnet list package --outdated"
+  },
+  "docs/05. DAPR Components.html": {
+    "href": "docs/05. DAPR Components.html",
+    "title": "DAPR Components | CICDTemplate",
+    "summary": "DAPR Components Block Environment Component State Store Redis Redis Configuration Redis Redis Pub / Sub In-Memory Redis Secret Store Local File (json) Kubernetes Secrets Pub / Sub Redis already setup apiVersion: dapr.io/v1alpha1 kind: Component metadata: name: pubsub spec: type: pubsub.redis version: v1 metadata: - name: redisHost value: localhost:6500"
+  },
+  "docs/06. Smoke Test.html": {
+    "href": "docs/06. Smoke Test.html",
+    "title": "Smoke Test - on Kubernetes | CICDTemplate",
+    "summary": "Smoke Test - on Kubernetes [x] Verify CRON [x] Verify Pub / Sub [x] Aspire Dashboard [x] Read secret [x] Read Config [x] Verify Caching To verify secrets, create a kubernetes secret kubectl create secret generic hello --from-literal=hello=world To verify config, create a key value pair, on redis, key type string"
+  },
+  "index.html": {
+    "href": "index.html",
+    "title": "Progress | CICDTemplate",
+    "summary": "Progress Checklist on roadmap Clean Architecture Replace with Vertical Slice Architecture [x] CQRS [ ] Commands with PostgreSql + EF Core [ ] Queries with MongoDB + EF Core [ ] CDC using Debezium [x] MediatR Test Automation [x] Unit Tests - xUnit and NSubstitute [x] Functional Tests [x] In Memory API Testing WebApplicationFactory [x] Testcontainers [ ] BDD using Reqnroll [x] Mutation Tests - Stryker recommended for local only [x] Architecture Tests - NetArchTest.Rules [x] Code Coverage Orchestration [x] Aspire [x] RDBMS - PostgreSQL [ ] NoSQL - MongoDB [x] Distributed Cache - Redis [x] Aspire Dashboard Health Checks [x] Self [x] PostgreSQL Database [x] Redis [ ] MongoDB Observability - Aspire Dashboard [x] Logging [x] Metrics [x] Distributed Tracing DAPR [x] Pub / Sub - Redis Streams [x] Code Tour [ ] Service Invocation [x] State Management - Redis [x] Save state [x] Read state [x] Delete state [x] Secrets Management - Json File Based [x] Configurations Store [x] Bindings [x] Input: Cron [x] Code Tour Misc [x] Git ignore [x] Editor config [x] Build props [x] Code Analysis [x] Tool manifest [ ] Automapper / Mapster [x] Validation Fluent Validation [x] Dependabot to update outdated nuget packages [x] Security Score Card Build [x] Local build - Notebook [x] GitHub Action [x] Tool Restore [x] Package Restore [x] Build [x] Test [x] Publish Coverage Report [x] Pack as nuget package [x] Push to nuget.org Deployment [x] Install Dependencies [x] Dapr [x] Redis [x] Postgresql [x] Aspire Dashboard [x] Dapr Components [x] State store [x] Pub / Sub [x] Secret store [x] Configuration store [x] Cron Binding [x] Deploy API Performance [ ] Load Testing - using K6"
+  }
+}
