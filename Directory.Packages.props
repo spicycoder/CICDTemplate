@@ -6,7 +6,7 @@
     <PackageVersion Include="Aspire.Hosting.Docker" Version="9.2.1-preview.1.25222.1" />
     <PackageVersion Include="Aspire.Hosting.Kubernetes" Version="9.2.1-preview.1.25222.1" />
     <PackageVersion Include="Aspire.Npgsql.EntityFrameworkCore.PostgreSQL" Version="9.3.0" />
-    <PackageVersion Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="9.4.0" />
+    <PackageVersion Include="CommunityToolkit.Aspire.Hosting.Dapr" Version="9.5.0" />
     <PackageVersion Include="Microsoft.Extensions.Hosting" Version="9.0.5" />
     <PackageVersion Include="Npgsql.OpenTelemetry" Version="9.0.3" />
     <PackageVersion Include="Shouldly" Version="4.3.0" />
