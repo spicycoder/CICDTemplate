@@ -3,7 +3,7 @@
   "isRoot": true,
   "tools": {
     "dotnet-ef": {
-      "version": "9.0.4",
+      "version": "9.0.5",
       "commands": [
         "dotnet-ef"
       ],
@@ -17,7 +17,7 @@
       "rollForward": false
     },
     "dotnet-reportgenerator-globaltool": {
-      "version": "5.4.6",
+      "version": "5.4.7",
       "commands": [
         "reportgenerator"
       ],
