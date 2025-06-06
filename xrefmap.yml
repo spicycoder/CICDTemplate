@@ -500,12 +500,12 @@ references:
   fullName.vb: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.New
   nameWithType: SubscriberController.SubscriberController
   nameWithType.vb: SubscriberController.New
-- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)
-  name: Subscribe(Product, CancellationToken)
-  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_CICDTemplate_Api_Models_Common_Product_System_Threading_CancellationToken_
-  commentId: M:CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)
-  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product, System.Threading.CancellationToken)
-  nameWithType: SubscriberController.Subscribe(Product, CancellationToken)
+- uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product)
+  name: Subscribe(Product)
+  href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_CICDTemplate_Api_Models_Common_Product_
+  commentId: M:CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product)
+  fullName: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product)
+  nameWithType: SubscriberController.Subscribe(Product)
 - uid: CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe*
   name: Subscribe
   href: api/CICDTemplate.Api.Controllers.Subscriber.SubscriberController.html#CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_

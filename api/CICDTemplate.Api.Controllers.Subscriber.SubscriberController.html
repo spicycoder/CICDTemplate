@@ -717,8 +717,8 @@ public class SubscriberController : ControllerBase</code></pre>
 
   <a id="CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_" data-uid="CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe*"></a>
 
-  <h3 id="CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_CICDTemplate_Api_Models_Common_Product_System_Threading_CancellationToken_" data-uid="CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product,System.Threading.CancellationToken)">
-  Subscribe(Product, CancellationToken)
+  <h3 id="CICDTemplate_Api_Controllers_Subscriber_SubscriberController_Subscribe_CICDTemplate_Api_Models_Common_Product_" data-uid="CICDTemplate.Api.Controllers.Subscriber.SubscriberController.Subscribe(CICDTemplate.Api.Models.Common.Product)">
+  Subscribe(Product)
   <a class="header-action link-secondary" title="View source" href="https://github.com/spicycoder/CICDTemplate/blob/main/src/CICDTemplate.Api/Controllers/Subscriber/SubscriberController.cs/#L14"><i class="bi bi-code-slash"></i></a>
   </h3>
 
@@ -728,14 +728,12 @@ public class SubscriberController : ControllerBase</code></pre>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">[HttpPost(&quot;consume&quot;)]
 [Topic(&quot;pubsub&quot;, &quot;message&quot;, null, null)]
-public IActionResult Subscribe(Product message, CancellationToken cancellationToken)</code></pre>
+public IActionResult Subscribe(Product message)</code></pre>
   </div>
 
   <h4 class="section">Parameters</h4>
   <dl class="parameters">
     <dt><code>message</code> <a class="xref" href="CICDTemplate.Api.Models.Common.Product.html">Product</a></dt>
-    <dd></dd>
-    <dt><code>cancellationToken</code> <a class="xref" href="https://learn.microsoft.com/dotnet/api/system.threading.cancellationtoken">CancellationToken</a></dt>
     <dd></dd>
   </dl>
 
