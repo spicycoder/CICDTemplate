@@ -30,18 +30,18 @@ public sealed class CacheService(IDistributedCache cache) : ICacheService
         return cache.RemoveAsync(key, cancellationToken);
     }
 
-    public Task SetAsync<T>(
+    public async Task SetAsync<T>(
         string key,
         T value,
         TimeSpan? expiration,
         CancellationToken cancellationToken = default)
     {
         var buffer = new ArrayBufferWriter<byte>();
-        using var writer = new Utf8JsonWriter(buffer);
+        await using var writer = new Utf8JsonWriter(buffer);
         JsonSerializer.Serialize(writer, value);
         byte[] bytes = buffer.WrittenSpan.ToArray();
 
-        return cache.SetAsync(
+        await cache.SetAsync(
             key,
             bytes,
             CacheOptions.Create(expiration),

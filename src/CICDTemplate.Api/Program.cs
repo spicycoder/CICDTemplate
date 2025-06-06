@@ -6,12 +6,14 @@ using CICDTemplate.Application;
 using CICDTemplate.Infrastructure;
 using CICDTemplate.ServiceDefaults;
 
+using Scalar.AspNetCore;
+
 WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 builder.AddServiceDefaults();
 builder.Services.AddDaprClient();
 builder.Services.AddControllers().AddDapr();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddOpenApi();
 
 builder
     .Services
@@ -28,8 +30,18 @@ WebApplication app = builder.Build();
 app.MapDefaultEndpoints();
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(ModernStyle.Futuristic);
+    app.MapOpenApi();
+    app.UseSwaggerUI(
+        ModernStyle.Futuristic,
+        options => options.SwaggerEndpoint("/openapi/v1.json", "CICCDTemplate API V1"));
+
+    app.UseReDoc(options =>
+    {
+        options.SpecUrl = "/openapi/v1.json";
+        options.DocumentTitle = "CICDTemplate API Documentation";
+    });
+
+    app.MapScalarApiReference();
 }
 
 app.UseAuthorization();

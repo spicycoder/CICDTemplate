@@ -1,6 +1,4 @@
 ﻿namespace CICDTemplate.FunctionalTests;
 
 [CollectionDefinition("App Host")]
-public class AppHostCollectionDefinition : ICollectionFixture<IntegrationTestWebAppFactory>
-{
-}
+public class AppHostCollectionDefinition : ICollectionFixture<IntegrationTestWebAppFactory>;

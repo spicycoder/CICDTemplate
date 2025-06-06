@@ -20,7 +20,7 @@ public sealed class ReadProductsQueryHandler(
 
         if (cachedProducts is null)
         {
-            cachedProducts = (await repository.GetProductsAsync(cancellationToken)).ToArray();
+            cachedProducts = [.. (await repository.GetProductsAsync(cancellationToken))];
 
             await cacheService.SetAsync(
                 Constants.AllProductsCacheKey,

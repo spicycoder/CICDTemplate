@@ -19,6 +19,7 @@ namespace CICDTemplate.FunctionalTests.States;
 [Collection("App Host")]
 public class StatesControllerTests
 {
+    private const string ProductName = "Cookies";
     private readonly HttpClient _httpClient;
     private readonly IntegrationTestWebAppFactory _factory;
 
@@ -65,16 +66,15 @@ public class StatesControllerTests
     public async Task Read_HappyPath_Success()
     {
         // Arrange
-        var productName = "Cookies";
-        Uri uri = new($"/api/states/read?productName={HttpUtility.UrlEncode(productName)}", UriKind.Relative);
+        Uri uri = new($"/api/states/read?productName={HttpUtility.UrlEncode(ProductName)}", UriKind.Relative);
 
-        ProductState expected = new(productName, "Yummy!");
+        ProductState expected = new(ProductName, "Yummy!");
 
         Mock<DaprClient> daprClient = _factory.MockDaprClient;
         daprClient
             .Setup(x => x.GetStateAsync<ProductState?>(
                 Constants.StateStoreName,
-                productName,
+                ProductName,
                 null,
                 null,
                 It.IsAny<CancellationToken>()))
@@ -91,14 +91,13 @@ public class StatesControllerTests
     public async Task Read_NonExistentState_NotFound()
     {
         // Arrange
-        var productName = "Cookies";
-        Uri uri = new($"/api/states/read?productName={HttpUtility.UrlEncode(productName)}", UriKind.Relative);
+        Uri uri = new($"/api/states/read?productName={HttpUtility.UrlEncode(ProductName)}", UriKind.Relative);
 
         Mock<DaprClient> daprClient = _factory.MockDaprClient;
         daprClient
             .Setup(x => x.GetStateAsync<ProductState?>(
                 Constants.StateStoreName,
-                productName,
+                ProductName,
                 null,
                 null,
                 It.IsAny<CancellationToken>()))
@@ -115,14 +114,13 @@ public class StatesControllerTests
     public async Task Delete_HappyPath_Success()
     {
         // Arrange
-        var productName = "Cookies";
-        Uri uri = new($"/api/states/delete?productName={HttpUtility.UrlEncode(productName)}", UriKind.Relative);
+        Uri uri = new($"/api/states/delete?productName={HttpUtility.UrlEncode(ProductName)}", UriKind.Relative);
 
         Mock<DaprClient> daprClient = _factory.MockDaprClient;
         daprClient
             .Setup(x => x.DeleteStateAsync(
                 Constants.StateStoreName,
-                productName,
+                ProductName,
                 null,
                 null,
                 It.IsAny<CancellationToken>()))

@@ -15,22 +15,22 @@ public sealed class ProductConfiguration : IEntityTypeConfiguration<Product>
 
         builder
             .Property(x => x.Id)
-            .IsRequired(true)
+            .IsRequired()
             .ValueGeneratedOnAdd();
 
         builder
             .Property(x => x.Name)
-            .IsRequired(true)
+            .IsRequired()
             .HasMaxLength(20);
 
         builder
             .Property(x => x.Description)
-            .IsRequired(true)
+            .IsRequired()
             .HasMaxLength(200);
 
         builder
             .Property(x => x.CreatedAtUtc)
-            .IsRequired(true);
+            .IsRequired();
 
         builder.Property(x => x.UpdatedAtUtc)
             .IsRequired(false);

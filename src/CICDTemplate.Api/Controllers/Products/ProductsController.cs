@@ -39,9 +39,7 @@ public class ProductsController(
             new ReadProductsQuery(),
             cancellationToken);
 
-        ProductResponse[] productsResponse = products!
-            .Select(x => new ProductResponse(x.Id, x.Name, x.Description))
-            .ToArray();
+        ProductResponse[] productsResponse = [.. products!.Select(x => new ProductResponse(x.Id, x.Name, x.Description))];
 
         logger.LogInformation("Found {Count} products: {@Products}", products!.Length, products!);
 

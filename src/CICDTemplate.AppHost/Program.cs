@@ -1,3 +1,5 @@
+using CICDTemplate.AppHost.Extensions;
+
 using CommunityToolkit.Aspire.Hosting.Dapr;
 
 IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
@@ -60,8 +62,11 @@ var migration = builder
     .AddProject<Projects.CICDTemplate_MigrationService>("migrations")
     .WithReference(db).WaitFor(db);
 
-var api = builder
+var apiService = builder
     .AddProject<Projects.CICDTemplate_Api>("cicdtemplate-api")
+    .WithSwaggerUI()
+    .WithScalar()
+    .WithReDoc()
     .WithReference(db).WaitFor(db)
     .WithReference(redis).WaitFor(redis)
     .WithReference(statestore)
@@ -71,6 +76,6 @@ var api = builder
     .WithReference(cron)
     .WithDaprSidecar();
 
-migration.WithParentRelationship(api);
+migration.WithParentRelationship(apiService);
 
 await builder.Build().RunAsync().ConfigureAwait(false);

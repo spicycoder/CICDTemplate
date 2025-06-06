@@ -51,7 +51,7 @@ public static class SupportExtensions
 
         builder
             .Services
-            .AddSerilog((context, loggerConfiguration) => loggerConfiguration
+            .AddSerilog((_, loggerConfiguration) => loggerConfiguration
                     .ReadFrom.Configuration(builder.Configuration));
 
         builder.Services.AddOpenTelemetry()

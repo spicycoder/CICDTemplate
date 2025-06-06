@@ -48,8 +48,6 @@ public class PublishProductCommandValidatorTests
         result.IsValid.ShouldBeFalse();
     }
 
-
-
     [Fact]
     public void Validate_EmptyDescription_valid()
     {

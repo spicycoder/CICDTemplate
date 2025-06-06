@@ -22,11 +22,10 @@ public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TReq
 
         var context = new ValidationContext<TRequest>(request);
 
-        ValidationFailure[] validationErrors = validators
+        ValidationFailure[] validationErrors = [.. validators
             .Select(x => x.Validate(context))
             .Where(x => x.Errors.Count > 0)
-            .SelectMany(x => x.Errors)
-            .ToArray();
+            .SelectMany(x => x.Errors)];
 
         if (validationErrors.Length > 0)
         {

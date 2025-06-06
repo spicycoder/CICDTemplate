@@ -48,8 +48,6 @@ public class SaveStateCommandValidatorTests
         result.IsValid.ShouldBeFalse();
     }
 
-
-
     [Fact]
     public void Validate_EmptyDescription_valid()
     {
