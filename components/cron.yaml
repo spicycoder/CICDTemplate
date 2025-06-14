@@ -8,6 +8,6 @@ spec:
   version: v1
   metadata:
   - name: schedule
-    value: "@every 5s"
+    value: "@every 20s"
   - name: route
     value: /api/bindings/cron
