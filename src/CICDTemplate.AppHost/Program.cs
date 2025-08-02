@@ -6,7 +6,10 @@ IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(ar
 
 var password = builder.AddParameter("RedisPassword", true);
 var redisPort = builder.AddParameter("RedisPort");
-bool portSpecified = int.TryParse(redisPort.Resource.Value, out int port);
+
+var portSpecifiedValue = await redisPort.Resource.GetValueAsync(CancellationToken.None);
+
+bool portSpecified = int.TryParse(portSpecifiedValue, out int port);
 
 IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null, password)
