@@ -3,7 +3,7 @@
   "isRoot": true,
   "tools": {
     "dotnet-ef": {
-      "version": "9.0.7",
+      "version": "9.0.8",
       "commands": [
         "dotnet-ef"
       ],
@@ -17,7 +17,7 @@
       "rollForward": false
     },
     "dotnet-reportgenerator-globaltool": {
-      "version": "5.4.8",
+      "version": "5.4.11",
       "commands": [
         "reportgenerator"
       ],
@@ -31,14 +31,14 @@
       "rollForward": false
     },
     "aspire.cli": {
-      "version": "9.2.1-preview.1.25222.1",
+      "version": "9.4.0",
       "commands": [
         "aspire"
       ],
       "rollForward": false
     },
     "dotnet-sonarscanner": {
-      "version": "10.2.0",
+      "version": "10.3.0",
       "commands": [
         "dotnet-sonarscanner"
       ],
