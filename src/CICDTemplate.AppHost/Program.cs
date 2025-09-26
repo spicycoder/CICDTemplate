@@ -72,12 +72,15 @@ var apiService = builder
     .WithReDoc()
     .WithReference(db).WaitFor(db)
     .WithReference(redis).WaitFor(redis)
-    .WithReference(statestore)
-    .WithReference(pubsub)
-    .WithReference(secretstore)
-    .WithReference(configstore)
-    .WithReference(cron)
-    .WithDaprSidecar();
+    .WithDaprSidecar(options =>
+    {
+        options
+            .WithReference(statestore).WaitFor(redis)
+            .WithReference(secretstore)
+            .WithReference(pubsub)
+            .WithReference(configstore).WaitFor(redis)
+            .WithReference(cron);
+    });
 
 migration.WithParentRelationship(apiService);
 
