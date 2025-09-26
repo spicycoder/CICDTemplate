@@ -18,6 +18,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="KubernetesClient" />
         <ProjectReference Include="..\CICDTemplate.Api\CICDTemplate.Api.csproj"/>
         <ProjectReference Include="..\CICDTemplate.MigrationService\CICDTemplate.MigrationService.csproj"/>
     </ItemGroup>
