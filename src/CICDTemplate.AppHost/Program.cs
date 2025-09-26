@@ -2,14 +2,14 @@ using CICDTemplate.AppHost.Extensions;
 
 using CommunityToolkit.Aspire.Hosting.Dapr;
 
-IDistributedApplicationBuilder builder = DistributedApplication.CreateBuilder(args);
+var builder = DistributedApplication.CreateBuilder(args);
 
 var password = builder.AddParameter("RedisPassword", true);
 var redisPort = builder.AddParameter("RedisPort");
 
 var portSpecifiedValue = await redisPort.Resource.GetValueAsync(CancellationToken.None);
 
-bool portSpecified = int.TryParse(portSpecifiedValue, out int port);
+var portSpecified = int.TryParse(portSpecifiedValue, out int port);
 
 IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null, password)
@@ -22,14 +22,14 @@ var statestore = builder.AddDaprStateStore(
         LocalPath = "../../components/statestore.yaml"
     }).WaitFor(redis);
 
-IResourceBuilder<IDaprComponentResource> pubsub = builder.AddDaprPubSub(
+var pubsub = builder.AddDaprPubSub(
     "pubsub",
     new DaprComponentOptions
     {
         LocalPath = "../../components/pubsub.yaml"
     });
 
-IResourceBuilder<IDaprComponentResource> secretstore = builder.AddDaprComponent(
+var secretstore = builder.AddDaprComponent(
     "secretstore",
     "secretstores.local.file",
     new DaprComponentOptions
@@ -37,7 +37,7 @@ IResourceBuilder<IDaprComponentResource> secretstore = builder.AddDaprComponent(
         LocalPath = "../../components/secretstore.yaml"
     });
 
-IResourceBuilder<IDaprComponentResource> configstore = builder.AddDaprComponent(
+var configstore = builder.AddDaprComponent(
     "configstore",
     "configuration.redis",
     new DaprComponentOptions
@@ -45,7 +45,7 @@ IResourceBuilder<IDaprComponentResource> configstore = builder.AddDaprComponent(
         LocalPath = "../../components/configstore.yaml"
     }).WaitFor(redis);
 
-IResourceBuilder<IDaprComponentResource> cron = builder.AddDaprComponent(
+var cron = builder.AddDaprComponent(
     "scheduler",
     "bindings.cron",
     new DaprComponentOptions
@@ -72,13 +72,13 @@ var apiService = builder
     .WithReDoc()
     .WithReference(db).WaitFor(db)
     .WithReference(redis).WaitFor(redis)
-    .WithDaprSidecar(options =>
+    .WithDaprSidecar(sidecar =>
     {
-        options
-            .WithReference(statestore).WaitFor(redis)
+        sidecar
+            .WithReference(statestore)
             .WithReference(secretstore)
             .WithReference(pubsub)
-            .WithReference(configstore).WaitFor(redis)
+            .WithReference(configstore)
             .WithReference(cron);
     });
 

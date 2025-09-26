@@ -37,3 +37,13 @@ The documents under `docs` directory would be a good start
 To build and deploy the project, follow the interactive notebooks under `build` and `deployment` directories.
 
 ---
+# Dapr Aspire Sample (ServiceA → ServiceB → ServiceC)
+
+This sample demonstrates how to use **.NET Aspire** with **Dapr sidecars** to connect multiple services through event-driven communication.
+
+- **ServiceA**: Publishes an event to a Dapr **pub/sub** component.
+- **ServiceB**: Subscribes to ServiceA’s topic, processes the event, and publishes a new one.
+- **ServiceC**: Subscribes to ServiceB’s topic and handles the final event.
+- **Dapr Components**: Each service runs with its own Dapr sidecar, which provides access to pub/sub, state store, and other building blocks.
+
+---
