@@ -417,22 +417,22 @@
   "api/Projects.CICDTemplate_Api.html": {
     "href": "api/Projects.CICDTemplate_Api.html",
     "title": "Class CICDTemplate_Api | CICDTemplate",
-    "summary": "Class CICDTemplate_Api Namespace Projects Assembly CICDTemplate.AppHost.dll public class CICDTemplate_Api : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_Api Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath Gets the fully-qualified path to the project. public string ProjectPath { get; } Property Value string"
+    "summary": "Class CICDTemplate_Api Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the CICDTemplate_Api project. public class CICDTemplate_Api : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_Api Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the CICDTemplate_Api project. public string ProjectPath { get; } Property Value string"
   },
   "api/Projects.CICDTemplate_AppHost.html": {
     "href": "api/Projects.CICDTemplate_AppHost.html",
     "title": "Class CICDTemplate_AppHost | CICDTemplate",
-    "summary": "Class CICDTemplate_AppHost Namespace Projects Assembly CICDTemplate.AppHost.dll public class CICDTemplate_AppHost Inheritance object CICDTemplate_AppHost Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath public static string ProjectPath { get; } Property Value string"
+    "summary": "Class CICDTemplate_AppHost Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the Aspire Host project. public class CICDTemplate_AppHost Inheritance object CICDTemplate_AppHost Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the Aspire Host project. public static string ProjectPath { get; } Property Value string"
   },
   "api/Projects.CICDTemplate_MigrationService.html": {
     "href": "api/Projects.CICDTemplate_MigrationService.html",
     "title": "Class CICDTemplate_MigrationService | CICDTemplate",
-    "summary": "Class CICDTemplate_MigrationService Namespace Projects Assembly CICDTemplate.AppHost.dll public class CICDTemplate_MigrationService : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_MigrationService Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath Gets the fully-qualified path to the project. public string ProjectPath { get; } Property Value string"
+    "summary": "Class CICDTemplate_MigrationService Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the CICDTemplate_MigrationService project. public class CICDTemplate_MigrationService : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_MigrationService Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the CICDTemplate_MigrationService project. public string ProjectPath { get; } Property Value string"
   },
   "api/Projects.html": {
     "href": "api/Projects.html",
     "title": "Namespace Projects | CICDTemplate",
-    "summary": "Namespace Projects Classes CICDTemplate_Api CICDTemplate_AppHost CICDTemplate_MigrationService"
+    "summary": "Namespace Projects Classes CICDTemplate_Api Metadata for the CICDTemplate_Api project. CICDTemplate_AppHost Metadata for the Aspire Host project. CICDTemplate_MigrationService Metadata for the CICDTemplate_MigrationService project."
   },
   "docs/00. Intro.html": {
     "href": "docs/00. Intro.html",

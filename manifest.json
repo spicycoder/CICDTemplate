@@ -1172,7 +1172,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Projects.CICDTemplate_Api",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Projects.CICDTemplate_Api.yml\" sourcestartlinenumber=\"1\">Metadata for the CICDTemplate_Api project.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1186,7 +1186,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Projects.CICDTemplate_AppHost",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Projects.CICDTemplate_AppHost.yml\" sourcestartlinenumber=\"1\">Metadata for the Aspire Host project.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1200,7 +1200,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Projects.CICDTemplate_MigrationService",
-      "Summary": null
+      "Summary": "<p sourcefile=\"api/Projects.CICDTemplate_MigrationService.yml\" sourcestartlinenumber=\"1\">Metadata for the CICDTemplate_MigrationService project.</p>\n"
     },
     {
       "type": "ManagedReference",
@@ -1220,11 +1220,11 @@
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "api/toc.json"
-        },
         ".html": {
           "relative_path": "api/toc.html"
+        },
+        ".json": {
+          "relative_path": "api/toc.json"
         }
       },
       "version": ""
@@ -1303,11 +1303,11 @@
       "type": "Toc",
       "source_relative_path": "docs/toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "docs/toc.json"
-        },
         ".html": {
           "relative_path": "docs/toc.html"
+        },
+        ".json": {
+          "relative_path": "docs/toc.json"
         }
       },
       "version": ""
@@ -1326,11 +1326,11 @@
       "type": "Toc",
       "source_relative_path": "toc.yml",
       "output": {
-        ".json": {
-          "relative_path": "toc.json"
-        },
         ".html": {
           "relative_path": "toc.html"
+        },
+        ".json": {
+          "relative_path": "toc.json"
         }
       },
       "version": ""
