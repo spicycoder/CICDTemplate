@@ -13,6 +13,9 @@
         "ms-kubernetes-tools.vscode-kubernetes-tools",
         "bierner.markdown-checkbox",
         "ms-dotnettools.dotnet-interactive-vscode",
-        "ms-vscode.powershell"
+        "ms-vscode.powershell",
+        "ms-dotnettools.csdevkit",
+        "editorconfig.editorconfig",
+        "aaron-bond.better-comments"
     ]
 }
