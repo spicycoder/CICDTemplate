@@ -13,45 +13,8 @@ var portSpecified = int.TryParse(portSpecifiedValue, out int port);
 
 IResourceBuilder<RedisResource> redis = builder
     .AddRedis("redis", portSpecified ? port : null, password)
-    .WithRedisInsight();
-
-var statestore = builder.AddDaprStateStore(
-    "statestore",
-    new DaprComponentOptions
-    {
-        LocalPath = "../../components/statestore.yaml"
-    }).WaitFor(redis);
-
-var pubsub = builder.AddDaprPubSub(
-    "pubsub",
-    new DaprComponentOptions
-    {
-        LocalPath = "../../components/pubsub.yaml"
-    });
-
-var secretstore = builder.AddDaprComponent(
-    "secretstore",
-    "secretstores.local.file",
-    new DaprComponentOptions
-    {
-        LocalPath = "../../components/secretstore.yaml"
-    });
-
-var configstore = builder.AddDaprComponent(
-    "configstore",
-    "configuration.redis",
-    new DaprComponentOptions
-    {
-        LocalPath = "../../components/configstore.yaml"
-    }).WaitFor(redis);
-
-var cron = builder.AddDaprComponent(
-    "scheduler",
-    "bindings.cron",
-    new DaprComponentOptions
-    {
-        LocalPath = "../../components/cron.yaml"
-    });
+    .WithRedisInsight()
+    .WithLifetime(ContainerLifetime.Persistent);
 
 var server = builder
     .AddPostgres("cicdtemplate-db")
@@ -72,14 +35,9 @@ var apiService = builder
     .WithReDoc()
     .WithReference(db).WaitFor(db)
     .WithReference(redis).WaitFor(redis)
-    .WithDaprSidecar(sidecar =>
+    .WithDaprSidecar(new DaprSidecarOptions
     {
-        sidecar
-            .WithReference(statestore)
-            .WithReference(secretstore)
-            .WithReference(pubsub)
-            .WithReference(configstore)
-            .WithReference(cron);
+        ResourcesPaths = [Path.Combine("..", "..", "components")]
     });
 
 migration.WithParentRelationship(apiService);
