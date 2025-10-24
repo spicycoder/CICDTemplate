@@ -417,17 +417,17 @@
   "api/Projects.CICDTemplate_Api.html": {
     "href": "api/Projects.CICDTemplate_Api.html",
     "title": "Class CICDTemplate_Api | CICDTemplate",
-    "summary": "Class CICDTemplate_Api Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the CICDTemplate_Api project. public class CICDTemplate_Api : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_Api Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the CICDTemplate_Api project. public string ProjectPath { get; } Property Value string"
+    "summary": "Class CICDTemplate_Api Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the CICDTemplate_Api project. [ExcludeFromCodeCoverage(Justification = \"Generated code.\")] public class CICDTemplate_Api : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_Api Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the CICDTemplate_Api project. public string ProjectPath { get; } Property Value string"
   },
   "api/Projects.CICDTemplate_AppHost.html": {
     "href": "api/Projects.CICDTemplate_AppHost.html",
     "title": "Class CICDTemplate_AppHost | CICDTemplate",
-    "summary": "Class CICDTemplate_AppHost Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the Aspire Host project. public class CICDTemplate_AppHost Inheritance object CICDTemplate_AppHost Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the Aspire Host project. public static string ProjectPath { get; } Property Value string"
+    "summary": "Class CICDTemplate_AppHost Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the Aspire Host project. [ExcludeFromCodeCoverage(Justification = \"Generated code.\")] public class CICDTemplate_AppHost Inheritance object CICDTemplate_AppHost Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the Aspire Host project. public static string ProjectPath { get; } Property Value string"
   },
   "api/Projects.CICDTemplate_MigrationService.html": {
     "href": "api/Projects.CICDTemplate_MigrationService.html",
     "title": "Class CICDTemplate_MigrationService | CICDTemplate",
-    "summary": "Class CICDTemplate_MigrationService Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the CICDTemplate_MigrationService project. public class CICDTemplate_MigrationService : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_MigrationService Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the CICDTemplate_MigrationService project. public string ProjectPath { get; } Property Value string"
+    "summary": "Class CICDTemplate_MigrationService Namespace Projects Assembly CICDTemplate.AppHost.dll Metadata for the CICDTemplate_MigrationService project. [ExcludeFromCodeCoverage(Justification = \"Generated code.\")] public class CICDTemplate_MigrationService : IProjectMetadata, IResourceAnnotation Inheritance object CICDTemplate_MigrationService Implements IProjectMetadata IResourceAnnotation Inherited Members object.Equals(object) object.Equals(object, object) object.GetHashCode() object.GetType() object.MemberwiseClone() object.ReferenceEquals(object, object) object.ToString() Properties ProjectPath The path to the CICDTemplate_MigrationService project. public string ProjectPath { get; } Property Value string"
   },
   "api/Projects.html": {
     "href": "api/Projects.html",
@@ -454,18 +454,13 @@
     "title": "Code Coverage | CICDTemplate",
     "summary": "Code Coverage Restore tools dotnet tool restore Execute tests dotnet test -c Release .\\CICDTemplate.slnx --collect:\"XPlat Code Coverage\" --settings .\\coverage.runsettings Generate Coverage Report dotnet reportgenerator \"-reports:./**/TestResults/*/coverage.cobertura.xml\" \"-targetdir:./.coverage\" -reporttypes:\"Html_Dark;SonarQube\""
   },
-  "docs/04. Package Updates.html": {
-    "href": "docs/04. Package Updates.html",
-    "title": "Check outdated nuget packages | CICDTemplate",
-    "summary": "Check outdated nuget packages dotnet list package --outdated"
-  },
-  "docs/05. DAPR Components.html": {
-    "href": "docs/05. DAPR Components.html",
+  "docs/04. DAPR Components.html": {
+    "href": "docs/04. DAPR Components.html",
     "title": "DAPR Components | CICDTemplate",
     "summary": "DAPR Components Block Environment Component State Store Redis Redis Configuration Redis Redis Pub / Sub In-Memory Redis Secret Store Local File (json) Kubernetes Secrets Pub / Sub Redis already setup apiVersion: dapr.io/v1alpha1 kind: Component metadata: name: pubsub spec: type: pubsub.redis version: v1 metadata: - name: redisHost value: localhost:6500"
   },
-  "docs/06. Smoke Test.html": {
-    "href": "docs/06. Smoke Test.html",
+  "docs/05. Smoke Test.html": {
+    "href": "docs/05. Smoke Test.html",
     "title": "Smoke Test - on Kubernetes | CICDTemplate",
     "summary": "Smoke Test - on Kubernetes Verify CRON Verify Pub / Sub Aspire Dashboard Read secret Read Config Verify Caching To verify secrets, create a kubernetes secret kubectl create secret generic hello --from-literal=hello=world To verify config, create a key value pair, on redis, key type string"
   },

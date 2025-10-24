@@ -1271,30 +1271,20 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/04. Package Updates.md",
+      "source_relative_path": "docs/04. DAPR Components.md",
       "output": {
         ".html": {
-          "relative_path": "docs/04. Package Updates.html"
+          "relative_path": "docs/04. DAPR Components.html"
         }
       },
       "version": ""
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "docs/05. DAPR Components.md",
+      "source_relative_path": "docs/05. Smoke Test.md",
       "output": {
         ".html": {
-          "relative_path": "docs/05. DAPR Components.html"
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "docs/06. Smoke Test.md",
-      "output": {
-        ".html": {
-          "relative_path": "docs/06. Smoke Test.html"
+          "relative_path": "docs/05. Smoke Test.html"
         }
       },
       "version": ""
