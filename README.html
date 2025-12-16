@@ -110,16 +110,6 @@
 <p>Install the extension - <a href="https://marketplace.visualstudio.com/items/?itemName=ms-dotnettools.dotnet-interactive-vscode">Polyglot Notebooks</a>, better to install all recommended extensions, suggested by VS Code, when you open the workspace</p>
 <p>The documents under <code>docs</code> directory would be a good start</p>
 <p>To build and deploy the project, follow the interactive notebooks under <code>build</code> and <code>deployment</code> directories.</p>
-<hr>
-<h1 id="dapr-aspire-sample-servicea--serviceb--servicec">Dapr Aspire Sample (ServiceA → ServiceB → ServiceC)</h1>
-<p>This sample demonstrates how to use <strong>.NET Aspire</strong> with <strong>Dapr sidecars</strong> to connect multiple services through event-driven communication.</p>
-<ul>
-<li><strong>ServiceA</strong>: Publishes an event to a Dapr <strong>pub/sub</strong> component.</li>
-<li><strong>ServiceB</strong>: Subscribes to ServiceA’s topic, processes the event, and publishes a new one.</li>
-<li><strong>ServiceC</strong>: Subscribes to ServiceB’s topic and handles the final event.</li>
-<li><strong>Dapr Components</strong>: Each service runs with its own Dapr sidecar, which provides access to pub/sub, state store, and other building blocks.</li>
-</ul>
-<hr>
 
 </article>
 
