@@ -32,7 +32,7 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.UseSwaggerUI(
-        ModernStyle.Futuristic,
+        Theme.Futuristic,
         options => options.SwaggerEndpoint("/openapi/v1.json", "CICCDTemplate API V1"));
 
     app.UseReDoc(options =>

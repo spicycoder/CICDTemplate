@@ -1,6 +1,6 @@
 # CI / CD Template
 
-Cloud Native - Clean Architecture template, for ASP.NET 9 Web API, powered by .NET Aspire and DAPR
+Cloud Native - Clean Architecture template, for ASP.NET 10 Web API, powered by .NET Aspire and DAPR
 
 | Component | Badge |
 | --- | --- |
