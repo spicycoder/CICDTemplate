@@ -2238,6 +2238,19 @@ references:
   isSpec: "True"
   fullName: Projects.CICDTemplate_Api.ProjectPath
   nameWithType: CICDTemplate_Api.ProjectPath
+- uid: Projects.CICDTemplate_Api.SuppressBuild
+  name: SuppressBuild
+  href: api/Projects.CICDTemplate_Api.html#Projects_CICDTemplate_Api_SuppressBuild
+  commentId: P:Projects.CICDTemplate_Api.SuppressBuild
+  fullName: Projects.CICDTemplate_Api.SuppressBuild
+  nameWithType: CICDTemplate_Api.SuppressBuild
+- uid: Projects.CICDTemplate_Api.SuppressBuild*
+  name: SuppressBuild
+  href: api/Projects.CICDTemplate_Api.html#Projects_CICDTemplate_Api_SuppressBuild_
+  commentId: Overload:Projects.CICDTemplate_Api.SuppressBuild
+  isSpec: "True"
+  fullName: Projects.CICDTemplate_Api.SuppressBuild
+  nameWithType: CICDTemplate_Api.SuppressBuild
 - uid: Projects.CICDTemplate_AppHost
   name: CICDTemplate_AppHost
   href: api/Projects.CICDTemplate_AppHost.html
@@ -2276,3 +2289,16 @@ references:
   isSpec: "True"
   fullName: Projects.CICDTemplate_MigrationService.ProjectPath
   nameWithType: CICDTemplate_MigrationService.ProjectPath
+- uid: Projects.CICDTemplate_MigrationService.SuppressBuild
+  name: SuppressBuild
+  href: api/Projects.CICDTemplate_MigrationService.html#Projects_CICDTemplate_MigrationService_SuppressBuild
+  commentId: P:Projects.CICDTemplate_MigrationService.SuppressBuild
+  fullName: Projects.CICDTemplate_MigrationService.SuppressBuild
+  nameWithType: CICDTemplate_MigrationService.SuppressBuild
+- uid: Projects.CICDTemplate_MigrationService.SuppressBuild*
+  name: SuppressBuild
+  href: api/Projects.CICDTemplate_MigrationService.html#Projects_CICDTemplate_MigrationService_SuppressBuild_
+  commentId: Overload:Projects.CICDTemplate_MigrationService.SuppressBuild
+  isSpec: "True"
+  fullName: Projects.CICDTemplate_MigrationService.SuppressBuild
+  nameWithType: CICDTemplate_MigrationService.SuppressBuild

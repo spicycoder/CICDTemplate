@@ -1186,7 +1186,7 @@
       "Uid": null,
       "IsMRef": true,
       "Title": "Projects.CICDTemplate_AppHost",
-      "Summary": "<p sourcefile=\"api/Projects.CICDTemplate_AppHost.yml\" sourcestartlinenumber=\"1\">Metadata for the Aspire Host project.</p>\n"
+      "Summary": "<p sourcefile=\"api/Projects.CICDTemplate_AppHost.yml\" sourcestartlinenumber=\"1\">Metadata for the Aspire AppHost project.</p>\n"
     },
     {
       "type": "ManagedReference",
