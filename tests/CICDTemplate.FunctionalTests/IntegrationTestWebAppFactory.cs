@@ -21,15 +21,13 @@ namespace CICDTemplate.FunctionalTests;
 
 public class IntegrationTestWebAppFactory : WebApplicationFactory<Program>, IAsyncLifetime
 {
-    private readonly PostgreSqlContainer _dbContainer = new PostgreSqlBuilder()
-        .WithImage("postgres:latest")
+    private readonly PostgreSqlContainer _dbContainer = new PostgreSqlBuilder("postgres:latest")
         .WithDatabase("cicdtemplatedb")
         .WithUsername("postgres")
         .WithPassword("postgres")
         .Build();
 
-    private readonly RedisContainer _redisContainer = new RedisBuilder()
-        .WithImage("redis")
+    private readonly RedisContainer _redisContainer = new RedisBuilder("redis")
         .WithPortBinding(6500, 6379)
         .Build();
 
